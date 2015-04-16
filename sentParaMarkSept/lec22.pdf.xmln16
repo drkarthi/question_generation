@@ -1,0 +1,13 @@
+(Refer Slide Time 32:50 min)<p>
+
+But we are not looking for very small code anomalies  such as this is an  un-initializedvariable and so on.<s> There can be automated tools which do some of those things as weshall see in the next part of talk.<p>
+
+Continuing on, what are some of the preconditions for an inspection to take place?We  shall  take a look at the precondition,  then we shall  take a look at the inspectionprocess; what are the kinds of errors that you are going to likely look for in an inspectionand so on.<p>
+
+(Refer Slide Time 33:33 min)<p>
+
+The preconditions are that;  a precise specifications must be  available because you arealways going to refer back to what is it that this module is supposed to be doing, what isit that this software is supposed to be doing, what is it that this function is supposed to bedoing and so on.So a precise specification must be available.<p>
+
+Then whatever standards that is it that you are checking against.<s> Suppose you arechecking  a  coding standard,  suppose  you are  checking a design standard that  the usersdesign  pattern  is  appropriately being met  etc.<s> Those guidelines must be publishedappropriately  and  must be published in  advance  and  must be pretty clear.<s> And all theteam members involved in the inspection must be familiar with these guidelines.<p>
+
+Also syntactically correct representation of the source must be available.<s> There is  nopoint in going through a document which is full of spelling mistakes for example.<s> Thereis no point in going through a code which is not going to compile.<s> Since the compiler canautomatically check this  using machine, there is no point in human sitting down andtrying to figure out whether this code is going to a compile or not.<s> That  is not what aninspection is meant to do at all.<s> Inspection is meant to catch logical errors in the program.So it should have passed the compiler test already.<p>

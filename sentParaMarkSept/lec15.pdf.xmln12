@@ -1,0 +1,27 @@
+(Refer Slide Time: 51:30)<p>
+
+This is your hierarchy and we are not going to go through all details of this particular structure.But you can study the structure and the implementations through the reference book that I amgoing to share at this end of this lecture.<s> But what you can notice is that, again you have twokinds of relations.<s> You have one link to the super class and you also have the inheritance.<s> Youcan see that there are different kinds of decorators and  the decorator has the link to actualcomponent.<s> The Decorator and the actual component or the Text View exactly supports thesame interface.<s> Hence  the client is aware of exact type of the object  which it is talking to,whether it  is talking of the actual server or the decorator.<s> Let us  look at one example ofbehavioral pattern which is template method.<p>
+
+This is again a familiar example where you have a class called shape and when you want toimplement move operation on shape, it can be implemented as draw existing shape with colorzero that is black it out, then change location and then draw the shape again.<s> This  movemethod has been implemented in the super class.<s> But that draw  method has to beimplemented by the actual shape.<p>
+
+(Refer Slide Time: 52:30)<p>
+
+We have an implementation of move  which is in terms of abstract method which is  notimplemented in the shape.<s> The method move is called template method, where as method drawis called hook  method in this pattern.<s> This is a  very generic requirement which occurs indifferent applications where you must be able to implement such template method.<s> The slidebelow shows the abstract description.<p>
+
+(Refer Slide Time: 53:33)<p>
+
+You have the template method which is implemented in some source primitive method.<s> Theprimitive method is what is implemented in concrete class.<s> Now  we will quickly look atanother pattern called strategy pattern you  should be able to use different algorithms atdifferent time, different strategies at different time.<p>
+
+(Refer Slide Time: 53:46)<p>
+
+For example: A  document  is composed of text and various line breaking algorithms can beused in formatting the document before printing.<s> You could have simple compose; determineline breaks, one line at a time or you consider lines in an entire paragraph or each row couldhave fixed number of letters which is array type of composition.<s> These different strategies youcan use for justifying your text document and this is your solution.<p>
+
+You have a document and you have your sub class,  you have various sub classes of yourcompositor.<s> The document contains the compositor  and the compose is implemented indifferent sub classes.<s> This is your strategy pattern and  you have many  strategies concretestrategies.<s> All of them implement the algorithm differently.<s> Finally we will look at thesereferences to this lecture.<s> The first reference is  Design patterns by Erich  Gamma,  Helen,Johnson, Vlissides, which is published by Addison Wesley.<p>
+
+(Refer Slide Time: 54:30)<p>
+
+(Refer Slide Time: 54:51)<p>
+
+You have another book called Design patterns for Object Oriented Development by WolfgangPree  (W. Pree).<s> And  there is a nice reading available, it  is called pattern handbook by LindaRising.<s> There are many papers also available on this subject.<s> You go  through all thesematerials in order to get more explanation on the slides that I have described.<p>
+
+Thank you<p>

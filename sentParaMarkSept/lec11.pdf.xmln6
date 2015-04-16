@@ -1,0 +1,9 @@
+(Refer Slide Time 23:30)<p>
+
+On the other hand,  the work order itself has to be treated as an entity because it is related tocustomer entity.<s> Customer would  be shown as having a relationship,  a binary relationship withthe work order.<s> The work order itself will get decomposed into entities showing its relationshipto raw material, tools and workers.<s> Work order also may have some useful attributes for itself.Like the work order number or the quantity in which the customer has  ordered that particularproduct.<s> Now, we want to show this in the form of an ER diagram or some suitable notation.<p>
+
+Unfortunately there is not any standard notation provided for this.<s> We will see an example whichwe can use for representing aggregation.<s> Here is the work order which is represented as a largerectangle.<s> That large rectangle itself consists of a small ER diagram on its own, defining therelationship between the raw material entity, the tools entity and the worker entity.<s> This complexobject has two attributes job number and quantity note that these attributes are connected to theouter rectangle.<s> They are not connected to these inner entities which forms the complex or theaggregate entity.<p>
+
+(Refer Slide Time 23:41)<p>
+
+This work order is related to customer through a binary relationship.<s> In this example we areshowing an aggregate entity like this which can further participate in additional relationships andwhich has its own attributes.<s> Let us now take a more complex and complete exercise.<s> There is astatement of the problem given here.<s> It is concerned with the post graduate studies.<s> I will showyou a very concise description of problem in this case.<p>

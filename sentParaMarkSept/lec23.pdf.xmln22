@@ -1,0 +1,7 @@
+(Refer Slide Time: 52:12 min)<p>
+
+Now after we have done the decomposition of the data flow diagram to sufficient level,the next thing that we should do is to understand all the data stores very clearly.<s> And thismust be done by identifying for each data store what fields or what attributes iscontained.<s> So if you look at this data store book, what are the attributes of the book whichare of interest to us?<p>
+
+(Refer Slide Time: 52:58 min)<p>
+
+So  we note down here that accession  numbers,  authors,  price,  ISBN, publisher,classification,  etcetera  are  all important to us and we would like to record these in thebook  data store.<s> Of  course as far as the circulation function is concerned,  accessionnumber will be the most important.<s> Because this could be the one based on which bookswill be issued and return.<s> However  other attribute that we are identified here areimportant from the enquiry point of view and they must also be noted.<s> The  importantattribute book type here.<s> Now this book type is also very important.<s> The  book maybe areference book, a book maybe a general reading book.<s> Depending on the type of book wemay have different rules.<s> A reference book maybe issued only for three days and it maybe issued only to faculty.<s> So we identify the important attributes for every data store thatwe had identified in the data flow diagrams.<s> We have indicated here for the book datastore but you should we should identify all such attributes for the various data stores thatwe had seen in the previous data flow diagrams.<p>

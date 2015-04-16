@@ -1,0 +1,19 @@
+(Refer Slide Time: 22:22)<p>
+
+Therefore let us look at what are the basic cost drivers.<s> If you look at the slide first wehave  three product attributes  the required software reliability,  the database size andproduct complexity.<s> You can remember our friend Kalpana Chawla, incase you had to doa development for re-entry of a space capsulin to the earths  atmosphere then thereliability is required being very high.<s> Then here you have a situation where the size ofthe database to the size of the code they definitely bear some kind of a relationship.<p>
+
+Product complexity:In case you require a code something like Danzigs algorithm or Karmarkars algorithmfor linear programming from  logic is fairly  complicated from your particular point ofview.<s> The second group of attributes is  the computer attributes.<s> This  pertain to themachine you are going to be using, the environment so the execution time constraints.<p>
+
+In case  if you require  performing  this particular job in certain areas,  the main storageconstrains,  the virtual machine.<s> the virtual machine volatility means that the completeenvironment  the  hardware and the software together,  if  you are used  to developingsoftware under a particular environment hardware then you will find that the subsequentdevelopment under the same amendment will be easier.<s> Computer turnaround time ismore appropriate for basically the bad jobs but we really do not come across too many ofthese things in recent applications.<p>
+
+(Refer Slide Time: 24:05)<p>
+
+Personal attributes  is the next particular thing that you have; analyst capability,application capability of the analyst as to whether the analyst is familiar with the area inwhich he has been.<s> Similarly, the programmer capability and the programming languageexperience and of course the programmer if he is familiar with the entire working of thesystem on which he is going to do the development then  that  would definitely be anadded advantage for the project manager.<s> The three adjustment factors which are underthe control of the project attributes are use of modern programming practices.<p>
+
+Just by being systematic and using standard methods and structured approaches etc a verydramatic improvement in productivity is possible.<s> Your productivity can improve furtherby use of software tools and that is a very interesting particular schedule.<s> There are twotypes of situations that you encounter in real life.<s> One is you are pressurized, do the jobas fast as possible so you want to schedule compression and there is some situation whereyou would like the schedule to be elongated.<p>
+
+Take a simple example; if a  company has an in-house job being done and  suddenlyreceives an order for  doing the customers paid job it is likely that the in-housedevelopment will be put on the back banner and the project manager will be ask to goslow.<s> So in this particular manner if you were to look at it now there is the effort.<p>
+
+(Refer Slide Time: 25:43)<p>
+
+We have the effort distribution multipliers  for the cost drivers.<s> So  we have all thefourteen factors here and for the normal kind of a thing you see all of them.<s> Now this isvery different from FBA.<s> Remember,  the adjustment factors in COCOMO aremultiplicative in nature.<s> So you multiply one into another into another into another and soon.<s> So  that way if you anyway multiply fourteen numbers into each other it can have avery dramatic effect on the total adjustment that you are doing to the system.<p>

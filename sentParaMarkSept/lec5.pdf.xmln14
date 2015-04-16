@@ -1,0 +1,7 @@
+The third set which is a category that we are going to get  into more deeply during thenext lecture are mathematical specifications.<s> An example of mathematical specificationsis  algebraic specifications.<s> And here the emphasis obviously  is on formalities on rigorand is on trying to put together specifications that can be proven as well as systems canbe directly generated from these sets of requirements.<p>
+
+So structured language specifications as we have already gone through in a little  bit ofdetail, is the freedom of the requirements writer now gets cut down a little bit, because ofthe predefined template that is now being used to specify the requirements.<s> And thetemplate also serves one more purpose it tries to introduce a structured  method of thestandard by which every single requirement is specified.<s> So that one requirement is notspecified in a way that is distinct from another requirement.<s> The terminology can also belimited, for example these forms can be automated and they may not take in certain typesof terms.<p>
+
+(Refer Slide Time: 48:23)<p>
+
+The biggest advantage really is that it is a nice blend between the expressive power of thenatural language and the freedom,  the flexibility that is going to give you coupled withthe rigor that is being introduced by structured form or template that can be used to writedown the specification here.<p>

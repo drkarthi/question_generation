@@ -1,0 +1,9 @@
+Here we are putting some kind of a discipline in the software architecture that we aredesigning.<s> The architecture will have a hierarchical structure,  and modules at one levelwill call modules only at the next level and there will not be arbitrary calls among themodules.<s> This ensures a systematic architecture for the software and is a very importantdesign guideline.<s> Here is a diagram which shows an example for structured chart.<p>
+
+(Refer Slide Time: 38:40)<p>
+
+As you see, we have Task one which is shown as a module at the top.<s> This task hasbeen written as a software module or a unit.<s> It calls on three modules at the next level.These three modules have been named as, get input, processing and produceoutput.<s> The lines which are connecting these modules basically represent the call thatthe module Task 1 makes to get input or processing in order to perform its own job.So the structure chart basically shows modules as rectangles and links among themrepresenting the call relationships.<s> These modules call each other to perform their ownoverall tasks.<s> As you see here the Task 1 invokes the get input module.<p>
+
+(Refer Slide Time: 38:55)<p>
+
+There is a data item named x which is flowing from get input and going towards Task1.<s> Basically here, what it implies is that the Task  1  needs this x and it has given thisresponsibility to the get input module.<s> So it calls the get input module and receivesfrom this model.<s> The data item x which it may then pass to the processing module.<s> Asyou see here, the x data item is traveling from Task 1 to processing.<s> The y data item isactually being produced as a result from the processing and it is being sent back to theTask 1.<s> The Task 1 is then passing this y to the produce result module.<p>

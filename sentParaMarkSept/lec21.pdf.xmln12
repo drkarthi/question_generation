@@ -1,0 +1,17 @@
+(Refer Slide Time 42:23 min)<p>
+
+And you can check for the local state that is, for example after executing your businesslogic just before returning you call whether your local state is consistent.<s> For examplestack  location becomes available after a  successful  pop ().<s> So you can check these  inyour post conditions.<p>
+
+And then you have invariants.<s> There are different kinds of invariants.<s> You can have classinvariants; throughout the lifetime of the instance, the invariant remains too.<s> For examplebalance is never negative in an account and if it goes negative, then obviously there is aproblem and if that is the case, you can raise an exception or you can raise an alarm.<s> Theprogram language has to support these so that you can specify them and monitors can beinserted in the code.<p>
+
+(Refer Slide Time 43:11 min)<p>
+
+Loop invariants can be specified and are valid during the lifetime of a loop.<s> Loop indexfor example should be within a range defined by min-max of your loop index.<s> Now wewill talk about organizing your modules.<s> How do you organize your modules?<s> How doyou decompose them nicely so that you follow the separation of concerns and thatreflects into quality of your module organization?<s> Write related functions in one file.<s> Write header file for this module.<s> User programs that uses this module is in a different file.<s> User program includes the header file.<s> User module and function module can be separately compiled to object code.<s> And then you can link these two together to produce an executable.<p>
+
+(Refer Slide Time 43:45 min)<p>
+
+This is a  good style and the same  thing  is  used in large scale development.<s> When youactually separate the concerns, when  you have many modules and you have the modulesignatures  or  the header files  which specify the interfaces  and basically you areseparating the interfaces from implementation.<s> So a module that is using another modulecan be still developed if you have the interface for the other module available with you.This is what basically we are trying to capture and this figure captures this process.<p>
+
+(Refer Slide Time 44:38 min)<p>
+
+You have this function, you have the header file of the interface defined in this file andyou have the user file that means you have one module here which actually is going toneed this module, but you do not need to wait for this module to be developed (Video isnot clear to understand which path and which module is being pointed out in this portionof the lecture  44:58).We can see that this path  is different and this  path  is completelydifferent.<s> So you can take these two independent  paths,  you can have two programmerstaking these paths simultaneously so that you can speed up the development process.<s> Butthe module which depends on this module has to include this function prototype and thismodule uses this function prototype.<s> This conforms to this prototype, so this has to bedone before you can start developing this module or this module.<p>

@@ -1,0 +1,7 @@
+(Refer Slide Time: 28:58)<p>
+
+What  that particular thing means is,  any  work from the  work  area will go to CM ifrequired it will be re-issued to the work area and this process may continue as appropriateand in appropriate time  you will have this particular product being delivered out to thecustomer or third party or whoever it is.<s> In the controlled area you have a CI library andMetadata.<p>
+
+What is a CI library?CI library is the physical place where the storing of configuration items takes place andthe Metadata is about the data.<s> Now let us look at the CI library.<s> For instance, if you aredoing a convergence project your software components may reside in two machines.<s> Soyour CI library now will be one logical library but two physical libraries;  one  on onemachine  and  another on another machine.<s> The  same thing may happen in case you areworking on a multi-site  kind of a contract.<s> You  may have one particular CI library atones location and another one at another particular location.<p>
+
+Then you have problems like some of them are software components but there are lots ofnon software components which also need to be put under configuration control.<s> Thesecould be physical documents like contract and so on and so forth.<s> Those  particulardocuments will also be a part of the CI library but probably it may sit in a cupboard.<s> Wehave lots of other things.<p>

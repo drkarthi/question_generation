@@ -1,0 +1,11 @@
+Then  we also  indicate the possible error messages which may take place when the  issueactivity is being done.<s> There is an error which says member is unknown to the system.<s> Error2  says the book is also unknown to the system that means it is not entered into the librarysystem.<s> The transaction may be rejected and the rejections details are also given as a part ofthis interaction that the book has been claimed  by somebody or members quota has beencompleted or the member has excessive accumulated fine.<s> These may be the different typesof messages which may come from the system as a part of the issue function.<p>
+
+(Refer Slide Time: 28:05 min)<p>
+
+You should make similar specifications for other functions for the librarian.<s> We then indicatehardware interfaces which are not applicable in this case;  software interfaces are also notapplicable because this is a  standalone system.<s> There  are  also there are no communicationinterfaces as such in this application.<p>
+
+We  then note down any other requirements.<s> In  IEEE format some indications are given ofwhat kind of requirements you should write down here.<s> For example,  these  requirementscould be about the data; what are the categories of let us say the retention, how long the datahas to be written, what are the access capabilities and which functions access which data.<s> Sowe will just indicate this specification for the illustration purpose.<p>
+
+(Refer Slide Time: 28:54 min)<p>
+
+The various files have already been described.<s> Now we will describe how these files get usedin different functions and what is the amount of data that is accessed by them and what arethe retention requirements; how long the issue data should be kept into the system.<s> So, in thiscase lets us see that we have the issue file which was described this issue file is used byretrieval type of or enquiry type of activities; how often do you have this activity happeningin the library.<s> We are saying that enquiries may be about hundred enquires happen and theseenquires may read on an average ten records from the issue file.<p>

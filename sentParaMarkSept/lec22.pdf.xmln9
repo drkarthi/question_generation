@@ -1,0 +1,9 @@
+(Refer Slide Time 15:55 min)<p>
+
+So you then design the error repair around that and you repair the error and then you haveto retest the program with the same set of test cases that caused into fail in the first place.<p>
+
+An important fact here is that set of test cases have been generated, the program failed inthose  test cases,  you fixed  the failure and now it may or may not be just sufficient torerun the original set of test cases in the first place.<s> You may need to add certain tests,because you made certain changes to the structure of the program itself.<s> Some of the testsmay  now become invalid because of  the changes to the structure.<s> So you have to becareful about that.<s> But certainly the cases which  caused  the system to fail in the firstplace have to pass and then if any new additional test cases are added those have to run aswell before you are done with the debugging process.<p>
+
+So having seen the difference between debugging and testing, these are all the dynamicmethods  of  verification/validation that we talked about.<s> Remember  the static methodswhich focused on inspection,  either manual or automated inspection,  then there isdynamic method focused  on  testing.<s> So we kind of  looked at different methods  of thetesting, the difference between the testing and debugging process at a high level.<p>
+
+And the question is what else should be done?<s> What is the overall process of verificationand validation?<s> What is the kind of planning that goes into making this process happen?First thing is obviously planning is required in order to get the most out of the testing andinspection process.<p>

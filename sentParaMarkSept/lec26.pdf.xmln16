@@ -1,0 +1,17 @@
+(Refer Slide Time: 51:55 min)<p>
+
+The  task cards:  These are the examples for the task cards.<s> There  can be three differenttasks so that story that we just laid out the story was that of document downloading.<s> Thethree tasks  here  is  that  you  implement the principle workflow the workflow is that youwill  select the document,  you would select the payment method,  you would fill in thepayment details, it  would validate the payment details,  it would give you a  copyrightform  etc etc  so  that is  the workflow.<s> Then you implement the article,  catalog and theselection so this may be a drop down menu, this may be a set of articles that come ontoyour html screen etc  etc  and  the third thing is you implement  payment collection;payment collection may be collecting a credit card information, validating the credit cardinformation with the credit card provider and so on and so forth.<s> So, that particular storywas broken down into three different tasks and when you have tasks at this granularity itis easy to determine what the cost of this is going to be.<p>
+
+(Refer Slide Time: 52:39 min)<p>
+
+Here is an example of a test case description so you are testing credit card validity in thiscase.<s> So the input to this test process is two sets of strings;  one  string  is the credit cardnumber, the second string is two integers which will represent month and year of expiry;I mean the second input is two integers that will represent the month and year of expirythen you have to run all the tests, you have to make certain validation before you go andcheck whether the credit card itself is valid by submitting it to the issuer of the card andthe output of this test is okay or error message; an example of the test that is written outeven before development starts that is what is key and that is what test-first developmentis all about.<p>
+
+(Refer Slide Time: 53:28 min)<p>
+
+Pair programming we also discussed and this is something where programmers work inpair sitting down together to develop code,  it also helps develop common ownership ofthe code as well as encourages the communication value that we talked about earlier, italso serves as an in-built review process so constantly re-factoring then and there becausethere is somebody giving you feedback the moment that you are writing the code and notsomething that happens far later.<p>
+
+(Refer Slide Time: 53:54 min)<p>
+
+So, in summary, XP is a new approach, it is very deliberate, disciplined and designed andsomewhat controversial because not everybody accepts it because some of the changes tothe way of thinking that have to be done  and does adapt several of the best ideas frompast  decades  of software development that are taking  place; it has become very verysuccessful because it stresses customer satisfaction because of the fact that the customersare  involved  all the time  right  from the first two week increment  that is  delivered thecustomer is in the loop and he is giving you continuous feedback on what they like aboutit and what they do not like about the way development is progressing and it emphasizesteam work in the development process.<p>
+
+So this is the summary of extreme programming which is an agile development processand there are some other processes as well but  XP  is one of the most popular ones towatch out for.<p>

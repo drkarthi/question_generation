@@ -1,0 +1,15 @@
+(Refer Slide Time: 16:00)<p>
+
+The authors found that CRC gives the perspective of object ness in the problem domain.It is a good technique to teach object oriented decomposition to novices and a card couldbe of 4X6 inch size.<p>
+
+(Refer Slide Time: 16:13)<p>
+
+This is a nice technique which can be practiced in class rooms.<s> I often use this techniqueand  ask the students to  break  them into many teams and take a problem.<s> Then anindividual team can design a single class at interface level mainly the responsibilities atthis time.<s> You do not think of implementation, lower level implementation or the actualcode.<s> But you are mainly looking at the interface of the classes and trying to find outwhat are the collaborators.<s> Over a few  iteration the systems gets refined.<s> Now we willtake a look at an interesting method of designing classes or even this can be also appliedat system level.<s> But now we are going to look at mainly class level design.<p>
+
+(Refer Slide Time: 17:07)<p>
+
+This is Bertrand Meyer  Design-by-Contract.<s> This is our interesting method.<s> Meyerscontributions are  that he discuss his  method and provided this through a programminglanguage support in Eiffel.<s> Eiffel is some good programming language.<s> Then it wasdesigned from software engineering point of view.<s> So this design by contract can beapplied even at implementation level through Eiffel.<s> Eiffel can also be used to describe itat higher level and then seamlessly you can migrate towards implementation from design.What is this design by contract method?<s> What are contracts?<s> Contract is a very importantconcept in object orientation.<s> When we look at the interface, the interface is guaranteeingsome contract to its users.<s> Contract is always between two parties, the supplier and theconsumer.<p>
+
+(Refer Slide Time: 17:19)<p>
+
+The consumers are callers, they call member functions on a given class and supplier is aclass.<s> So in a contract there are pre conditions.<s> For example, if you provide theseresources,  I will guarantee something.<s> Pre conditions are to be guaranteed by theconsumer and post conditions are to be provided or to be guaranteed by the supplier.<s> Sothe contract can be mainly expressed in terms of pre conditions and post conditions.<s> Nowwe will see how the design classes from these contracts point of view.<p>

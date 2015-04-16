@@ -1,0 +1,19 @@
+What we will see in the next successive set of slides is really how this can get twisted outof shape when you are using natural language and what comes out as an end productreally has not much of relation to what is really being input to the whole process.<s> So thesecond step is that somebody has to specify this in the project request and write it in theirnatural language that is being used, you can see that the initial specification of what theproject sponsor wrote out, is kind of been malformed a little bit.<p>
+
+(Refer Slide Time: 4:51)<p>
+
+(Refer Slide Time: 5:32)<p>
+
+As we go along we are going to see that the senior analyst who read this specification andinterpreted  it completely  wrongly in this case.<s> For example he may have looked at theflexibility of the rope  and  then  designed a  really flexible system but it is  not a swingwhich is what wanted in the first place.<p>
+
+(Refer Slide Time: 6:31)<p>
+
+As  we go along,  we  will  see  that this thing is evolving in a different way because theprogrammers who are at the next step in the software development process are going tointerpret the analyst statements yet very differently.<s> Then finally they installed it at theusers  site  and this is how it looked.<s> But what the person who was going to use thisactually meant was, simply a tyre hanging from a piece of string off of a tree, so that hischild could play a swing on this piece of tyre.<p>
+
+What this is trying to depict is the need to be able to carry through a set of requirementsor  a set of statements,  all the way from the requirements part of the software process,through the analysis part, to the building part, of the implementation part and installationpart  finally.<s> And all of these  need to reflect what the user originally asked for in therequirements document.<s> This is why it is important to have a means of specificationwhere you are going to be able to verify it formally, may be using tools.<s> And then ensurethat you can go from phase to phase such as from requirements to analysis phase,  fromthe analysis to design phase,  from the design to the implementation phase and so on,without loosing the track of what the original requirements were meant to be.<p>
+
+Formal methods which are a broader set of methods and simply doing the specificationsthemselves, specification is part of broader collection of techniques for formal methods.Most of these formal methods are based on some kind of rigorous mathematicalspecification of the software.<s> The formal method includes three to four steps typically.<p>
+
+(Refer Slide Time: 7:36)<p>
+
+The first one is the formal specification itself,  where the software requirementsare laid out and then specified by the program analyst and a formal method usingalgebraic steps as we shall see later in this presentation.The second step is that of a specification analysis and proof.<s> Specification can bechecked for consistency which you cannot do in  the natural language kinds ofspecifications.The third step is one of transformational development.<s> What this really means inthis particular case is that,  typically if you take a look at the software development lifecycle process,  you go from requirements to analysis and you go from requirementanalysis to design and each one of these steps needs to have a certain degree of continuityin between them.<s> For example,  the output of the requirement phase is the requirementsdocument, which is being fed into the analysis phase.<s> The output of the analysis phase isan initial or a very high level design of the system, which is fed to the design phase.<s> Theoutput of the design phase is a detailed design of the system, which can then be taken andthen implemented by the programmer or the developer.<p>

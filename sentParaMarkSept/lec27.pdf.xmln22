@@ -1,0 +1,7 @@
+(Refer Slide Time: 48:26 min)<p>
+
+So,  frameworks  are meant to be slightly generate because they can be instantiated indifferent conditions and different circumstances with different requirements  so theframework can provide an entire family of application if you will, each one characterizedby its own configuration,  by its own business process,  by its  own business rules and soon.<s> That is another example of the  variability of a framework.<s> For  an application levelframework there  could be a set of business rules that are different within everycomponent.<p>
+
+So,  for example,  the discount rules that are to be given when doing invoicing  onecompany may say that we do  not  give  any  discount at all that  is the rule,  the secondcompany that ends up instantiating the framework may give a business rule stating that ifthe invoice is over a 100,000 rupees then a discount of 5 percent is going to be applied tothis.<p>
+
+The third company may say that any customer who has had business with us over the pastthree years to the tune of say 10 million rupees is going to get a 10 percent discount onany further purchases.<s> So there can be different business rules that have to be provided toinstantiate the framework as well.<p>

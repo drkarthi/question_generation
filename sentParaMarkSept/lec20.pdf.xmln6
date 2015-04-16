@@ -1,0 +1,11 @@
+We can just take a look at Goto.<s> This is a simple example, but it can tell you how Gotocould be used.<s> Even though you do not use it, we have an example here and also we havea simple program which eliminates this Go to.<p>
+
+(Refer Slide Time: 28:45)<p>
+
+You have this marks variable assigned to 20.<s> If marks greater than 80, then Goto label1.<s> Label  1  prints a grade A and then jumps to  Last.<s> At  Label  Last,  you have astatement that simply prints a new line character.<s> If suppose if marks are not greater than80,  control will pass on to the second if  statement,  which checks if marks  are greaterthan 60.<s> If it is true then, Goto label 2.<s> Label two prints B grade and again from thereit jumps to Last.<p>
+
+If this condition is not true,  then you check if marks are greater than 40.<s> If it is greaterthan 40, you jump to label 3.<s> Label 3 prints C grade and again you jump to last whereyou can print same  new line character.<s> This  print new line  code is shared by all thesethree grade printing functions.<s> If this also not true then you print  F  grade  and  againGoto last and print the end of line.<s> How we can remove this Goto?<s> You have this goodstructured program in terms of If then else statement.<s> If marks are greater than 80, thenprint A.<p>
+
+(Refer Slide Time: 30:01)<p>
+
+Else if marks are greater than 60, prints B, else if marks are greater than 40, print C,else print F and then finally you come to print new line character and you are going toexit from here.<s> So you can construct this  main ()  as single or this entire function interms of smaller structured programming statements.<s> In  this way you can write betterprograms.<s> You can understand this program better than the program with Goto, becauseyou will have to trace through the whole program and understand,  even though this issimple program.<s> The program with if then else- structured programming statements ismuch easier to understand<p>

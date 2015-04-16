@@ -1,0 +1,21 @@
+(Refer Slide Time: 48:16 min)<p>
+
+We might also use other tools such as flow charts or some kind of a pseudo programminglanguage to describe the algorithmic part of how things are done, like you might preparea pseudo language description indicating how fine is calculated.<s> So this is the contextdiagram for our system where the primary users are the members that is the student, staffand so on and the librarian.<p>
+
+(Refer Slide Time: 48:58 min)<p>
+
+Note here that we dont show the counters clerks as the user because they are primarilythe intermediary users.When these when a student approaches, he approaches a counter clerk in order to give hisdata and the role of the counter clerk is only to enter that data.<s> So they are really notdirect user of this circulation system.<s> They  are basically intermediate entities who takethe data from the members and process the transactions on the system.<s> So we then repairour first level data flow diagram by decomposing the previous context diagram.<s> And ifyou remember this is the diagram roughly which we had prepared during the feasibilityanalysis itself where we have counter functions as for being processed one  and reportgeneration as for me the process two and we had also identified some of the data stores.<p>
+
+(Refer Slide Time: 49:48 min)<p>
+
+Obviously lot of things are happening in process one and you might one two decomposethis further.<s> The purpose of decomposition is to understand which of these data stores arerequired by these different sub tasks.<s> Maybe all of them are required or the way they arerequired would be different in each of these.<p>
+
+(Refer Slide Time: 50:21 min)<p>
+
+So you might consider decomposing process one further.<s> Here is the decomposition.<s> Wehad broken it into 1.1  which is only the return process,  1.2  which is the book issueprocess.<s> As you see here the book return is only dealing with the issue and the claim andthe book return is dealing with issue and claim.<s> Because when the book is returned  wehave to cancel that book and when the book is returned we have to see if it is under claimso that the new user who wants to the different user who wants to take that book can beinformed.<s> So book return seems to be using these two data stores whereas the book issueseems to be using all the data stores.<p>
+
+Further  you see that the book issue is using member and the book only for retrievalpurpose but it updates the issue and the claim data store.<s> So we see here that as wedecomposed, we now not only indicate which data stores participate in a process but inwhat way they are used whether they are input or whether they are output.<s> And we alsoindicate the exact data which is being obtained from the member for that particularprocess and this is the book claim.<p>
+
+(Refer Slide Time: 51:48 min)<p>
+
+As you see here, the book claim function is using all the four data stores.<s> In fact the bookclaim is noted with the book therefore the book is also shown as participating in bothinput as well as output operation for this process.<s> So this way we are expanding each ofthe task.<s> Enquiry, subtask naturally will use all the four data stores without updating anyof them and it will address the different quires of the members.<p>

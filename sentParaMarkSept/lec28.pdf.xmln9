@@ -1,0 +1,9 @@
+(Refer Slide Time: 38:09 min)<p>
+
+A  good example of this might simply be data types.<s> the string data type for examplestarted of fairly with a minimal interface but then as things went long people realized thatthis was a very very useful data type to have and a lot of functions were now added to thespring data type and the final form in which you see the string data type is nothing likewhat it is used to be when people started working on it and however it is very very usefulin a very wide variety of situations.<s> It has quite a few interfaces to it.<s> Obviously could bethe source of some degree of confusion but at the same time its usefulness overcomes thatconfusion because of the fact that it is usable in such a wide variety of situations.<p>
+
+So  some other generalization techniques are  and these are specific techniques thatwe have come up with.<s> The first one is to identify design decision that maybe abstracted,parameterized or otherwise undone.<p>
+
+(Refer Slide Time: 39:02 min)<p>
+
+Identify  dependencies or commitments to remove: So anything that is the dependencythat the component has on  other  components  must be removed as far as possible; youwant this to be independent.<s> Any hard wide external dependency is what this talks about,make it parameterize so parametric context can be added; this can be user-defined andparameterized  dependencies can then be created if you need  it  to be then large effectoperations and objects  with well-defined set of small effect operation should be done.This basically says that if there is a single method now single interface that does a lot ofthings within the component you try and replace this with a  set of smaller interfaceswhich do smaller amount of things.<p>

@@ -1,0 +1,11 @@
+So, what are some of the XP  practices  is  something that we would  like to go throughnext.<p>
+
+(Refer Slide Time: 42:32 min)<p>
+
+Incremental planning as we have seen before what characterizes agile development.Incremental  planning is something that is absolutely followed very regressively here.Small releases: two week cycle is pretty much mandated in extreme programming so youhave to release some piece of functionality into every two weeks and that is the idea here.simple design: actively avoiding complexity so you want to make an active effort to justput in the set of features that are minimally required of that iteration and not of somethingthat is going to appear three iterations that you feel that is going to appear three iterationslater as always a tendency of people to want to make things robust or want to make thingslarger than what it should be for the current moment and even may end up jeopardizingby  making  the user paying  for  a  feature that he  never uses because it might affectperformance, it would affect the availability and so on.<p>
+
+The other important XP  practice  is what is called test first  development and there youdevelop the test a unit test even before you write the code and you will see what this is.Re-factoring is the next one.<s> Re-factoring is the ability not necessarily to just rewrite thecode but re-factoring is the ability to maybe change your design by without changing thebehavior.<s> So, for example, the way different modules are interconnected with each othercould be one such  example  so you may end  up changing the design without actuallyhaving to rewrite a large amount of code and that is what re-factoring is.<p>
+
+(Refer Slide Time: 44:03 min)<p>
+
+Pair  programming:  Something we already talked about where two or more  peopletypically two people sit down and write a part of code together.<p>

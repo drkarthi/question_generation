@@ -1,0 +1,11 @@
+(Refer Slide Time: 51:00 min)<p>
+
+Several  different complexity metrics and the  predictions  can be made  looking at thecomplexity metrics itself.<p>
+
+(Refer Slide Time: 51:38 min)<p>
+
+Lots  of  studies  have shown that this  is usual  primarily because  of  the fact that changestend  to get localized.<s> Typically one development team may not be good as  the rest ofthem,  they may not  have  followed the same practices  and the quality of the code thatcomes out of this development team may not be on power so as a result of which a lot ofbugs keep getting formed in the same system and if that system is been maintained by thesame team the it is likely that the number of bugs is going to continue to remain high sothese kinds of features also play into prediction itself and certainly the process metrics ofsomething to keep track of; you do not want to lose track of the fact that how many of thehistorical perspective of whether your change process is working correctly.<p>
+
+(Refer Slide Time: 52:33 min)<p>
+
+So,  for example,  there is a particular bug  that  comes up repeatedly then your changedprocess does not work so that is what it means.<s> It means that somewhere along the pathtesting was not done;  somewhere  along the path the impact analysis would not haveadequately done and so on and so forth and if there is basically it is the average numberof changes that are taking place; some of the important metrics are given out on the slide;so number of requirements for corrective maintenance; the average time that is taken forimpact analysis;  how much time you take to come back and save and how long it willtake to fix this so the average time to fix it itself; then is the change reoccurring; does thesame change reoccur often; number of outstanding change requests at any given point attime all of these should kind of be dropping off; if any of these times are increasing thenit shows that there is a decline in the maintainability of the code so it is getting harder it isgetting more expensive to maintain the code and it may not be appropriate to do this atthis point in time.<p>

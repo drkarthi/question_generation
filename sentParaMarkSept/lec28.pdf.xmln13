@@ -1,0 +1,19 @@
+So, for example, it could be ORACLE, it could be SQL server and do on so at this levelthere could be Linux,  Mac, OS  and so on.<s> So,  the notion is  to abstract out the platformindependent pieces and the platform specific pieces you create a single abstraction that isused by the platform independent pieces and you create the platform specific versions ofthose.<s> So here is an abstract interface this would be an abstract interface (Refer SlideTime: 47:31) and this abstract interface is used by the platform independent layer and thisabstract interface can then take on two different concrete interfaces or specializations canbe done depending on the platform that you going to.<p>
+
+(Refer Slide Time: 47:50 min)<p>
+
+Configuration  specialization:  Different versions  are there; the applications  beingconsidered to handle different peripheral devices.<s> So,  for example,  there may  be a webbased system that displays  inventory but the inventory may  be gotten off of a  RFIDsystem, it could be gotten off of a EPC system and so on and so you may need to havedifferent device drivers for example something to talk to an RFID reader, something thatcan talk to a hand  held  device that scans  UPC codes  and so on and so forth  and all ofthese are different configurations  that you would have to end up creating as you  goforward.<p>
+
+Finally,  functional  specialization:  The classic example here is that of managing workflow.<s> The  workflow could be slightly different in every company.<s> Even  though all ofthem do inventory management, all of them do ERP the actual business workflow couldbe slightly different and that customization is done through functional specialization.<p>
+
+(Refer Slide Time: 48:52 min)<p>
+
+Here  is an example of a generic resource management system.<s> See  the kind ofspecializations that can occur.<s> The resource management system has several layers.<s> It hasthe resource database at the lower most layer; then it has the description of resources andthe specification of the kinds of report that it is going to a provide and so on and it hasdifferent interfaces to add resources,  delete resources,  query the database,  browse thedatabase,  administration,  reporting  etc etc and  there  can be different layers of access atthe top most level namely the user and program programmer access.<s> So,  example of aresource management system is an inventory management system.<p>
+
+(Refer Slide Time: 49:44 min)<p>
+
+In  this case the resource database simply maintains  the details of the various inventorythat is being managed.<s> The IO descriptions are the structures in the resource database andthe input output formats that are used.<s> So, for example, it can be described I can extractthe listing of the inventory in XML so that it can be passed off to another application.<s> Onthe other hand, I can extract it into the form report that is created into a PDF file and soon and so forth.<s> The different levels of queries that it provides over this: Are there onlyfixed queries or are there parameterized queries or there ADHOC queries and so on anddifferent access interfaces.<s> So the key here is to base the key  is modularization.<s> Inproduct lines or in product application families  you have to appropriately modularizeeverything  so that the pieces that can be used  or reused  across multiple applicationproducts are the ones that can be quickly taken and put together.<p>
+
+(Refer Slide Time: 50:40 min)<p>
+
+So the separation of concerns  to make sure that the appropriate models or  realization isachieved is very very important in this phase.<s> So in this case it is also the library systemexample in which we have exactly another resource management system.<p>

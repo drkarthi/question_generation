@@ -1,0 +1,21 @@
+You might still come across software which uses Goto.<s> Some programming languagesdo still support Goto and they do  discourage, but some programming languages haveremoved Goto all together.<s> For example, In Java you do not have the Goto statementnow.<s> But people have found that programmers need multiple exit forms for the  sake ofconvenience or better clarity.<s> But multiple entry forms are heavily discouraged.<p>
+
+If that is the case, can this question is been addressed by programming language for thedesigners?<s> Can you have better forms of breaking or multiple exiting from your structure,but at the same time your construct should not be so powerful such that you will be ableto write the programs such as through Goto  with multiple entry and multiple exitformulations, completely unstructured programs?<s> This has been addressed and you havesome interesting observations here, which we will see in the slide.<p>
+
+(Refer Slide Time: 32:07)<p>
+
+  Often, this multiple exit form is found to be convenient.<s> You must have seen thatwhen you write pseudo code for algorithm,  you write return statements at differentplaces in the code.<s> For example in the beginning, you might check for some conditionand return from there if the condition is not satisfied.<s> This means, you are terminatingthe entire function or the algorithm at that step itself or perhaps with the result aswell.<s> So  return statement is one multiple exit form which we  use often in yourfunctions and it does improve clarity and we have also an example to show how it canbe useful.<p>
+
+  It is used where single exit forms may become cumbersome.<p>
+
+  Exception is one important construct that gives you multiple exits from program orfrom an object or a function.<s> So you may exit with an exception.<s> It is much easier tohandle exceptions that way.<p>
+
+  You may also return from a function.<p>
+
+  And for loops, you have breaks and continue forms.<p>
+
+We have two examples in this lecture and we will look at them.<p>
+
+(Refer Slide Time: 33:23)<p>
+
+Exceptions: This slide talks about exceptions.<s> You have a function f that returns a valueof type T  and  it  takes some parameter say for example of type  any.<s> This  is  the firststatement.if C then throw exception eC is some condition and it may be obviouslyin terms of the input parameter.<s> If you want to say that the parameters are not in yourrange or parameters are invalid,  or they are going to result in some error later if youcontinue with them, then you can throw an exception e to the program.<s> So that it can behandled.<s> Here,  at this place you are exiting from this function,  where as you have thisbusiness logic and you might return  a value from the third statement which is after thebusiness logic is completed,  you might return a value.<s> So  you have these two exits.<s> Butthis makes it much easier or much convenient to write in this way.<s> We have these  twoexits, but we do not have a full fledged Goto, so that you can jump around in the codeand write fully unstructured programs.<p>

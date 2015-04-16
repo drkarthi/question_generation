@@ -1,0 +1,20 @@
+===========================================================
+Software EngineeringProf.<s> Rushikesh K. JoshiComputer Science &amp; EngineeringIndian Institute of Technology, BombayLecture - 21Software Metrics &amp; Quality<p>
+
+Some aspects of quality software development and what are the practices that we shoulduse when measuring our software and developing towards quality.<s> So, first question thatwe have to address is why do we need to measure?<s> Why measurement?<p>
+
+(Refer Slide Time 01:16 min)<p>
+
+We can see that, if you want to compare two different things, you need to measure.<s> Youcan say that a person is taller than the other or a person is heavier than the other.<s> Whenyou can measure,  you can compare and when you can compare,  you also have a choicethat means you have some sense of quality and the quality is quantified in  terms of thevalues after measurement.<s> And once you measure you can decide.<s> So choice is possibleand then progress is possible.<s> If you know that something is wrong or something is not asper the quality,  for example your code may not be efficient.<s> You  have  measured  theefficiency.<s> Now you can thrive to achieve higher efficiency or say utilization.<p>
+
+So once you are able to measure,  you have some quantities  with you i.e., the numberswith you.<s> Now you know what is expected and in order to improve you can alsoobjectively try to achieve better measures or higher quality.<s> So measurement helps  usdistinguish  different things,  which  means  we are able to compare and we are able tocapture quality in terms of some quantity or we are trying to quantify the qualities.<s> Andonce we are able to do that,  we will be able to exercise our choice and also we  will beable to progress or we will be able to make corrective steps.<p>
+
+We can encourage quality once  we have  the  numbers,  based on of course  the numbers.So,  basically  when we want to deal with software,  we want to have these objectivesmeasures  so that different people can use it.<s> Once you have an objective measure,everybody understands the meaning and there is only one way to calculate these numbers,then there is uniformity  and practice.<s> So we want to have these objective measures andwe want to apply these measures  to various tasks.<s> If you are able to measure oursoftware, we can compare, we can exercise choice and we can also improve based on themeasures.<p>
+
+These are the important considerations which drive this practice of measurement insoftware engineering.<s> So, what is the use of software measurement?<s> This slide capturessome of the points.<s> How good is the design?<s> If we measure we will able to know whetherour design is good or bad.<s> So bad designs are mostly hard to understand, implementmaintain and evolve.<p>
+
+(Refer Slide Time 04:18 min)<p>
+
+Then your software might be correct, but the design of the software maybe very complex.So once I had tried one experiment for a small problem in my class, there were about 20to  25  designs.<s> If you have many designs for same problem,  we have to choose one ofthem.<s> So  we  should be able to measure, we  should be able to tell objectively whichdesign is good or which design is bad and that we should try to achieve.<p>
+
+We should find out if there are any objective criteria with which we can measure adesign.<s> For example, we can say that, I am using ten classes to achieve this solution andsomebody else may use three classes, and somebody else maybe using five classes; whichone is better?<s> You cannot say if I use lesser number of classes, I have better design or if Iuse too many classes, I have a better design.<p>

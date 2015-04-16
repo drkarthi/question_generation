@@ -1,0 +1,32 @@
+===========================================================
+Software EngineeringProf.<s> N.L.<s> SardaDepartment of Computer Science and EngineeringIndian Institute of Technology, BombayLecture - 24Case Study (Part  II)<p>
+
+Let us continue with the discussion of the case study which we started last time; this is aboutthe library organization and we are taking a case study of a circulation function.<s> The purposeof the case study is to understand the development methodology,  the various phases indevelopment, the kind of techniques that you use during carrying out these  phases and alsothe deliverables.<p>
+
+We have seen the problem definition and we produced a  problem definition document,  wehave done the feasibility, we have prepared two alternatives for the user with different costsand different benefits and we presented the feasibility report and we assume that one of thetwo alternatives were accepted by the user or the library in this case  and we proceed to theimportant phase of requirement analysis.<p>
+
+(Refer Slide Time: 01:52 min)<p>
+
+In the requirement analysis  we  presented  the information that we obtained from differentusers of the library.<s> These included not only the members who borrow books from the librarybut also the counter clerks and library management and the idea was to understand the kind ofwork they do  and relate them to the problems which are faced by the users so that we  cansuggest a more efficient and cost effective alternative.<s> And having done that now we want tostudy the functions, the tasks and understand them in more depth and prepare a requirementanalysis document where we will address ways by which these  problems  will be solved bythe proposed system.<s> So we met the users, we followed through some of the activities theyperformed and we prepared the dataflow diagrams and identified the different sub-processesand the different data stores.<s> After that, we defined the contents of each data store.<s> Unless wedo this we will not be able to clearly understand what needs to be done in each of the sub-processes identified in the dataflow diagram.So, if you recall, last time we had studied the contents of the data store called book which isone of the core data store which contains data about all the books available in the library.<p>
+
+(Refer Slide Time: 03:42 min)<p>
+
+We then noted that accession number is an important key attribute for this data store and thebook type is also an important attribute because book type will decide what kind of users canborrow this book.<s> And then there are other attributes which are useful for enquiry purpose.<s> Sowe have defined here the contents of data store book.<s> this gives us a very clear idea of whatkind of information is available in that data store so that the various processes which eitherobtain  data from this  data store or update something in  this data store we  can clearlyunderstand them with reference to the contents here.<p>
+
+Let us now look at the other data stores quickly.<s> We have the member data stores; these arethe members (Refer Slide Time: 4:20) who are permitted to borrow books, every member hasa identifier, name, a department, his category; and now the category could be faculty, studentand so on and the date on which the membership would expire.<p>
+
+(Refer Slide Time: 04:39 min)<p>
+
+We  have the issue data store which keeps record of all books issued,  to whom the book isissued, the accession number of the book, the date on which it was issued and when the bookis due; when the book is returned we also note down the date of return and if necessary wealso will note here the fine which may be payable by the user.<p>
+
+We have the claim data store.<s> The claim data store is basically supposed to keep the personwho has put the claim, so members id, assertion number of the book on which the claim isput and the date on which the claim has being put.<s> So there may be many such claims for agiven book and from a given user or a given member of the library.<p>
+
+Now that we have seen some of these data stores we can now refine the important processesin our data flow diagram so that the complex processes are specified in details now.<p>
+
+(Refer Slide Time: 05:55 min)<p>
+
+Now, issue process is one of the important processes;  we will illustrate how the refinementfor this has been done here.<s> So we have the member who gives his identification and thebooks accession number that he wants to issue.<p>
+
+What happens in the process is that first we validate the category of the book and the type ofthe member whether this member is permitted to issue this book.<s> Now to do this we need tobring data from the member,  we need to bring data from the book,  also data about thecategory rules and the type rule.<s> Now these two data stores D5 and D6 are the new data storesthat we have identified while decomposing.<s> We need some place where these details of whatcategory and what type of books  can be issued so category rules will indicate how manybooks a particular category can borrow.<s> The type will indicate what category of member canborrow that book and for how long he can keep that book.<s> So these details are specified interms of  rules,  there  may be small tables which are stored as data stores here,  they maybeactually fairly small data stores not containing much data but they are very important forexecuting this function.<p>
+
+So, after validating the category and type we validate how many books the person has alreadyborrowed whether he his crossing the limit.<s> So here we look at how many books are issued tohim and again look at the rules.<s> After that we validate with respect to claims; does the bookhave a claim of somebody else, if it has a no claim then we can proceed further but if it has aclaim the claim maybe by the same member in that case again we can proceed further and inthat case we may also have to  adjust the claim data store;  if the claim is by somebody elsethen probably the book cannot be issued to this student.<s> So this way by decomposing we areintroducing more and more details of the processing.<p>

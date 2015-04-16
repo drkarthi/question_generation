@@ -1,0 +1,11 @@
+(Refer Slide Time: 5:49)<p>
+
+These  fourteen characteristics have again been shown on this  particular slide.<s> So theserange from data communication,  distributed function,  performance,  heavily usedconfiguration,  transaction rates,  online data entry, end user efficiency and so on as soforth.<s> Now let us see how these particular general system characteristics are influencingour system and each of these particular characteristics will have to be weighted with 0 to5 as the wait with 0 indicating no influence and 5 indicating the strongest influence on thesystem.<p>
+
+(Refer Slide Time: 6:18)<p>
+
+Now what will happen is in case you  were  to do this particular case  where  all thesefourteen characteristics were  to be given a 0  influence you would  get a total degree ofinfluence of 0  and incase all of them were  to be randomly given 5  you will  get  70  theaverage being 75.<s> So, in function point calculations 35of influence are considered as anaverage system.<s> So we say that the Value Adjustment Factor is equal to TDI into .01 plus.65 thereby indicating that we give a weightage of 1% to every degree of influence whichis in excess or less than the 35 the average degree of influence.<p>
+
+(Refer Slide Time: 7:29)<p>
+
+Therefore  based on this situation we can now see that how these particular degrees ofinfluence are as far as the marketing system is concerned.<s> Our system is a PC based standalone system; it is not a distributed system so the degrees of the influence for these twoare 0, performance is somewhat not a very great deal or stringent requirement but somerequirement demand is there, it is not a heavily used configuration, the transaction rate isnot heavy, online data entry is important and end user efficiency is important because weare not really expecting computer professionals to be using and operating this particularsystem.<s> The data update is online and we would like to have reusability in mind as that isthe way of thinking today.<s> Ease of  installation and ease of  operation is also veryimportant.<p>

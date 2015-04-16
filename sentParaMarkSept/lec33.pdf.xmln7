@@ -1,0 +1,9 @@
+(Refer Slide Time: 15:02)<p>
+
+Here when you look in the slide, the COCOMO has three development modes namely theorganic, semi-detached and embedded.<s> For  our  purpose the organic means applicationsoftware development, semi-detached means development of utility and embedded meansbasically systems in the  developing system software.<s> Also,  there is a  hierarchy ofCOCOMO models  the basic,  intermediate and advanced and the  accuracy of estimategoes on increasing as you go on using these particular methods.<p>
+
+Now let us restrict our study to only the basic and the intermediate COCOMO to see howthis particular method  is  useful for making estimates.<s> The biggest advantage  is that themethod is useful for estimating both the time and the effort involved  in developing theparticular project  but it has a major weakness that it requires lines of code  as an input.This  means you cannot use COCOMO method for making estimates till you are fairlydeep into the project.<p>
+
+(Refer Slide Time: 16:14)<p>
+
+From that point of view using COCOMO will mean that you have to wait to a fairly closeto  the  end  of analysis phase.<s> Another particular thing is that the  lines of code is a  very[d.16:31]  term and from that point of view Boehm  has describe something calleddelivered source instruction.<s> In Boehms parallel the delivered source instruction our DSIsort of give you what are the dos and donts or what is in and what is out.<s> For instance, adata declaration JCL formats and  libraries will have to be included  but number ofinstructions per line and programming language use and organizational coding standardsetc are not taken care of in the DSI.<s> DSI needs to be precisely defined.<p>

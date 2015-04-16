@@ -1,0 +1,11 @@
+Now we come to the next part of COCOMO.<s> We would like to break up this particulartime into phase-wise development effort and schedule.<s> So if you have to look again at theslide you have COCOMO equations which tell you that how much percentage of thedevelopment time will be attributed to what phase.<p>
+
+(Refer Slide Time: 30:32)<p>
+
+In case you had a small project, ours is a small project less than 2 KDSI so the productdesign is going to take 16% of our product development time, the programming is goingto  take 68,  if you want you can break it up into detailed  design and coding and unittesting as 26 and 42 and then the integration and final testing is going to take 16% of thetime.<s> You might need an additional 6% time for the planning and the remaining part ofanalysis that may be required.<s> Similar data is available for the other types also.<s> You mustrealize that as the size of the project increases the coding and unit testing percentage goesdown whereas you will find that from your particular point of view the  integration andtest percentage will dramatically go on increasing.<p>
+
+On similar lines you also have the beak up that you are going to get for schedules.<s> Andthe schedules that you have here take 19%.<s> Now only one difference is the break up forthe programming is not given in this particular schedule break up that you here.<p>
+
+(Refer Slide Time: 32:00)<p>
+
+Now using this particular data if you were to now look at our marketing example you caneasily say that the percentage mandate as seen from the earlier table is given here and thetotal effort is given here in terms of days.<s> So 6% of the total development effort is goingto be 3 it is 48, our development effort is 48 days and 6% of that approximately is 3 so itis going to take 3 days of effort for doing the remaining planning and requirement, 8 daysfor doing product design, 12 days for detailed design, 20 days for coding and testing andlittle offset here and you will require 8 days of effort for you integration and testing.<s> Soyour total 100%  development  effort is 48 and of course including the additional effortthat you require for planning and remaining requirement is 51%.<p>

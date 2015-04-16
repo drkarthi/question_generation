@@ -1,0 +1,13 @@
+Then there is another architectural pattern called faade.<s> You have a sub system in whichthere are many classes.<s> This is could be a package and the interface of the package isgiven through one class called front end and the internal classes are hidden.<p>
+
+(Refer Slide Time: 52:34)<p>
+
+This design pattern is also important from class level architectural point of view.<s> Sofaade is an important architectural pattern or the way to organize your componentarchitecture.<s> Then broker  is another pattern which is seen in distributed decoupledcomponent systems.<s> The broker is responsible for coordinating communication amongstdifferent components.<s> It can forward request from one component to another.<p>
+
+(Refer Slide Time: 53:02)<p>
+
+Or it can get back the results, the results are dispatched back to the calling components.Along with the results there could be exceptions or only exceptions and errors which alsoneed to be passed back to the callers.<s> So this broker architecture allows dynamic addition,deletion and relocation of objects,  which  we will see from this slide.<s> For example youhave this broker sitting in the middle and you have the client and the sever component.<p>
+
+(Refer Slide Time: 53:50)<p>
+
+The client accesses the broker through proxy and the broker sends the calls to the serverthrough the skeleton.<s> So if you change the server,  the client still is not aware of thisbecause it goes through the broker.<s> There is no direct connection to the server.<s> Theresults from the server go back to the client through the broker.<s> This broker architectureyou can see in distributed system such as CORBA.<s> Then you have MVC architecturewhich is Model View Controller.<p>

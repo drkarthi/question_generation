@@ -1,0 +1,19 @@
+Not all programming languages provide you this facility of Meta classes directly througha notion of Meta class.<s> But they give you some alternative.<s> For example in Cplusplus andJava,  you have static attributes and static member functions.<s> You  can  invoke thosemember functions directly on the class.<s> You do not need an instance for it.<s> Those are theclass level attributes and class level member functions.<s> In programming languageSmalltalk, you have a direct support of Meta classes and you can go on in the Meta classhierarchy.<s> So there are Meta classes and so on.<s> But languages like Cplusplus  and Java,take care of some of these meta level attributes through these alternative construct such asstatic member functions, static attributes constructor and so on.<s> Now we are going to lookat an interesting method of designing classes.<p>
+
+Beck and Cunninghams CRC method: This was discussed in an OOPS law paper aroundten fifteen years ago.<s> What does CRC stand for in this term CRC method for objectoriented thinking?<s> First C stands for Classes, R stands for Responsibilities and the secondC stands for Collaborators.<p>
+
+(Refer Slide Time: 12:57)<p>
+
+(Refer Slide Time: 13:05)<p>
+
+We have this template which is shown on this slide.<s> First we describe the class name, andthen  we want to list its responsibilities, the responsibilities of the class and then itscollaborators with which class these classes collaborates.<p>
+
+The responsibilities of a given class are the member functions exported by the class, sothat the class carries out responsibilities via the implementation of those memberfunctions.<s> And in order to complete these responsibilities who are the other collaboratorclasses with which classes does it need to collaborate?<s> Many classes are stand alone andyou can directly use them without having to connect them to other classes.<s> But in a bigsystem there are collaborations.<s> Through  those collaborations,  collaborative actions arepossible and you can implement higher level functionality.<s> The  collaborator of a givenclass also has to be listed.<s> Our recommendation is that in the third section along with thecollaborators you also list out collaboration.<p>
+
+(Refer Slide Time: 14:25)<p>
+
+For example, you need to list what is the collaboration?<s> For what responsibilities youneed these collaborators?<s> Etc.<s> The collaborators are all always the other CRC card.<s> Thisis one card and this is called CRC card.<s> It is a palm-top card you can make a small chipon which you can write class name,  its responsibilities and its collaborators  and  also ifyou can talk of collaborations for which you want the collaborators.<p>
+
+This idea was initially projected as a method to teach novices,  to teach about objectoriented thinking.<s> So when you break down a system into objects, you can use these CRCcards and you can break down a system into many classes.<s> You can give one card to eachteam of say two members and they design these classes.<s> Through  which  they give theclasses the name,  they talk about its responsibilities and also they identify thecollaborators of a given class and collaborations.<s> Every team is designing single class andthen all these classes are working together, because every team also identify collaboratorsand over few iteration the system could get design.<p>
+
+When you look at a system,  it consist of many such classes and they collaborate witheach other and then once you identify these classes, you can go on to further detailing ofeach classes.<p>

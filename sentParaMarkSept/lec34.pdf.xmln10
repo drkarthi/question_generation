@@ -1,0 +1,13 @@
+(Refer Slide Time: 45:56)<p>
+
+Then you look at the next particular part which is the maintenance phase.<s> Sometimes thedevelopment and maintenance activities are not considered as the same part of the projectbut since maintenance is an inevitable kind of an activity.<p>
+
+So from our point of view we  will say that in the maintenance  phase  the VVT activityincludes some kind of  evaluation of the product  and whenever you make changes wehave said that  changes are inevitable for three reasons;  the  requirement change or theplatforms may change or the bugs which have not yet been sort of detected may come up.<p>
+
+In all the three cases you make changes and once you make changes then you are againrequired to repeat the whole thing the  unit,  integration  and system testing and thecorresponding regression testing need to be performed throughout.<s> So, from our point ofview these are the VVT activities that are performed during the life of a particularproject.<p>
+
+Another very important thing from quality assurance point of view is the opportunity forimprovement.<s> Each non-conformance is an opportunity for improving.<s> It is the  need tofix the problem and the need to fix the cause of the problem.<s> So this particular activitywill have to be done all the time.<s> Then we ask the question that who identifies the OFIs.The answer is anybody and everybody, anybody who detects a fault.<p>
+
+(Refer Slide Time: 47:28)<p>
+
+So  the  project team may detect a fault  during development,  during the review,  duringtesting or you may have steering reviews or you may have internal audits you may have acustomer but do not worry how the fault came to your notice.<s> What is important is everytime you have fault that was detected,  recorded,  rectified also investigate  if  there is anopportunity for improving the process.<p>

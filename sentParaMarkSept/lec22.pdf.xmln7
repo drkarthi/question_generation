@@ -1,0 +1,13 @@
+(Refer Slide Time 12:11 min)<p>
+
+For example, if your test was checking to see whether you are accepting only the correctformat of the input and the test actually showed that you are taking in some format thatare not the correct format as well, then there are two things that can be tested there.<p>
+
+The first thing is that you give it a correct format in and it actually accepts and does notgive out an error.The second thing is, you give it a wrong format and ensures that it generates an error.<s> Soa successful defect test is one which actually reveals the presence of a defect or presenceof a bug in the software.The validation testing is basically intended to show that  the software meets itsrequirements.<s> If there was no requirement for example to validate the format of the input,then there is no point in having a test that checks the format of the input.<s> Yet the systemmay kind be unusable really if you did not validate the format because different peoplewould be entering these dates in different formats.<p>
+
+So here,  a successful test is one  that shows that requirements  have  been properlyimplemented and the system is usable and that  is something that needs to be added tovalidation testing.<s> Because in validation, Are we building the right product, is what weend up asking.<s> So here it is not just that it reveals the presence of defects, but it is a testthat shows and that it conforms to the requirements and the requirements are complete innature.<p>
+
+Now debugging and testing are also slightly different processes,  again very dynamic innature.<s> Here, you  are  putting the software through the phases and trying to determinewhether it is meeting certain requirements.<p>
+
+(Refer Slide Time 14:22 min)<p>
+
+But, what is the difference between debugging and testing.<s> They are distinct processes.Testing is meant to indicate that there is a defect in the system and debugging is a processof determining localizing the defect and removing the defect.<p>

@@ -1,0 +1,9 @@
+For example today you are building a system that handles car registration and in this carregistration system, you simply specialize the 4 wheeler to say its car and you are done atthat point of time.<s> But tomorrow if you want to extend the same thing to cover trucks youcan specialize that  by creating a truck category and that inherits everything that wasabove it.<s> But that might add certain attributes, add certain functionality to it.<s> That is theexample of a  class hierarchy.<s> We  can also have the notion of what  is called multipleinheritance.<s> Single inheritance mainly was that I  am going to inherit or specialize oneclass that is above me or one class of entities that is above me.<p>
+
+(Refer Slide Time: 51:57)<p>
+
+But multiple inheritance says that I  want to inherit the attributes of class A and class Band this can lead to several problems as well.<s> You have some expressive power ofsomething like this is obviously great.<s> Here is an example.<s> If we want to have a talkingbook and a taking book is nothing but a number of tapes that is associated with it.<s> But atalking book inherits from a book which is an old notion of book which is a paper modelof a book and the notion of voice recording which shows the speaker the duration and soon.<p>
+
+(Refer Slide Time: 52:49)<p>
+
+A talking book ends up from both of these basic classes to create a specialized class.<s> Thisis an  example of what is called multiple inheritance.<s> It has a lot of semantics conflictsthat it ends up as it gets associated with it.<s> You have to be very careful about when youend up using multiple inheritance, how it is used, whether it is absolutely required to usesomething like this.<s> Aggregation models are something that does  not show inheritanceper se.<s> But they are focused on showing the part of or the whole relationship.<s> There aredifferent kinds of relationship and there are different notations in UML expressing theserelationships.<p>

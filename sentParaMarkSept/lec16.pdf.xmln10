@@ -1,0 +1,11 @@
+For example, rotate when you rotate a shape all its components are also rotated internally.If you move it, all the components are moved.<s> If you delete the high level shape, then thelower internal shapes are also deleted if you have a group.<s> UML gives you this notationfor capturing mainly two kinds of part whole relationship.<s> One is called aggregation andanother is called composition.<s> In the below diagram, top one is shown with the hollowdiamond  with  white color.<s> And the bottom one is the filled diamond, it is dark filleddiamond<p>
+
+(Refer Slide Time: 36:20)<p>
+
+If you replace this by a black and white picture, then the distinction will be clear.<s> Whenyou are hid out whether it is a part whole relation, where it is a stronger  relation wherethere is propagation of member functions,  then you are going to use compositionotherwise you can use aggregation.<s> In aggregation, the part-whole is little bit weaker.<s> Ifyou are having relations like  member function or a is a member of b and  if you do notknow whether there is strictly very configurational properties amongst the parts and theyare all required for the functionality of whole component, if you do not have a componentintegral object, if you do not have a stronger part-whole relation,  then you can go for aweaker part-whole relationships.<p>
+
+So  you can say one is the weaker another is stronger part-whole relationship.<s> These arethe two main categories which are recognized by UML modeling notation.<s> In this way wecan use our part whole relations and design the part-whole hierarchies of classes.<s> Now wewill look at another aspect of class level design that is inheritance.<p>
+
+(Refer Slide Time: 37:55)<p>
+
+We first saw individual classes, we looked at the CRC method, then we looked at designby contract method,  then how to design classes  from preconditions and post conditionspoint of view and from contracts point of view.<s> Then we looked at how to break classesinto part-whole or what are different kinds of part-whole relationship.<s> Now we will lookat this inheritance relation which is also very important relation in class level design.How to design new subclasses from old?<s> What are the different kinds of uses ofinheritance in subclasses?<s> How do subclasses use inheritance?<p>

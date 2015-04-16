@@ -1,0 +1,11 @@
+Where does formal specification fit into the software development life cycle will be thenext question that we would tend to ask.<s> The specification and design although mix witheach other, formal specification falls somewhere between the requirements specificationstage which may be done with natural language first just for the sake of convenience andbetween the design stages.<s> It is actually an analysis methodology more than arequirement specification methodology as we shall see on  this slide.<s> The first step isreally that of requirements definition that is done by the user that is typically still done inthe natural language and that cannot be avoided.<s> It is then translates into a requirementspecification.<s> Now it is possible to argue that the need for requirement specification stepcan be avoided and we can straight away jump into the formal specification step.<p>
+
+(Refer Slide Time: 15:39)<p>
+
+(Refer Slide Time: 16:41)<p>
+
+But it is generally not recommended.<s> Once we get into the formal specification step thenthe high level design can actually be generated out to the formal specification anddifferent system models can be driven off of the formal specification.<s> For example UMLmodels can be generated of the formal specification,  other test models for example canalso be generated out of the formal specification.<p>
+
+(Refer Slide Time: 17:04)<p>
+
+Specification techniques for formal specifications largely fall in two categories or twoclasses.<s> The first one is called an algebraic approach and the second one is called modelbased approach.There are different languages techniques and tools which fall  in  to  each one of thesecategories.<s> The algebraic approach essentially focuses on specifying the system in termsof its operations or its interfaces and the relationships between these various interfaces.Whereas the model based approach concentrates more on specifying state models andspecifying the system using mathematical concepts such as sets and sequences.<p>

@@ -1,0 +1,25 @@
+(Refer Slide Time: 22:10)<p>
+
+If you look at this slide, the shapes are gone and what remains is a prototype.<s> You have superclass as Prototype and you have ConcretePrototype1 and ConcretePrototype2.<s> There is aclient and there is an operation.<s> In the operation you are calling the clone on the prototype andif clone operations are implemented as copy by copying on  themselves.<s> This is your  patternand then it can be described in abstract using these abstract names.<s> Any application that thathas a similar need can identify its own concrete super classes and sub classes and map them onto this prototype hierarchy.<s> So we can apply this prototype pattern in a different domain.<p>
+
+Now we are going to look at another creational pattern called singleton pattern.<s> Singleton is aclass that creates only one instance at most.<s> Even if you try to create another instance, it shouldalways give you a copy of instance that it has already created.<s> So for example in this diagram aclass is named as singleton.<s> One question should come to your mind that if you just use thecreational methods provided by your present programming language, will you not be able tocreate many instances of a given chart?<s> Even if you want to make it as a single chart, take forexample class stack, you can just say stack S1, S2, S3, S4 and you have got whole stack inC++ or you can say stack S1 is equal to new stack, stack S2 is equal to new stack and so on inJava when you got 4 stack.<p>
+
+(Refer Slide Time: 26:43)<p>
+
+How are you going to prohibit this kind of creation  which the programming languages itselfprovides these?<s> Solution here is that if you put your constructor in your private compartment,you first prohibit this kind of creation provides by the language and then support  a specificmethod which is called  as class method and not an instance method.<s> Class methods arerepresented by keyword static in  C++  and  Java.<s> So you can say here that you have agetSoleInstance() method that is class method, static method.<s> You have to call it on class, youmay have to use operator, a  different operator to call the method on the class directly.<s> Whenyou are getting an instance there is no other instance available you are getting your firstinstance.<s> You have to invoke this method on the class and  the  getSoleInstance ()  methodreturns you with the sole instance which is also a class variable.<p>
+
+You can see that it is named as static soleInstance.<s> The data and the operation belong to theinstance  are not static.<s> This is your singleton pattern  and  the implementation that we justdiscussed.<s> Let  us  make  use of this facility of compartmentalization of private and publicmembers.<s> That is hiding your constructor by describing it as a private member.<s> It prohibits thenormal creation mode and then a new instance can only be created through a class method,which is described as static method.<s> The class method then can be called by an environment toget the instance.<p>
+
+(Refer Slide Time: 29:24)<p>
+
+And if you call it again and again the method can be programmed to check whether already aninstance has been created or not.<s> The instance is also a class variable.<s> If the instance is alreadyavailable, then it returns the same instance which is the unique instance in the class.<s> Here is thepseudo code for typical singleton class.<p>
+
+(Refer Slide Time: 30:33)<p>
+
+You have singleton that is a constructor and this class singleton which is protected.<s> It isprotected because  your  sub classes also should be able to benefit from pattern and then youhave a static method called soleInstance you have your singleton which is also soleInstance.<p>
+
+This getSoleInstance method gives you this instance and the sole instance handles points tothis sole instance.<p>
+
+(Refer Slide Time: 31:14)<p>
+
+Now, we looked at two creational patterns.<s> First one was prototype, second one was singletonpattern.<s> Prototype allowed you to create object from a given object.<s> Singleton pattern allowedyou to create a unique instance of a given class.<s> If you look at these requirements these arevery generic, they can occur in any application and now you know how to go about designingfor these requirements.<s> Then the designs are  also documented in terms of abstract name,classes,  collaboration among them and the structure among them.<s> Then you also have someconcrete example documented along with the pattern.<s> When you go through a  given patterndictionary,  if you match the requirement with the intent provided along with the patterndescriptions, you can select a specific pattern and apply it in your application.<p>

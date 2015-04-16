@@ -1,0 +1,23 @@
+(Refer Slide Time: 53:37 min)<p>
+
+At this point we can evaluate module coupling and cohesiveness again to fine tune our firstlevel design.<p>
+
+So we just illustrate here one specification of a module.<s> This module indicates the importantdata structure which will store the category of the user and for the given category we willidentify how many books are permitted to him and what is the duration for the issue.<p>
+
+(Refer Slide Time: 54:18 min)<p>
+
+Now this is a global array that the program will have and then we want to now specify amodule called check category and this check category  will take the inputs given here andcould implement the logic of checking the array using the code which is described here.<p>
+
+(Refer Slide Time: 54:47 min)<p>
+
+Now this is the this is the logic of this module; it says how the category table will be searchedand how the information about how many books this member can issue and for how long wecan issue will be described in a programming language form in this module.<s> This  detaileddesign now will be implemented.<s> While  implementing you will take into account the  well-known principles of coding such as structured programming,  you follow programmingstandards and you will document the code properly and you will also use the test cases whichhave been identified earlier  and a program  walk-throughs  will also be done to ensure thatyour code is correct and it adheres  to the organization standards so implementation will becarried out.<s> (Refer Slide Time: 55:28 min)<p>
+
+Now,  these are highly technical activities  and we expect that with your programmingexperience you will be able to carry these  out properly.<s> So we have gone through thisimplementation;  now the testing phasing will be taken up;  all the cases would be gonethrough, the test data has been prepared and test cases are also there; after this the system iscompleted, user training will be done, user manuals will be prepared and the acceptance testwill be carried out; once the user has accepted a switchover will be planned.<p>
+
+(Refer Slide Time: 56:05 min)<p>
+
+So these are the remaining activities of the methodologies through which we will go through.So  we have covered this case study and we have looked at some of the important phaseswhich are really the phases which identify the engineering aspect of the methodology that wemust do the  requirements very thoroughly,  we must do the design systematically and thesehave to be properly documented and reviewed.<s> So  our case study has illustrated thesedifferent steps and different deliverables.As  we have seen the different steps used,  various techniques and tools are very usable andthey ensure that by applying those techniques we achieve the goals of engineering a goodsolution.<s> So we have identified some of these techniques as we went through our case study.We noted the different documentation standards, it is very important that we follow them toensure that all activities are done satisfactorily  and documentation standards are defined  forall the phases and the review ensures that these standards are followed.<p>
+
+(Refer Slide Time: 57:19 min)<p>
+
+Hence,  review is a very important activity that ensures that the methodology has beencorrectly followed and all the deliverables have been properly defined.<s> So this case study hasillustrated the overall engineering approach to the software development  and we hope thatyou will be able to do your development activities by following these systematic techniques.<s> 

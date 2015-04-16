@@ -1,0 +1,11 @@
+(Refer Slide Time: 50:55 min)<p>
+
+And in this case the library holdings database is the one that is the set of resources.<s> thesame set of descriptions are going to be applied and a  set of interfaces or  modules areprovided; how do you deal with issue, how do you deal with return, how do you generatereports on this and so on and so forth; the set of users so user database might have to becreated as well in this case and appropriate user access on what can you do on the librarysystem is the question.<p>
+
+You have seen two: an inventory management system and a library system both of theseare resource management systems; both of  these allow you to  add resources,  queryresources, delete resources from the database, get reports on resources and so on but bothare being  used for very different purposes.<s> So  the underlying core of both of thesesystems could be exactly the same  as a  notion of maintaining  the  list of users,  givingthem access levels, the ability to add a resource and so on.<s> But the specific database thatholds inventory of let us say manufacturing parts versus holding and inventory of booksis different.<s> So the database schema is going to look like slightly different.<s> The details ofthe resource that is being managed is going to look slightly different.<p>
+
+Therefore,  in  the case of family member development what is done is you elicit therequirement from the stakeholder and then you choose the closest fit family member thatexist so there can be several products that are already being built so you pick the one thatyou feel most closely matches the requirements at  that point;  you may renegotiate therequirement or you may adopt existing systems or both could be done in parallel and thenyou deliver a new member.<p>
+
+(Refer Slide Time: 52:33 min)<p>
+
+Hence there is actually incremental change that takes place to member of the family thatalready exist and that is the key here.<s> So large part of the product is being reused  andonly an additional small piece is getting done and that is what is explained in these bulletpoints.<s> Here is another example of ERP.<p>

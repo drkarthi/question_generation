@@ -1,0 +1,13 @@
+This is the story card.<s> This is the story; it kind of details an entire users scenario if youwill.<s> So, if you take if you take an analogy to uml used cases this may be one used case inthe  system or it may be one or two used  cases which are related to each other.<s> So thedesign guidelines then for XP is that simplicity obviously is the very key and is the heartof the entire design process so you choose some kind of a system metaphor and you canwrite out CRC cards as in the object oriented design process you must have heard of CRCcard notion then you create a spike solution never add functionality too  early in  theprocess and you can always start off with very very small stop but then you re-factor asmuch as you want to add things as you go along as opposed to committing very early onin the process to requirements that may not be needed.<p>
+
+(Refer Slide Time: 50:06 min)<p>
+
+(Refer Slide Time: 50:27 min)<p>
+
+So, in terms of change basically XP takes the opposite view of the conventional wisdomof change and in that it basically anticipates tht change is going to happen all the time andthe conventional views that it is  worth anticipating changes and therefore let us  build itinto the software ahead of time and therefore we have future proof in the software.<p>
+
+XP however is completely opposite; it says we will only build what is required now andas we go along when changes need to take place we do them and there is no problem forthis.<p>
+
+(Refer Slide Time: 51:08 min)<p>
+
+Testing: you always do test first, so you have to do the unit test first, integration test andall of that tests have to be built out for the scenario or the user story that has been selectedfor that increment.<s> So, only after you have written the unit test you go ahead and code themodule.<s> So the user development automated test harnesses have to be set up very early onin the life cycle and this can be done using several methods and tools that are availableout there and every time something is released it is completely tested so every integrationis unit tested, is integration tested before we move on to the next iteration.<p>

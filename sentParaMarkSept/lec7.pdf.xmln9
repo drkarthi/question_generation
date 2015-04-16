@@ -1,0 +1,11 @@
+(Refer Slide Time: 35:07)<p>
+
+What it essentially tries to say is only that part of the data type of the software modulethat is needed for interaction with other modules is the one that needs to be exposed anddetails of the internal representation must not be exposed.<s> ADT gives a perfect way ofdoing that,  because the ADT part of the data type is the one that will end up gettingexposed.<s> The public part of the software module that is being specified and the secret orthe private part that is behind the scenes is really the implementation of it, choice of therepresentation that is chosen, implementations of the functions by different features issomething that can be deferred to a later point of time because its not going to beexposed.<s> Indeed it can even be changed at any point of time in the program as long asyou stick to the specification.<p>
+
+Let us one of the questions that we have to ask ourselves after having just written outthese specification for the task is that, for example is the specification complete?<p>
+
+(Refer Slide Time: 36:09)<p>
+
+How can we end up answering what is the reference point for completeness?<s> How do weknow that no other operations for example are required for a stack?<s> There are the notionsof what are called atomic operations and non atomic operations.<s> We have to considerimplementation to be complete.<s> Essentially you have described all the atomic operations.In the case of stack, we could have easily  written another operation called the replaceoperation.<s> The replace operation would essentially take a stack; it would take an item andreplace the top item of the stack with a new item that you are giving it.<s> So mathematicallywhat this would look like is, it will be called replace item.<p>
+
+This would take two arguments,  which  are a given stack and some elementG1.ReplaceItem (Stack [G], G1)This would end up returning a new stack, but the effectof this essentially is to say that if is empty equals false  If ( IS EMPTY  is equal toFALSE), only if there is an item to be replaced in the stack, in that case what I am goingto do is, first POP the stack that has been given to me, because I have to remove the topmost element of the stack.<s> I am going to take the result of the pop and then I am going topush the element G1 on to the resulting stack.<s> PUSH (POP (Stack [G]), G1)<p>

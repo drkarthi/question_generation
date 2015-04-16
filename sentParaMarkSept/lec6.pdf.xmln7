@@ -1,0 +1,27 @@
+It has its basics in discrete mathematics, set notation, set theory, Boolean logic orpredicate logic are typically the techniques that are commonly used in order to specifyformally some of the systems.<p>
+
+(Refer Slide Time: 27:11)<p>
+
+Having kind of seen what formal specifications are, what are some of advantages of usingformal specifications,  let  us try  to get into a small example that will try and illustratesome of these techniques here.<s> The example is that of a library system that is to beconstructed.<s> The library has two sets of requirements that the library system is going touse.<s> The first requirement is the book can either be in the stacks, it can be on reserve or itcan be loaned out.<s> If it is on reserve then it is still in the library but somebody has askedfor it.<s> If the book is in the stacks or on reserve, then it can be requested by a user to bechecked out.<p>
+
+Just  for the sake of simplicity we have ignored other  requirements that are  commonlypertaining to that of a library system.<s> What we want to do is, formalize the concepts andstatements here.<s> And prove some theorems to kind of help us get us confidence that whatwe  have written now in terms of formal specifications,  is indeed satisfying all theproperties that we saw in the couple of slides ago, which is in the notion of unambiguity,in the notion of completeness, in the notion of consistency and so on and so forth.<s> Let usfirst start formalizing some of these concepts.<s> The first set of concepts that we want totake a look at is the four conditions: where can the book be?<s> We say here that S stands forthe fact that the book is in the stacks.<p>
+
+(Refer Slide Time: 29:03)<p>
+
+This is again conciseness of notation instead of having to say the book is in the stackseach time around, just the notation of using a single letter for this namely S is going tohelp us understand this.<s> R stands for the fact that the book is on reserve.<s> Similarly Lstands for that the book is on loan which means the book has been already given out.<s> AndQ is the book has been requested.<p>
+
+(Refer Slide Time: 29:34)<p>
+
+The first formalization that we want to do is,  that  the book can either in the stacks onreserve or loaned out.<s> It cannot be in two places at the same time is what we are trying tosay.<s> Let us see how we can formally denote some of this.<s> The first thing that we aretrying to say here is that the book is in the stacks which means it is S and this ^ notationstands for AND.<s> If it is in the stacks then it cannot be on reserve or loan at that point oftime.<s> That is how you read this particular notation: [S<p>
+
+(RL)], S AND NOTofRORL.<p>
+
+Similarly, the next set of specifications tries to say that it is on reserve [R<p>
+
+(SL)],which implies that, it is not on the stacks neither has it been loaned out.<s> This means it hasbeen brought over some library counter somewhere and kept ready for the person whohad requested it.<s> Similarly the last specification [L<p>
+
+(SR)] essentially stands forL and NOT of S OR R.  This means, if it is loaned out then it cannot  be on the stacksneither it can be on reserve.<s> This is the set of specifications or  formal notation forindicating that the book can be either in the stacks or on reserve or loaned out,  but notany two at the same time.<p>
+
+The next bullet here is essentially trying to talk about how the book can be requested.The book can be requested if it is either on the stacks or it is being held in reserve for theperson who is requesting the book at that point in time [()QSR].<s> Remember anotation Q stands for the book being requested and L stands for the book being loanedand there is a differentiation between the two states.<s> Q implies S OR R in this particularcase.<s> So if the book is either on the stacks or it is on reserve,  then the book can berequested.<s> That is the implication of this particular notation.<s> What we are seeing here, is away of concisely putting together a mathematically notation around certain concepts thatare pretty familiar to us.<p>
+
+If you take a look at the English language specification of this,  they are fairly familiarconcepts; the notion of libraries, the notion of books being on stacks,  on reserve,  thenotion of loaning books or checking out books and so on.<s> What we have gone and doneto the set of natural language specifications or English specifications is,  just  convertedthem into a formal notation which we can then use and manipulate  for some programproving concepts  or some theorem proving concepts.<s> Now what we are interested indoing going forward is to basically write down a theorem to validate this specification.<p>

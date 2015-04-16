@@ -1,0 +1,19 @@
+(Refer Slide Time: 42:12)<p>
+
+Then we come to the conclusion of the project.<s> We  need  to make sure that we haveformal testing happening according to the plan.<s> Then you may have closer audits likeonce you have completed that particular project making sure that all the closing processeshave been performed to the last level of details.<p>
+
+Now if you  again look at the slide we have the process improvement.<s> Remember,wherever  you made a mistake correcting  the product is essential but correcting theproduct is not sufficient.<s> What we need to really do is to make sure that the processes arealso  improved as appropriate so that the subsequent users of the processes will notcommit the same particular mistake.<s> Now, to give you a brief idea about the VVT activityperformed  during the life cycle of a particular project, so in the requirement definitionphase what you do.<p>
+
+(Refer Slide Time: 43:13)<p>
+
+Here we have preparation of a VVT plan, project plan review, requirements review andpreparing  for  acceptance testing data.<s> These  are some of the things which you  canperform during the requirement definition phase; please understand that we are talking ofa phase.<s> Then during the system design what we do?We have design reviews.<s> As soon as you go to the next step you not only do verificationbut  you also need to do validation.<s> So you need to do design review including designvalidation preparing for system testing.<s> Of course another small activity like traceabilityis making sure that there is a one to one correspondence between the requirement and thedesign.<p>
+
+It is like not a penny less and a penny more, the design should not give you any featurethat the customer did  not ask for at the same time not forget any feature that wasspecified in the requirement.<s> So traceability becomes a very important issue.<p>
+
+(Refer Slide Time: 44:22)<p>
+
+Now we have the development phase.<s> During  the development phase what we  do?Construction  activity as you can say you  walk  through the codes.<s> Again  you haveverification and validation then preparing for unit testing then doing the unit testing,integration testing, system testing and obviously the regression testing as appropriate.<p>
+
+Remember, regression testing is the only part of testing which cannot be planned for upfront;  it has to be sort  of  taking  it as it comes whereas  all the other particular types oftesting like unit, integration, system testing and the rest all can be planned for.<s> Once yougot that the next particular thing is doing implementation.<p>
+
+Here implementation means putting the software into use.<s> So, the major responsibility atthis particular stage is the conducting of the acceptance testing.<s> Acceptance  testing is anotion you always have.<s> But it need not necessarily be done by the customer, it is to bedone on behalf of the customer.<s> Remember,  in acceptance testing  what is important  isthat the customer should get the confidence that the product that is being delivered to thecustomer is conforming to what its original requirements are.<s> It is very important that thesystem testing should not be mixed up with acceptance testing.<p>

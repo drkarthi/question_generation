@@ -1,0 +1,26 @@
+===========================================================
+Software EngineeringProf .N.<s> L. SardaComputer Science &amp; EngineeringIndian Institute of Technology, BombayLecture - 10Process ModellingDFD, Function Decomp (Part 2)<p>
+
+Let us continue with the data modeling topic.<s> So far we have seen the basic features  ofER model, where to use it,  what advantages it offers.<s> We studied the concept of entity,attribute and the key attributes.<s> We also looked at the relationship concept.<s> And then welooked at a simple diagramming notation through which you can show some entities,some relationships among them.<s> This is what we call an instance diagram and it is alwaysgood to draw an instance diagram to illustrate the understanding or to illustrate theconcepts we are modeling in our diagram.<p>
+
+(Refer Slide Time: 1:37)<p>
+
+Let us proceed further.<s> We were talking about relationship cardinality as an additionalconstraint on a relationship.<s> It tries to characterize the relationship more precisely byspecifying how many entities of one set may relate with another entity in another set as apart of the relationship.<s> So primarily by cardinality we are indicating how many entitiesin terms of one or more are related to entities from another set in forming a relationship.This is a very useful concept for binary relationships where two entity types or two entitysets are related.<p>
+
+(Refer Slide Time: 2:43)<p>
+
+If you consider a relationship named R between two entity sets A and B,  then what arethe possible cardinalities that we can indicate.<s> The first one is of type one-to-one.<s> Itmeans that one entity in A is associated with at most one entity in B.<s> Here it is a one-to-one relationship.<p>
+
+(Refer Slide Time: 3:13)<p>
+
+One-to-many relationship is where one entity in A may be associated with zero or moreentities in B.<s> When we go from A to B we may meet many entities from B which areassociated or connected through the relationship with the given entity in A.<p>
+
+One-to-many is also an indication that if we start traversing or navigating in the databasewhen we start from A we may reach multiple instances of entities in B.<s> This ischaracterized as one-to-many relationship.<s> Obviously in a given relationship like this, ifyou now go from B to A, then from one entity in B you would reach at most one entity inA.<s> One-to-many and Many-to-one are really the inverse of each other.<p>
+
+Then finally you have the many-to-many relationship.<s> In the many-to-many relationshipone entity in A may be associated with more than one entity  in B and also the reverse.Here one entity in A might be reachable from many entities in B and similarly an entityin B may be reachable from many entities in A.<s> This is a many-to-many example ofrelationship cardinality.<s> Let us look at some of the examples take the example calledteaches.<s> The teaches relationship exist from entity teacher and course.<p>
+
+(Refer Slide Time: 5:18)<p>
+
+We have a teacher entity  and  we have a course entity.<s> Between them we have theTEACHES relationship.<s> What is the cardinality of the TEACHES relationship?<s> Here weare saying one-to-many.<s> That is one teacher may teach many courses.<s> But if you go fromcourse to teacher, then it would be for a given course there is one teacher.<s> One-to-manyindicates that a teacher may teach many courses whereas the course is always taught byone teacher.<s> Obviously  as  you can see here,  the relationship is giving you moreinformation.<s> It tells you about how many entities are relating to each other in a givenenvironment.<s> The TEACHES relationship is from teacher to course we said, that is howwe understand it from the readability point of view.<p>
+
+The inverse of TEACHES relationship, that means when you want to go from course toteacher,  you may refer to name it as taught by.<s> But in the ER diagrams that we willdraw a relationship carries only one name, whether you go from one entity to another orfrom the other entity to the first one.<s> So the relationships will have the same nameirrespective of the direction you are traversing the relationship.The other example is the STUDY relationship.<s> The STUDY relationship exists betweenstudent and course.<s> What is the cardinality of this binary  relationship?<s> A little thoughtwill tell us that it is a many-to-many relationship.<s> What it means is that one student maybe studying many courses and one course may be studied by many students.<p>

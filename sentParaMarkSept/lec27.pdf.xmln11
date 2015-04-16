@@ -1,0 +1,7 @@
+There are  different types of program generators,  parses and lexical analyzers are veryvery common once that  you end up seen lex and yak.<s> are  the two common examplesthat you would end up using on building compilers so you would build a lexical analyzeror a parser; you would just write a grammar or you would write a piece of lex input andwhat the lexical analyzer now knows is it knows is how to recognize all those symbolsthat you have fed in as input.<s> Same thing is the parser; once it reads the grammar it nowknows how to parse anything that can be reconstructed out of the grammar.<s> So the parseris being entirely reused the notions of building an abstracts, syntax tree out of the parseris an algorithm and the algorithmic reuse that is happening at this point in time.<p>
+
+(Refer Slide Time: 23:30 min)<p>
+
+Also there are several cases where code is generated.<s> So, if you take a look at distributedobject technology which is a fairly new technology and core bugs is one of the standardsthat is available in the space there is something called an interface definition language incore bug.<p>
+
+An interface definition language allows you allows you to specify program interfaces in ahigh level specification language.<s> So, for example, a bank account has two functions thatare available  on  it:  one is a  withdraw function,  one is a  deposit function and  the  thirdfunction may be that of a  querying function to  find out what the available balance is  atany given point of time.<p>

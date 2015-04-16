@@ -1,0 +1,11 @@
+Now we would like to measure structure.<s> We just talked about measuring size,  variousaspects of size for software that is, it could be a length, in terms of functionality, in termsof complexity,  and you  could also want to measure the structure of your code or yoursoftware.<s> One interesting measure is McCabes Cyclomatic complexity  or it basicallymeasures number of regions in the flow graph or number of predicate nodes in the flowgraph: plus 1 or E minus N plus 2<p>
+
+(Refer Slide Time 30:07 min)<p>
+
+In this figure we have these arrangements.<s> You have predicate nodes or  decision nodesand you have four regions  or these also represent the number of independent parts thatyou can use in your testing phase and so on.<s> We have seen similar pictures in lectures ontesting.<s> This is one good measure that talks about McCabes Cyclomatic complexity.<s> Butyou can see that a program can be very large and still have same McCabes Cyclomaticcomplexity as a small program.<p>
+
+It is possible in the sense, for example it is useful in testing but it may not really tell youwhether the program is really complex or you may have a very big program, but it doestell you something about your decision nodes or predicate nodes or the structure of yourprogram.<s> And you can use this in testing because you can use this number of independentpaths and we have the coverage criteria derived from McCabes complexity.<s> Now we willsee how coupling and cohesion could be measured.<p>
+
+(Refer Slide Time 31:58 min)<p>
+
+There are different kinds of coupling as you see on the slide.<s> We have data coupling,stamp coupling,  control coupling and so on.<s> Through these various kinds of couplings,modules are interrelated or interconnected with each other.<s> So you would like to measurethis number of interconnections of different kinds of coupling or maximum of the numberof interconnection per module.<s> Say for example at most what the heaviest coupling is inthe entire system or average number of interconnections per module in the system.<s> Soyou can measure coupling through these number of coupling connections and you canalso look at cohesion.<s> There is one ordinal scale for cohesion.<s> So you have the functional,sequential, communicational, coincidental and different kinds of cohesions.<p>

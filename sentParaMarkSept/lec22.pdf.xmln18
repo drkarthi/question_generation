@@ -1,0 +1,13 @@
+(Refer Slide Time 37:06 min)<p>
+
+Reader is like a third party who presents this to the inspection team,  who presents thedesign, who presents the code etc to the inspection team.<s> This could be the same personas of the author.<s> Typically these are roles, remember not the people.<p>
+
+Scribe minutes the meeting.<p>
+
+Moderator essentially makes  sure that this is an impartial evaluation process andsomebody is not out there to get the author.<p>
+
+And process improvement person usually from quality assurance who is sitting there  totry and figure out whether the process  of inspection, the process  of  development,  theprocess of verification can be improved, can be made more efficient and can be made lesscostly and so on.<p>
+
+This is typically the roles.<s> So what is the check list of errors that one must have, that oneis checking for.<s> We are going to go through instead of example let us actually go throughthe different categories of inspection check list that we can have.<p>
+
+First category is what is called data faults.Data  faults  are typically those that can be checked  by a compiler.<s> It  may not besomething that is done through manual inspection.Remember, these categories can be applied both to the manual inspection process as wellas to an automated static verification process.So data faults are the variable initialized.<s> If it is not, then it could be likely result in somearbitrary error later.Have all the constants been properly named?<s> Are you using hard coded values or are youusing a constant?<s> This is a stylistic feature or a code style feature.<s> Instead of using hardcoded values, one must always use a name constant.<s> That is something that the compileris not going to catch.<s> It has to be caught by an inspection team.<p>

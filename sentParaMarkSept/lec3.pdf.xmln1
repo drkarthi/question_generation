@@ -1,0 +1,8 @@
+===========================================================
+Software EngineeringProf.<s> N. L. SardaComputer Science &amp; EngineeringIndian Institute of Technology, BombayLecture - 3Overview of Phases(Part 1)<p>
+
+We are discussing different phases in software development.<s> Let us begin bysummarizing what we discussed  in the previous lecture.<s> We studied the problemdefinition phase, with which we generally start our development life cycle, where we tryto state the problem clearly, try to characterize it and give a scope of effort and time tothe user.<s> The next step we  discussed was the feasibility step,  where we give differentalternatives to the user; we work out their cost and benefits, which may include both thetangible benefits as well as the intangible benefits.<s> And then we started discussing theimportant phase of requirements analysis,  where we specify inputs,  processing andoutputs.<s> Primarily we said that the requirement analysis phase goes outside in, where westart by looking at different outputs that the system has to provide to the users or differenttypes of interactions that the system has to support for the users.<p>
+
+(Refer Slide Time: 02:02)<p>
+
+Starting from the outside boundary of the software, we work towards the inside and try toidentify the inputs and the processing which is necessary to meet the functions of thesystem.<s> We said that the requirement analysis phase consists of meeting users finding outdetailed requirements as they  see them.<s> And in fact may be,  also study the existingsystems by following the various  activities which happen in the real world.<s> Since thisactivity is a fairly long drawn activity many people are involved.<p>

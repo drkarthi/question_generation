@@ -1,0 +1,9 @@
+(Refer Slide Time: 44:58)<p>
+
+And it shows if there are two subsystems end up interacting with each other then it canonly call methods or operations on the other subsystem in a predefined way.<s> Behavioralspecifications:<p>
+
+(Refer Slide Time: 45:03)<p>
+
+Algebraic specifications can end up becoming quite cumbersome  when the objectoperations are not independent of the object state.<s> The other thing is that simply byspecifying the set of operations,  it is not going to be enough.<s> What also needs to bespecified are, certain constraints on behavior that these operations can end up invoking interms of the internal state of the object.<s> For example any kind of arbitrary statemanipulation is not going to be possible.<s> To give a good example; Let us consider a stackwhich is a data structure that is used almost everyday in computer science applications.<p>
+
+The stack has four operations to it.<s> You can even create a stack, you can destroy a stack,you can pop an element of the stack, and you can push an element on to the stack.<s> Theseare the four very simple operations of that of a stack.<s> One of the conditions or constraintsthat  have  to be imposed as far as the stack is concerned is that,  you  cannot pushsomething on to a stack that is full.<s> Another condition or constraint that can be imposed isthat you cannot pop an empty stack, as you are not going to get anything back of that andit is an illegal operation to be done.<p>

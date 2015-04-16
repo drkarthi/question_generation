@@ -1,0 +1,23 @@
+Are the array bounds being met appropriately?<s> For example some programminglanguages always start array numbering from 1, other programming language like C startsfrom 0.<s> So is the array bound is array size  1 or array size itself?<p>
+
+Are the delimiters existent for all the character strings that are being used in the program,because if it is printed it may not print  it  appropriately?<s> This is something that testingmight be able to catch or testing may not be able to catch this as well.<s> So this is importantfor manual inspection.<p>
+
+So these are the kinds of data faults that one can look for.<s> Some of these such as variablesbeing used before they are  declared and variable not being initialized  etc  can be caughtthrough  a compiler or  by  a  static analyzer.<s> The rest of them typically have  to be donemanually.<p>
+
+Control faults are another category of faults that you can look for.<s> Control faults are forthe  things like  conditional  logic:  Is the condition correct?<s> Is each loop  certain toterminate?<s> Is there a possibility of an infinite loop under  different conditions that thisloop can be entered into?So in switch  statement,  are all  the  possible cases are accounted for?<s> Is there a defaultcase for a switch statement that is provided?Again  that is something that can possibly be  checked  by compiler.<s> A more intelligentcompiler can check for some of these things.<p>
+
+Third category is interface faults.<p>
+
+(Refer Slide Time 40:28 min)<p>
+
+In interface faults you  primarily check some simple things such as the number ofparameters, the formal types of the parameters matching the normal type parameters andso on.If there is shared memory access which is part of the interface then,  do all thecomponents have the same shared memory structure?<s> Do they have the same view of thatchunk of shared memory?<s> If not, then they could be talking at cross purposes with eachother.<p>
+
+Storage management faults are typically had to do with managing memory which is thefairly scarce  resource in most programs.<s> If  a linked  structure is modified for example,have you  appropriately released  the memory?<s> If you  are  using dynamic storage forsomething like this, are you releasing the memory?<s> In the case of the linked list, are youpatching up the pointers appropriately so that the linked list is still unbroken?That is the kind of storage management faults that you can look for.<p>
+
+Exception managements: If  a  function declares three or four exceptions as  part of itsspecification, then when you call that function are you making sure that you handle everyone of those exceptions that can arise from that?<s> That  is the question you have  to  askyourself.<s> Basically, are all exceptions being accounted for?<p>
+
+The next one is coding standards: Are you using the appropriate nomenclature?<s> Are youusing interCap naming for the functions, small letter naming for the variables or whateverstandard that happens to be within that organization?At the design level,  are  you using the patters that are mandated that you use within thedesign?<s> For example, is  the observer pattern being used?<s> Is  the singleton  pattern,  is  thefactory method being used to create new instances that have to be created and so on?<p>
+
+(Refer Slide Time 42:01 min)<p>
+
+Then there can be efficiency standard that you are looking for.Are you are you making efficient use of memory?<s> Are you making efficient use of theCPU?<s> Is there a better algorithm that can be used which uses lower amount of CPU forexample?<s> Are you using scarce  resources such as network bandwidth,  IO bandwidth,memory, CPU etc appropriately?<s> Are there better methods of doing this?These are some things that can also be checked for and be part of an inspection check list.<p>

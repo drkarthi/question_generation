@@ -1,0 +1,9 @@
+So the member id that we have entered is correct with respect to the system data then we willenter the books accession number,  the books title will automatically appear on the screenwe will verify that and then the system will indicate whether the request has been accepted orrejected.<s> Rejection  maybe for various reasons that we had identified earlier;  if acceptedactually more books may also  be issued to the same user.<s> So this is what these logicalcontents of the interaction would be for the issue transaction.<p>
+
+(Refer Slide Time: 25:36 min)<p>
+
+Now  we also indicate the preliminary user manual for the counter clerk who would do thisactivity and this preliminary manual as you see here will list various things that the counterclerk has to do.<s> It says that the counter clerk has to  enter the members id into the system,then check name displayed on the screen then if the system response is correct then the userwill enter accession number,  he will check the title of the book which is displayed on thesystem then if it is okay we will proceed further; then we will note down what is the systemsresponse; if the system has accepted the issue of the book the user is supposed to put a stampon the book.<s> Now these are all external activities; now these external activities also need tobe described in the preliminary user manual because this gives a clear idea to the library whatis the system responsibility and what is the manual activity that still needs to be done in orderto carry out this function.<p>
+
+(Refer Slide Time: 26:41 min)<p>
+
+Therefore, the system says that the book can be issued.<s> Now  the book has to be physicallystamped  with the date and then it has to be handed over to the user.<s> So this as you can seehere is a very detailed specification of this particular function and it is described to an extentwhich gives a clear idea of how the system will function.<p>

@@ -1,0 +1,13 @@
+(Refer Slide Time: 21:55)<p>
+
+When the condition evaluates to true you exit from this block.<s> So you use these formsbased on the  convenience  in your programming.<s> For example when you want to usewhile do if your processing a file, you want to find out whether the file has no data in it.So you may want to check while you have not reached end of file, you can do something.So,  when you know that you have to first check the condition before you get into thebasic statement,  which you have to loop over your data structure or your data or file orwhichever resource you are using, you use the while loop form.<s> So you first check yourcondition or precondition and then you go to the statement and then the condition againand then become a terminating condition.<p>
+
+In this way you can use these different formulations of repeat, but conditional repetition.Now,  we have this flow graph for the for  statement which you use in the free styleprogramming.<s> In C, C++ and Java also you have the for statement.<s> The for statementis as follows.<p>
+
+(Refer Slide Time: 23:08)<p>
+
+You have Ciwhich is your  initializer,  Ctis your termination  condition,  Cstis your stepand  S  is the statement to be repeated.<s> When we enter into this for  structure, we firstexecute the initialization condition Ci.<s> So first we initialize the variables in this initializer.For example you have simple for statement such as for i is equal to 0, I less than 10, Iplus plus do S means that you are doing something 10 times and your stepping up i is asimple increment of i.<s> So we are going to increment i  from  0  onwards and we  will seehow that is done.<s> This is your structure, this picture shows the flow of the for statement.<p>
+
+So entry into this for  block is at Ci,first  Ciis executed where you initialize yourvariables as per the Ci.<s> And then you check for this condition Ct, if it evaluates to true forexample if I less than 10 is true, then you go on to execute S, which is your statement thatyou want to repeat.<s> So after S is executed you execute the step Cst.Once you execute thestep, go back to check your terminating condition.<s> If that is still true, execute S again.<s> Ifthe terminating condition is false, then exit.<p>
+
+For example, when i is 9, and you execute S then step increases i to 10, then i less than 10is false and at the time you exit from the for loop.<s> So you have this single exit point andsingle entry point.<s> We can see that in this way you can conceive or  you  can  formulateyour  for  statement following the basic  idea  of structure programming of single entryand single exit.<p>

@@ -1,0 +1,37 @@
+(Refer Slide Time: 25:19)<p>
+
+When you are designing classes there are two kinds of implementation again.<s> One is forthe methods of the class itself and other part of implementation can be used by the subclasses of the given class.<s> So we have these private methods and protected methods orprivate attributes also and protected attributes also.<s> So  private and protected gives youtwo kinds of implementation one is for the specifying class only,  that  are  private andother is for specifying class as well as for its subclasses.<s> And the public compartment isthe interface which is accessible for the external environment or the callers of the class.<p>
+
+That summarized class level designs.<s> Now we will look at another aspect of class designwhich is part-whole hierarchy.<s> So you could have objects inside objects.<s> When you aredesigning  classes,  you have to take into account this break up of class into many parts.This picture summarizes what we are going to talk about.<s> You have objects inside objectsand when you have such entities, you can describe them using classes.<s> There has been alot of discussion in literature about this part-whole hierarchies and the part whole relationas such.<s> But we will look at one specific description given by Odell.<p>
+
+(Refer Slide Time: 27:00)<p>
+
+(Refer Slide Time: 27:32)<p>
+
+Odell applied these criteria to classify different kinds of part-whole relation.<s> There aremany kinds of part whole relation.<s> For example we can say that I am part of such andsuch department  or I am part of [unclear word 28:00]  or whatever this such and suchorganization or you can say that lamp is part of projector.<s> When one uses this keywordcalled part of, I am part of this country or a state is part of a country or the first hour partof a concert or first ten minutes which are part of a given lecture,  the last five minuteswhich are part of given lecture, what do you do?<p>
+
+So we are using this part-whole relation where we are using this term called part of.<s> Butthere are different kinds of part of relations and then there are consequences on the designand  implementation.<s> How you represent them in design and how you implement them?What are the semantics of a given part whole relation?<s> When you delete the whole are allthe parts deleted?<s> When you invoke a method on a whole is that method also dispatchedon to all its parts?<s> These are various consequences.<s> You have to find out what kind ofpart-whole relations are  you trying to design.<s> If you represent it properly, then you willbe able to seamlessly implement it and also if you have a powerful notation to describeall different kinds of part-whole relation.<p>
+
+So Odell described different kinds of part-whole relations through these three parameters.First is Configuration: Whether parts have functional or structural relationship with thewhole.<s> Say I have a bag.<s> In that bag there must be many items.<s> Now it is just a collectionand the items may not have any relation amongst themselves.<s> But if you have a car andits parts,  the parts are related they depend on each other.<s> Their  input  by  outputs areconnected.<s> So configuration is one important parameter to distinguish,  can be used todistinguish different part-whole relations.<p>
+
+Another property is  Homeomerous: Whether parts are of same kind of as that of thewhole.<s> You take slice of bread; the slice has the same properties of the bread, but it is apart of the whole bread.<s> Then another property is Invariance: Whether parts can beseparated from the whole.<s> These are important parameters which can be used todifferentiate or to distinguish between different kinds of part-whole relationship.<s> Wedescribe different kinds of part-whole relations and we will look in to six such kinds.But researchers have found many different kinds, say UML give you two main variationsof part-whole.<s> You can capture them using aggregation, composition.<s> But now we willlook at these six different kinds of part-whole relation to give you an overview of howpart-whole relation can be used in class level design.<p>
+
+(Refer Slide Time: 30:28)<p>
+
+Component-integral object:  It defines configuration  of parts within a  whole.<s> Forexample wheels are part of a cart or bristles part of tooth brush or scenes part of a film.Scenes they have a sequence, so the configuration has the structure.<s> The wheels are at aparticular place the  configuration is important.<s> The bristles part of tooth brush is  in  itsconfiguration.<s> Another example is Material-object (made of): It describes invariantconfiguration of part within a whole.<s> Car is made out of partly iron, but you cannot takeout iron from the car.<p>
+
+(Refer Slide Time: 31:30)<p>
+
+Bread is partly flour, but you cannot take flour from the bread or kheer is partly milk ifyou take the milk from kheer, then it is no more kheer.<s> So this is Material-object (madeof)  relation.<s> Then you have Portion-object: It defines a homeomeric configuration ofparts within a  whole.<s> Parts are also like the whole.<s> So  when you say you have ahomeomeric configuration, how will you translate it into your class if you have classes?<p>
+
+If there is homeomeric configuration, you are going to use inheritance over there.Examples: 1.<s> Slice of bread: Slice of bread also has similar properties as that of bread.<s> 2.Meter part of a kilometer.<s> Then you have Place-Area relation; which is homeomeric andinvariant configurations of parts within a whole.<p>
+
+(Refer Slide Time: 31:55)<p>
+
+(Refer Slide Time: 32:25)<p>
+
+Examples: Powai part of Bombay or Everest part of Himalayas or boundary line part ofcricket field.<s> If you are talking about a place and an  area, you cannot remove the placefrom the area,  you cannot separate it out.<s> Then you have Member-Bunch  relation:  Itdefines a collection of parts as a whole.<p>
+
+(Refer Slide Time: 32:47)<p>
+
+Examples: Tree is a part of forest.<s> Employee is a part of a forum.<s> Ship is part of a fleet ora person is part of an organization or is a member of  a  given club.<s> Then you haveMember-Partnership: Member  of relation is a different relation  and there is a slightlydifferent member of relation where the members are related to each other.<s> You cannottake out the members defines an invariant collection of parts as a whole.<s> Laurel  part ofLaurel and Hardy or Puriya is partner in Puriya-Dhanashri which is a classical Hindustaniraga,  where if you take out one,  then the raga breaks down.<s> So the members in themember-partner are also related to each other.<s> It is  an invariant  collection  of parts in awhole.<p>

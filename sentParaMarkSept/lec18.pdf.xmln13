@@ -1,0 +1,21 @@
+(Refer Slide Time: 46:03)<p>
+
+One can either do manual validation, but it is a very time consuming task.<s> You cangenerate all the data for a given test case and human being/testers  or probably theevaluators can go through each of the outputs that have produced during the test.<s> But it isa very time consuming task.<s> You can also do the same automatically through test oracles.One can develop these test oracles to automatically test and validate against what isexpected.<s> The testing strategies,  the test specifications and the catalogues are to bedocumented.<s> The plans are to be very well laid out and one has to organize entire testingphase.<s> As  we have seen right from requirements to completion of the entire systemdelivery, you have to carry out some or the other activities that are related to testing.<p>
+
+So what are the objectives of testing?<s> One can look at testing from functional point ofview, whether the software works correctly  or not.<s> This is one of our importantobjectives.<s> The most important objective is to look at the functionality of entire software.<p>
+
+(Refer Slide Time: 47:10)<p>
+
+Hence one should look at the input values and the expected results.<s> So functional testingis most important because we look at the basic functionality,  the correctness in thesoftware against the basic functionality expected out of the software.<p>
+
+(Refer Slide Time: 47:44)<p>
+
+Then you look at the performance,  whether the performance is acceptable  or not.Different performance parameters have  to be measured and tested against what isexpected as per the requirements.<p>
+
+So response time; how much time does the software take in order to complete a specificfeature.<s> For example, when you want to return a book in the library, how much time doesthe software take?<s> Does it take 3  seconds or 4  seconds?<s> This is the response time.<s> Theexecution time: This is typically the completion time of a given task.<s> Through put: This ishow many transactions are you able to carry out.<s> So the difference between response timeand execution time is that, in response time you are going to look at, when does the firstresponse arrive  at  to you and execution time is how much time it takes in order tocomplete your given transaction.<s> Throughput tells you how many transactions or howmany activities are you completing in given unit time.<p>
+
+Then space requirements; how much space?<s> How much memory is needed?<s> What shouldbe the disk capacity?<s> So  one can generate test and see whether you are exceeding yourspace limit or disk limit, spaces of different kind.<s> Then delay in communication.<s> If youhave communicating systems there could be intranet or internet or different kinds ofcommunication systems  may be used.<s> There could be hardware communication in yoursystem.<s> So all kinds of communication links are to be involved and you test forperformance of your communication.<s> Then you want to look at stress test.<s> So you test forthe effects of overload: How many users,  how many records  and  how many machines,does the system work when it is overloaded etc.<p>
+
+(Refer Slide Time: 49:55)<p>
+
+Then you look at structural testing,  you are looking at logical parts, branches etc.<s> Youtraverse them and test your software against the structure.<s> This is mainly the white boxapproach.<p>

@@ -1,0 +1,11 @@
+(Refer Slide Time: 29:57 min)<p>
+
+So  the component in this case can be considered,  let us  say this black box is  thecomponent  (Refer Slide Time:  30:10)  it has two sets of interfaces;  one is the set ofrequired interfaces as they call  it  and one is the set of interfaces that it provides  orprovided interfaces.<p>
+
+(Refer Slide Time: 30:42 min)<p>
+
+So, we can extend this to a particular example and this example can be that of let us say aprinting service component;  a printing service component and the case of a printingservice component  it has a required interface which is that of the printer so this is aprinting service which is a slightly higher level of abstraction and it requires the printerinterface itself because it has to eventually send documents into the printer and it is goingto provide interfaces which we will put out on the right side in this case where you canget the queue I will write it outside here so send document to print,  one can be cancelprint order and so on.<p>
+
+(Refer Slide Time: 32:08 min)<p>
+
+So here is an example of a printing service component which has a certain set of requiredinterfaces as well as provides  a set of interfaces that other people can use in order toaccomplish and task.<s> So the notion is that every time you want to have a service to printdocuments you do not need to build your own code to do this; you basically pick up thisprinting service document and embed  it  in the place that requires it and then use theinterfaces that are been provided on the right  side the provided interfaces and then youcan just call them appropriately.<s> You  of course need to make sure that the requiredinterface is also present.<p>

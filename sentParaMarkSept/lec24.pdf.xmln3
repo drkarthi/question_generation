@@ -1,0 +1,33 @@
+(Refer Slide Time: 11:05)<p>
+
+Now, in this particular lecture we will give you an overview of this SRS document.<s> Naturallywe will not be able to spend too much time during the presentation itself; you should accessthis material subsequently.<s> The course material will contain the details and you will need tostudy this in more  so that you clearly understand what is specified in the SRS document towhat extent  it needs to be specified and how challenging it is to prepare a good SRSdocument.<p>
+
+(Refer Slide Time: 11:46)<p>
+
+So let us now see the document itself.<s> We will show some important parts of this document.Here is the abstract; the abstract specifies the overview of the document itself.<s> It says that thesystem  to be developed will handle issuing of books to members of the  library.<s> The otherimportant associated tasks  are related to book claims and the fines,  the document followsIEEE standards.<p>
+
+(Refer Slide Time: 12:22 min)<p>
+
+So now, in the introduction section we will first specify the purpose that this purpose givesthe functional tasks that the users that the circulation system needs to implement, it also talksabout user interfaces and we will describe the main data involved in this application.<s> So thisis the purpose of the SRS document that we have briefly stated here; we define the scope insection  1.2,  this document acts as the baseline for requirement definition and any changesmust go through a formal change process.<p>
+
+Now, with software, generally we have a change management or configuration managementactivity  so we are indicating here that this is the baseline document this is the  this forms apart of contract, any change must be done formally and should be accepted by all.<s> The systemis a circulation system  whose main goals are briefly summarized here.<s> It  also mentions thatthe project includes an extensive data entry effort for all the books in the library.<p>
+
+If  any definitions,  acronyms need to be given they can be given here,  we can refer to thefeasibility document that we prepared earlier  and what are the risks; the developersresponsibilities?This  include design and implementation of system,  defining the formats for data entry andalso preparing the program for this purpose,  assisting the librarian in  buying the hardware,then installing the system and providing maintenance for the application for one year  theseare the clearly stated responsibilities.<p>
+
+(Refer Slide Time: 13:41)<p>
+
+(Refer Slide Time: 14:01)<p>
+
+Then we give the general description about the product.<s> The product is a standalone productthere are no external interfaces.<s> Then we summarize the functions of the product.<s> Here I willillustrate only a few but you can proceed on the similar lines and define all the otherfunctions which we identify.<s> So here,  since we are giving the overview we will just in oneline try to state the important functions.<s> These will be elaborated further in section 3  of theSRS which forms the body of the document.<p>
+
+(Refer Slide Time: 15:40 min)<p>
+
+You  should note here that it is possible to give all the summary functions,  summary in thesummary form in a short description.<s> As you would see here, now we will list the functionsof the applications we are building.<s> the first is to maintain the data about the members of thelibrary, these are the users of the library; to maintain the data about the books so new bookswill be added books will be if they become old or they are lost they will have to be removedso there is always some maintenance of master data that is involved.<s> So these two functionsaddress the maintenance of members data and the maintenance of the books data; then thebook issue is another important function.<s> Here we have noted that books are issued providedthe category and the type are correct and we calculate the due date taking into accountholidays.<s> Summer vacation is also treated as a holiday.<s> So,  in a few words we aresummarizing the essence of each function.<p>
+
+Then there is book return function at which time we will calculate fine if applicable, then wehave a claim processing function; we are saying that up to three claims can be put per bookand the user can put up to five claims,  books can be claimed only if they are issued.<s> If  thebook is currently in the racks then there is really no meaning in claiming the book.<s> Then wewill  be  supporting enquire and reports and finally we will be supporting the fine payment.And also if the books are lost their maybe some payment involved for that so all these detailsare broadly the main functions of the circulation application that we are developing.<p>
+
+So, in section 2 we have summarized them each of them in a few lines.<s> We then note the usercharacteristics.<s> We are saying that here the users are fairly computer literate and they will betrained but this will not be a challenging issue as such.<s> Then  any assumptions if they areapplicable can be written down here.<p>
+
+(Refer Slide Time: 17:03)<p>
+
+We  then come to the important part the specification part.<s> This  part will describe eachfunction  in details to such an extent that we will be able to design and code each of thesefunctions.<s> So it will describe the inputs,  the outputs and even the processing logic and anyother design constraints all of these will be specified in section 3 so functional requirementsshould be complete.<p>

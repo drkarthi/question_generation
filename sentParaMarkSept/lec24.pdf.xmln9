@@ -1,0 +1,39 @@
+Let us assume that SRS has been accepted, it has been formally signed off then we proceed tothe design phase.<s> The  high level design will consist of designing the software architecture,the files or the database and any associated manual procedures.<p>
+
+(Refer Slide Time: 35:10 min)<p>
+
+Since we are now going to put up lot of effort in design and implementation this is one moreopportunity for us to create  consider a few alternatives and if necessary do a cross benefitanalysis.<s> If we are considering alternatives we should probably do a full documentation ofthose and estimate the effort and prepare different implementation strategies which may beapplicable for each of these alternatives.<p>
+
+Once the design of the architecture, the database and the technical alternatives all these havebeen done we prepare the design document which we will not show in this particular case weleave it as an exercise but we had indicated what kind of format it has and this document willbe reviewed.<s> So we will now quickly take you through the different activities or  differentdesign goals that we try to meet during the design phase.<s> Once the document is prepared wewill have a technical inspection and management review as we reach the end of the designphase.<p>
+
+(Refer Slide Time: 36:20 min)<p>
+
+So  we now are going into the technical phase where we will try to create the softwarearchitecture and the database design.<s> For doing database design we will prepare the ERdiagram.<p>
+
+(Refer Slide Time: 36:43 min)<p>
+
+The ER diagram is shown here.<s> The two most important entities are the member and the bookbetween them we have the issue relationship and the claim relationship.<s> We can also createholiday as a separate entity; we can identify category of a member as entity, book type alsohas an entity and create one-to-many relationship between them.<s> So this is only showing theimportant  entities.<s> You  can complete this and show all the other entities and additionalrelationships.<p>
+
+Now  this  ER diagram then we will use for developing the database design.<s> Very often youcan do this through appropriate tools.<s> Going from ER diagram to the normalized  databasedesign is usually a straightforward activity and we can look at the tables or the relations in therelational database model that we will derive from the ER diagram.<p>
+
+(Refer Slide Time: 37:34 min)<p>
+
+In fact a simple thumb rule could be that for every entity we have one table or one file and forevery relationship also we have one file.<s> So  based on this we can prepare  the table design;table design is what we do for relational database packages.<s> So here are some of the tablesthat we will define.<p>
+
+(Refer Slide Time: 38:09 min)<p>
+
+We have a table storing  the members data which comes from the member entity,  tablesstoring the books data, the claims data the holidays data and the category details.<s> So thesedatabase tables can be identified as a normalized  database design.<s> Then  we have the booktype and issue.<s> So these are the various tables which are required in these applications.<p>
+
+Now this is the normalized design.<s> We will design the physical database from here which wewill take into account the performance requirement, which we will take into account how thedatabase is used  so that we can ensure that the performance will be better with respect towhere the data will be accessed.<p>
+
+Now this is generally called the denormalization kind  of an activity where we look at thenormalized database design and we made take some steps such as splitting a table orcombining a few tables so that by doing this we reduce the number of IO operations or thedisk operations that the application may have  to do and in turn  giving  us a betterperformance.<s> So we might look at splitting of a table so that the data which is accessed by thetransaction is kept minimum or we may merge tables in case a transaction requires data fromtwo or more tables.<s> We may factor out data into a single record from multiple records or wemay introduce additional fields; these are generally the summary fields.<s> So these are varioussteps you take in de-normalizing  database design and by doing this we try to make thedifferent actions or different activities faster as it gives us a better response time.<p>
+
+(Refer Slide Time: 40:31 min)<p>
+
+We will apply some of these in this case.<s> After doing this we will also have to decide on whatkind of file organizations and indexes we should create.<s> Now we have sufficient data here totake these design decisions since we have already identified how the data is used by differentactivities such as issue, return and so on; we also identify on which attribute the data will beaccessed.<s> So we have all the information in our SRS document to help us in doing a physicaldatabase design.<p>
+
+The important point here to note is not exactly what we are doing in the circulation case studybut that we can do all these activities because the data is captured in the SRS document andthere is a set of techniques that we can apply for each of these design stages.<s> We are doinglogical database design now we are doing physical database design.<s> For physical databasedesign we have certain acts  certain actions to be done based on the kind of data accesseswhich are made by different types of transactions.<s> So there is a place for all these steps in theoverall methodology.<p>
+
+(Refer Slide Time: 41:53 min)<p>
+
+So let us look at the library application and what we are doing in the physical database designhere.<s> Now remember that we had a member table.<s> Now, the member table contains data aboutmembers such as its member id, member name, and type and so on.<s> Here now we note thatsome additional attributes can be added and these are summary type of attributes.<s> Now theseattributes include number of books issued to the member, number of books he has claimed,accumulated fine for this particular member.<p>

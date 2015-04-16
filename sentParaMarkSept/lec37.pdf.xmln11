@@ -1,0 +1,9 @@
+Hence,  quality assurance and configuration management plans in their own right mayeither be separate plans or annexure of a main project plan or may be associated as somesections of the project plan.<s> The project plans basically have a specific objective.<s> It helpsthe managing of the software development activity;  it protects the configuration itemsfrom intruders and against accidental wipe out.<s> Of course protecting against intruders ismore difficult and protecting  against accidental wipe out can be done a little morethoroughly.<p>
+
+And last but not the least you will have to facilitate reporting on the state or stages of theproject.<s> So the project manager on an on-going basis in the project review will get a goodidea as to how the configuration management progress is being presented.<p>
+
+(Refer Slide Time: 47:11)<p>
+
+So, CMP basically specifies who, where, when, how etc.<s> All these will perform the CMfunctions.<s> In this particular aspect you will be having a configuration management plan.So,  the configuration management plan will typically tell you how to perform thefollowing activities.<s> First,  how do you perform configuration identification,  whatconstitutes an item.<p>
+
+Now take a simple example; again it is a little repetition, suppose we have six volumes ofa user manual do they constitute a single CI or is it six CIs and the answer is dependingon how you intend to use it.<s> If you always plan to keep all the six together and issue andcollect them or whatever you do with them together then it is a single item.<s> And in caseyou want to use them individually or they get modified individually then it becomes aseparate CI.<s> So you will have to answer many questions like you have a simple thing likeprograms specification, source code, you have an object code, you have a test data inputfiles, test data output files and so on and so forth.<p>

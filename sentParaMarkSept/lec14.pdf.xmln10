@@ -1,0 +1,13 @@
+(Refer Slide Time: 56:36)<p>
+
+Use  these  abstractions and then build  similar programming  which is  abstractprogramming.<s> But for your given problem domain you have to find out abstractions inthe problem domain.<s> How do you describe these abstractions?<s> You can use abstract datatypes, you can describe them into interfaces, and you can also describe the exceptions orthe exceptional behavior that the entity will project.<p>
+
+(Refer Slide Time: 57:48)<p>
+
+Suppose you are asking for a service and if the server is unable to provide that service,what is the behavior that you expect from server is also the part of abstract.<s> It is anexternally observable behavior exception that you are going to expect from server.<p>
+
+Messaging Protocols: What are the messaging protocols?<s> What we send first and what doyou send later and what is expected?<s> The protocol, handshakes are also can also be partof the high level view.<s> Contracts that are provided,  pre conditions and post conditions:When you ask for a service,  what are the parameters that are expected from you?<s> Andwhat is guaranteed to you in return?<s> Pre conditions and post conditions  are also part ofcontract or abstraction of the given entity.<s> The next one is principle of encapsulation.<p>
+
+(Refer Slide Time: 58:35)<p>
+
+Encapsulation talks of hiding lower layers.<s> This is for security and also for enforcing theabstraction.<s> You would hide lower layers on top of the higher level.<s> Examples ofencapsulation is local state within local scope, non exported or invisible variables, privatemember functions in your classes or in your object oriented program.<s> So encapsulation ismanifest.<s> You want to hide something to project the external abstraction that you havethought of to the user and the internal implementations are hidden.<s> You have to enforceit,  it  is not enough to simply implement the abstraction,  but it is also required that youenforce the abstraction through the principle of encapsulation.<s> Refinement: Iterativerefinement of a given concept should be easy to achieve without much redo work.<p>

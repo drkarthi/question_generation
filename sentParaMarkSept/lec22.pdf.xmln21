@@ -1,0 +1,11 @@
+(Refer Slide Time 44:34 min)<p>
+
+Static analysis checks: Data faults.They can check using before initialization:  very easy check to  performautomatically.<s> So, variable is used before it has been initialized.Variable is declared,  but never used in the program.<s> This  can be pointed out bycompiler or a static program checker to say that, you are declaring this variable, but notusing it anywhere, so why dont you get rid of it as it is just occupying the memory.It is assigned twice.<s> Say,  X  =3  and  X  =4;  the first assignment is effectivelyuseless.<s> If before it is used anywhere, if another assignment is being made, then the firstassignment can be completely bypassed.<s> So that is a check that can be done.Array bound violations.<s> In some cases this can be done statically, in some casesyou cannot do this,  because if it is completely dynamic in nature then static programchecker is not going to help.<p>
+
+Similarly,  we have control faults;  interface faults which are  the same category of faultsthat we saw in the inspection check list can to some extent be automated.<s> Whatever canbe automated through the use of the software tool falls under the static analysis checks.<p>
+
+Then,  simple things like in  interface  fault; when there is a mismatch in the number ofparameters, let us say,  this function foo  has been specified as taking in 4  inputparameters and when you are  calling it,  you are only giving 3  and  there  is no defaultvalue for the fourth one that foo accepts.<s> It is an obvious error.<s> And there can be typemismatch also.<s> For example, the function foo is expecting an integer value for the firstparameter, what you are passing it is a floating point value which cannot be cast down toan integer value.<s> Type mismatches can be easily caught as well.Just like you have unused variable,  you can have unused function.<s> Say,  you  aredeclaring a function and  implementing the function never called anywhere within yourprogram,  do you really want a keep this function or  move it to be part of some librarywhich makes more efficient use of the space?<p>
+
+(Refer Slide Time 46:36 min)<p>
+
+The stages of static analysis are, there can be control flow analysis, and data use analysisand interface analysis.<s> And corresponding to the kinds of faults that it is checking for, allof these can be used.<p>

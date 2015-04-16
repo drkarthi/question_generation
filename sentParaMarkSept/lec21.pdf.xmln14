@@ -1,0 +1,9 @@
+(Refer Slide Time 47:44 min)<p>
+
+This is your sample make file and you can do the man page of make file and find outthe format in internet or you can download examples from internet or send me an e-mailif you want have these samples.<s> Then how do you organize your code?<s> You usecomments;  follow conventions for names of variables,  constants,  classes  and  functions.For example class names could start with capitals,  variable names need not start withcapitals,  and then  constants can be written with all capitals, interfaces can start with acapital I and then the interface name and so on.<p>
+
+(Refer Slide Time 48:00 min)<p>
+
+Once you follow these conventions, stick to them so that you follow them uniformly andyour code becomes easier to understand and it can also be understood by someone else.Once the conventions are known it  is easy to follow the code.<s> Then use properindentation,  the print out should look good  and this  is  very  important.<s> There are manygood guidelines for different languages.<s> You can look at some of these and try to followgood indentation for your code so that the code should look good.<s> When you take a printout it should be good so that it will be easy to follow the code.<p>
+
+Then, when you develop, try to develop your test cases first.<s> When the software is goingto be handed over to the customer, how will the customer test?<s> Imagine yourself in therole of the customer and try to list the tests that you are going to plan or the test that youare going to carry out on the software.<s> So write test cases first and that gives a very goodview of what is required or what you are going to do with software.<s> At any point of time,let your code be executable.<p>

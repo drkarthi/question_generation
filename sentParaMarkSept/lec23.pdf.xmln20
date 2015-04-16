@@ -1,0 +1,11 @@
+(Refer Slide Time: 45:24 min)<p>
+
+So we build on that and now go into more details and also identify how the things can bedefined for the proposed system,  in terms of the basic activities required by the library.As we do this, we will collect lot of data and we will compile a list of all specificationswhich relate to data elements in the input, data elements in the outputs, computation thatneed to be performed such as how do you calculate fine.<s> And is the rules for fine samefor all different types of users.<s> All  these details will be noted down in some kind of arepository as we investigate the problem now in more details.<p>
+
+At the end of requirements analysis,  we will prepare the requirement specificationdocument which as we had said earlier is the first base line of the project which is one ofthe most important document which tails the user, a kind of system that will develop forhim.<s> After the SRS is done,  we will have a review of that SRS with the users and alsowill have a peer review where other analyst  would examine the format as well as thecontent of the SRS document from its completeness and consistency point of view.<p>
+
+(Refer Slide Time: 46:53 min)<p>
+
+At all the time we must work at the logical level.<s> We must understand what needs to bedone and we should eliminate those aspects which are implicit which are beingimplemented in the current environment, which is the manual environment.<s> We would benaturally changing some of them.<s> So what is more important is what needs to be doneand not focus on how things are being done today.<s> As we go in more and more details,talking into users,  following through the various manual operations,  examining thevarious data which are kept in files or cards or whatever, we have to systematically storeon the findings and also creates models through which our understanding can be properlyrecorded.<p>
+
+So we may use data flow diagrams, we may use some kind of a data dictionary tool.<s> Thistool is an ideal tool for recording various descriptions.<s> Lets say what does an inputconsist of, what does an output consist of, what is the particular computations?<s> All thosedetails can be stored in a good data dictionary tool.<p>

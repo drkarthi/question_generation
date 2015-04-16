@@ -1,0 +1,27 @@
+(Refer Slide Time: 50:15)<p>
+
+Then you have security test where you look at the security that is offered by the givensoftware.<s> Say for example, you may have password based security and you test whether itworks.<p>
+
+(Refer Slide Time: 50:25)<p>
+
+Then you also have to test against the penetrative usages.<s> Is the system designed in such away that the hackers are trapped or are there possibilities that there are trap doors?<s> Arethere  any  different loop holes in the system  where  the basic security can be violated?Hence different kinds of security test are to be conducted with these objectives, the testplan for module and subsequent integration test is made.Then we hear these two terms alpha testing and beta testing quite often with respect totesting scenario.<s> What is alpha testing?<s> It is typically conducted at developers site by acustomer.<p>
+
+(Refer Slide Time: 51:15)<p>
+
+Developers observes while the software is being used at developers site and the test arein controlled  setup at the developers site.<s> Beta testing occurs at users  site.<s> Software orthe product is shipped at end user sites and many customers may test the product duringactual usage.<s> We have  these two terms called alpha release  and beta release  associatedwith these two different phases in the products lifecycle.<s> So one can say it is alpha testedor it  is beta tested and so on and so forth.<s> So beta testing is typically live testing atcustomer side on live data.<p>
+
+Then we will have a couple of points on debugging.<s> Debugging follows testing and theresults are assessed and if they do not match the expected,  the cause of the bugs or thecause of this mismatch of expected from what was observed is to be fixed.<p>
+
+(Refer Slide Time: 52:10)<p>
+
+And various debugging aids can be used.<s> For example, one can have memory dumps orprogram monitors which we  have seen earlier  or  checkpoints and logs.<s> There are toolsavailable called debuggers.<s> There are common debuggers which can be used on a specificexecutable format.<s> But the executables can be produced through different programminglanguages.<s> Or you could have debuggers which are integrated in developmentenvironment for the given language.<p>
+
+There are different debugging tools  available and they provide some of thesemechanisms.<s> So debugging is an important phase where one has to carry out bug fixingafter the testing is done.<s> Then probably after debugging, again you carry out test and seewhether you are now following all specifications,  whether  your test are generating thecorrect expected output.<s> Some related issues in testing are listed below.<p>
+
+(Refer Slide Time: 53:23)<p>
+
+Testing is not really an activity that starts only after implementation.<s> It can start earlywith software test plans based on the requirements.<s> Besides implementation that is code,outcomes of other life cycle phases are to be validated or are  verified formally.<s> Forexample, a requirements analysis or design document may be validated through peer orcustomer reviews.<s> And models may be verified through model checkers  if formalmodeling techniques are used.<p>
+
+And there is another aspect of testing or another new view  that software practitionershave found is driving development by test cases.<s> That is called test driven development.What is advised there is that, one can create the test suite first and then you carry out thedevelopment.<s> So first you get the test cases and then you carry out the development.Once you look at the test first, you are most sure about what you are going to expect.<s> Sothis is called test driven development.<s> These are some of the recent views on testing.<s> Inthis talk, we have seen different testing strategies, we have gone through black box/whitebox testing,  regression testing and different issues relate to modular testing,  testing ofmodules, top down and bottom up integration strategies and we have also seen differentkinds of program monitors and discussed various related issues.<p>
+
+Thank you.<s> 

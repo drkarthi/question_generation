@@ -1,0 +1,17 @@
+(Refer Slide Time: 54:10)<p>
+
+So look at the first particular thing.<s> The  chart shows a Pareto  chart.<s> What  is  a Paretochart?Basically it takes all the defects that we have observed and it  tries to classify them andarrange these categories in increasing or decreasing order usually in decreasing order andit will tell you that the top few categories are something that need your  attentionimmediately.<s> In our particular example the login problem seems to be the most seriousproblem followed by the system lock up or whatever the implication of this particular jobis.<s> Another way of doing it is to look at the control charts.<p>
+
+In the control charts using the statistical techniques we have the control limits namely theupper control limit and the lower control limit associated with the mean and you keep ontracking the various parameters overtime.<s> Take  a simple example;  suppose  we  arelooking at the number of faults reported per program as the programs keep on coming into the configuration manager  and we go on plotting  for each subsequent particularprogram the number of defects that we have detected and corrected will give you a chartof this particular type.<p>
+
+(Refer Slide Time: 55:38)<p>
+
+In case you find that your particular point goes outside so if you were to look at the slideagain if one of the points was to go outside the control limits then you will need to payattention to find out what really was  the reason why the point went outside.<s> There arealso other indicators  for instance you say that in  case you had seven  points inside thecontrol limits but on the same side of the mean then it is a danger because probability isthat this situation is very rare and then you will have other particular problems.<p>
+
+(Refer Slide Time: 56:13)<p>
+
+Another very useful technique is that once you got this particular thing you use fishbonediagrams.<s> In fishbone diagrams suppose you have a particular problem and the problem isthat the  user cannot get into the system and now we try to find out that this particularproblem can be attributed to what.<p>
+
+Basically  here we have four categories  like;  training,  systems hardware, the usershardware and the software.<s> Then we can look at it an each particular item that we get asthe reported problem can be put into one of the categories.<s> The user did not reset thepassword is a very good example where good  training might solve that  particularproblem.<s> Or  user keeps forgetting the password again we have another  particular issuemay be for training.<s> Or the users hardware may have inadequate memory or disk spaceor the processor may be too slow and because of that persistently the user may keep onencountering such a particular problem.<s> Therefore you can go on and on and on.<s> Butbasically the technique helps  you in identifying the major categories of a  particularproblem.<p>
+
+So we can summarize now and say that the quality management processes are aimed atensuring that the quality is delivered to the customer.<s> Among the three sub processes thatwe studied  the quality planning process is the most important and then of course theimplementation that is the quality assurance process and the quality control process.<s> 

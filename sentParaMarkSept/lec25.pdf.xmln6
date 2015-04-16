@@ -1,0 +1,5 @@
+We will just briefly take a look at the observations  or  the laws that they came up withthey are called laws of program evolution.<p>
+
+(Refer Slide Time: 12:14 min)<p>
+
+The first one is that of what is called continuing change and what this is primarily tryingto say is that any software that does not have to change after it has been deployed is reallygoing to become useless  very quickly in the sense that the environment in which thesoftware  runs  is pretty dynamic always almost always in the context of large systemsbecause things are changed,  business rules are changing,  architectures  are changing,hardware platforms are changing, software platforms are evolving so you may move fromlet  us say Windows  98  based system to a Windows  XP  system you may move from aLinux 2 system to a Linux 3 system and so on and so forth.<s> The database versions changeon which the systems run and so on.<s> So there is constant change around the software andthe software typically has to react.<p>

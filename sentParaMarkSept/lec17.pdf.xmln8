@@ -1,0 +1,45 @@
+So the unified process  model approach of architecture is very close to this 4+1  viewmodel.<s> Here the focus is on iterative refinement of architecture.<s> An architecturedescription is an extract of the model sub system.<s> So if you use UML for modeling yoursystem, you may have many models such as use case model, analysis models, designmodels, deployment model and implementation model.<p>
+
+(Refer Slide Time: 44:25)<p>
+
+When you are modeling your system,  you extract important aspects from these modelsand you have architecture.<s> So that is one view point on architecture.<s> This contains onlyarchitecturally significant use cases.<s> When you are talking of architectural system you areonly extracting architecturally significant central use cases, whereas final use cases modelmay  contain all the use cases.<s> Similarly architecturally important design aspects fromdesign model you can extract.<s> And final version of architecture is extract at the end ofelaboration phase of your software lifecycle.<s> So  this is the unified process approach toarchitecture and architecture gets developed iteratively during the elaboration phase.<p>
+
+(Refer Slide Time: 45:45)<p>
+
+So the  focus for the architectural team is on significant structure elements.<s> You aretalking of sub systems important classes  and  components involved.<s> Here as you refineyour architecture,  you might refine your use cases and accordingly might refine yourarchitecture.<s> This is another important aspect of architecting systems or this is oneapproach to architecture.<s> Now we are going to look at some of the commonly occurringarchitectural patterns  which you see in different and almost in all of these architecturalapproaches.<p>
+
+(Refer Slide Time: 46:20)<p>
+
+We are talking about structuring your  components in the architecture.<s> For example youmay have layered architecture, you may have peers, client servers, pipelines, filters, blackboard, faades, brokers, model view controllers, microkernel, reflection and so on.<s> Theseare some of the important architectural pattern, just as we have design  patterns for adesign at class level, like how classes are put together through inheritance,  aggregationand different relationships.<p>
+
+Similarly this is mainly about high level organization of your modules, sub systems, thestructure amongst high level packages or high level entities.<s> These are some of thecommonly found patterns in architectural documents or in architectural examples.<s> Forexample you have seen these layered systems  often  and  you can build a layeredarchitecture of a given system.<s> Here is an example of operating system architecture.<p>
+
+(Refer Slide Time: 47:31)<p>
+
+In the top level you have applications which access system calls  in the second layer.<s> Inthe third layer you have the kernel upper half.<s> In the fourth layer you have the kernellower half and the base layer you have the hardware.<s> This is the layered architecture.<s> Thetop layer has the higher abstraction than the lower layer.<s> The top layer accesses the lowerlayer.<s> And any given layer,  let us say you talk about system calls,  it accesses or it useskernel upper half and it gives an interface to applications.<s> This is the way to  structurelayered architecture.<s> You can decompose your system in terms of layers.<s> Another way todecompose your system is in terms of peers.<s> For example you have a LAN on these thereare many machines.<p>
+
+(Refer Slide Time: 48:40)<p>
+
+From any machine you can access any other machine.<s> You can deposit files say frommachine 1 to machine 4 or machine 4 to 1 or 2 to 3 or 3 to 2 or 3 to 4 and so on.<s> So youhave peers which are sharing data amongst themselves.<s> This is peer architecture and not alayered architecture, because you do  not have layers sitting on top of each other.<s> Youmay have client server architecture,  where the client  component  accesses servicesprojected by the server, services offered by the server.<s> Say you have a diskless machinewhich uses a remote file server or a students machine which uses a central file server.<p>
+
+(Refer Slide Time: 49:06)<p>
+
+For example, web services or the web servers.<s> The same idea is applicable to differentcontext.<s> You may have a client server model on a LAN or even on internet which is yourweb service model or at the low end you may have it even in a sequential program, whereyou are talking about a client object and a server object within a program.<s> But when youtalk about client server mainly,  your focus is on distribution aspect and the decouplingthrough different processes<p>
+
+Then you have pipelines where you have stages one after the other.<s> Say in a compiler youhave lexical analyzer,  then you have syntactic  analyzer,  you have code generator,  codeoptimizer and so on.<s> These are different phases, so you have pipeline architecture.<p>
+
+(Refer Slide Time: 50:18)<p>
+
+You could have transactional flows.<s> In an academic system,  say  for example, onlineacademic network in university.<p>
+
+(Refer Slide Time: 50:34)<p>
+
+Let us say, first the student pays the fees or you take a note of the fact that the student haspaid the fees through the bank and then one can obtain the identity card.<s> After that theyhave two transactions; one can subscribe to the mess or go on to course registrationsimultaneously.<s> So you have these  transactional flow and dependencies.<s> Then you mayhave filters in your system.<p>
+
+(Refer Slide Time: 51:14)<p>
+
+Say you have an email receiver,  there is a virus filter which filters viruses fromattachments and then you have a spam filter which filters unwanted emails or spam andthen you have a local dispatcher which dispatches the email received at the localdispatcher end to local machines and users.<s> So you have filters in your pipeline.<s> Some ofthe components in your pipeline are filters not transformers.<s> Here  is an example ofblackboard architecture.<p>
+
+(Refer Slide Time: 51:53)<p>
+
+Say in a parallel computing scenario, where you are having a shared memory,  you mayhave a shared task space in which the task generators deposit task and from which thetask executers pick up the task.<s> They execute them and then they deposit the results on tothe shared results  space.<s> We have this shared task space and shared result space as twodifferent black boards which are used by generators and executers simultaneously.<s> This isa shared memory or shared space architecture.<p>

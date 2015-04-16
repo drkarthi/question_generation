@@ -1,0 +1,9 @@
+In this lecture we are going to look at some of the basics of measurement and look at themotivation and  various measures and some important properties associated withmeasurement so that we will have good introduction to measurement.<s> And then we willalso look at, how you can organize your process and how you can use some of the goodpractices which are known in the software community or which are well  established asgood practices.<p>
+
+First we will take a look at different aspects of measurement.<s> Which one is goodmeasure?<s> That is the question which comes to our mind.<s> Lines of code - Is it a very goodmeasure?<s> Will it capture everything that we just said?<s> For example, consider you have athousand line program and a five hundred line program.<s> Can you say that thousand lineprogram is more complex than the five hundred line program?<p>
+
+(Refer Slide Time 10:00 min)<p>
+
+So  how can we use this measure?<s> This is the measure  -  LOC:  Lines  of  Code.<s> Thisdefinitely tells you about the code size in terms of number of lines, but does it reflect onhow good the code is?<s> How complex the code is?<s> Is it high quality code?<p>
+
+Can you say that the thousand line program is a high quality code and a five hundred lineprogram is a low quality code or can you say that thousand line program is more complexthan the five hundred line program?<s> You cannot make these statements but you can saythat thousand line program is larger than five hundred line program in terms of number oflines.<s> So LOC is a measure, it tells you about the length of the code,  maybe you canassociate this with time required to understand the code.<s> Say if I have one million lines ofcode, I can have some estimates from that number and if I know that I have hundred lineprograms,  I  can  have some estimates about the efforts  required,  the time required tounderstand this one.<p>

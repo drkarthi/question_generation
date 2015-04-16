@@ -1,0 +1,9 @@
+(Refer Slide Time: 48:48)<p>
+
+Continuing the exercise which was mentioned earlier,  you should now identify thedifferent relationships which may exist in the hospital example for which you hadidentified entities earlier.<s> This will clearly explain to you whether the concepts that wehave discussed, you understand them properly or not.<s> So you should try to work out thisexercise and identify entities and relationship in a hospital example.<p>
+
+Let us next  see how we can depict the relationship,  how do we visualize it.<s> It is  veryimportant concept and often mistakes are made in understanding and modeling arelationship.<s> First we will try to see how we can show a relationship in some simplediagramming form.<s> We will show entity set as a collection, we will show entity instancesby some small circles within those collections and we will show the relationship byconnecting the entities which are involved in the relationship.<s> We will use a simplediagramming notion to understand the important concept of a relationship.<s> Here is theexample which shows the STUDY relationship.<p>
+
+(Refer Slide Time: 50:03)<p>
+
+You will see an entity set here.<s> This entity set is the student entity set and here are fourstudents shown.<s> These are the instances.<s> This is the entity called Ram, an entity calledSita etc.<s> This is a course entity set.<s> We have listed a few courses here, like a course ondatabase management system,  a course on data structures.<s> These are the instances ofcourse,  these are the instances of student and now we want to capture the STUDYrelationship between these.<s> These  STUDY  relationships are shown by small rectanglesand by connecting the two entities which are related.<p>

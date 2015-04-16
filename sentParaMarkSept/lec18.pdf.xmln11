@@ -1,0 +1,27 @@
+When you are testing something, what are you going to monitor?<s> Typically monitoring isimportant during the debugging phase.<s> If you find that there are problems with youroutputs for a  given test case,  you may insert these program monitors, so that you cancatch a bug.<s> Or  during testing itself you add monitors and generate from  the values,  sothat you dont need to repeat.<s> You can save on some time.<s> We are going to look at thesemonitoring techniques.<s> Different kinds of software probes are used for monitoring ofprograms.<s> They are classified as documentation probes,  standard error probes andexceptions, and assertions for defensive programming.We will look at them one by one.<p>
+
+(Refer Slide Time: 38:18)<p>
+
+So you could have different documentation probe such as counters for loops, traces ofvariables:  how variables change their values,  logs for different function calls:  howfunctions are called, what is the sequence in which they are called.<p>
+
+(Refer Slide Time: 38:33)<p>
+
+Then contents of messages:  if you are having say message passing between processes,objects, then  we are going to look at what are the contents of messages that you arepassing on.<p>
+
+Then there could be sensors for specific conditions.<s> For example,  when minimum isreached or maximum is reached  or  last index is reached and so on.<s> These are differentdocumentation probes which can be inserted into the program.<s> And standard error probesand exceptions can be used.<s> Standard error probes such as divide by zero,  array out ofbound,  access on un-initialized variable or parameter argument mismatch,  typemismatches might be available in a programming environment.<p>
+
+(Refer Slide Time: 39:20)<p>
+
+Some of these error probes are standard.<s> They are given to you by the programmingenvironment.<s> But if they are not given one could implement exceptions which are userdefined  at  higher levels.<s> So if the programming environment does not support standardprobes, user defined probes can be injected as exceptions.<s> Then there is another importanttechnique called assertions.<s> It is used as a defensive programming technique.<s> What is anassertion?<s> An assertion is a statement in the program for monitoring a specific conditionduring a programs execution.<p>
+
+(Refer Slide Time: 40:00)<p>
+
+Assertions of different kinds may be used to check whether given condition holds  at aspecific point in execution trace or throughout the specified scope.<s> So what does thatmean?<s> Let us look at an example.<s> There are two examples at the end of this slide.<s> Firststatement says that the value of A+B  should be greater than 12.<s> So one might say thatwhen the program flow,  during execution reaches this assert  statement,  at  that  point oftime  A+B  should be greater than 12.<s> If it is not,  then there is some problem in theprogram.<s> The error should be detected.<s> Hence one could have this assert  statementwhen the programs are under development.<p>
+
+When everything is tested well, validated against expected behavior and bugs are fixed,assert statements could be flagged off or could be removed from the programs.<s> Anotherexample of assertions is the last line in the above slide, the second example.<s> Assert  i  isgreater than or equal to zero and i less than ten (i&gt;=0, i&lt;10) in a given loop.<s> So value of ishould be 0  to  9.<s> If by some mistake,  value jumps beyond this range, then  there is aproblem and failure must be reported.<s> So assertions are used as defense against errors.<p>
+
+Defensive programming: When you are developing, if you first start with assertion, manyof the bugs in the program will be caught early.<s> So the idea is to start with assertions first,injective assertions at appropriate places in your code.<s> And then you write the code for agiven object or for a given module  for  a  function.<s> So we can have different kinds ofassertions.<s> For example assertions can be used as preconditions on inputs.<p>
+
+(Refer Slide Time: 42:10)<p>
+
+So when you have different inputs for a given function, you check whether the inputs arein a valid range.<s> You assert for the validity of the input.<s> You write an assertion or theassert statement in the program.<s> Different programming languages provide  certainsupport for assertions.<s> For example C  has the macro called assert.<s> You can useassert.h and write assert statements, embed them in your program whenever required.<p>

@@ -1,0 +1,13 @@
+(Refer Slide Time: 24:49)<p>
+
+We must remember that SRS is a logical document; it specifies the requirements, withoutdictating how those requirements must be implemented.<s> Design phase is the first phase inwhich we make a transition towards the solution.<s> Different alternatives may be available.These are primarily technical alternatives,  what kind of technology we should use forsolving the problem.<s> Now after this point we are going to increase our efforts from phaseto phase in order to build the software.<s> It is important to review at this point once againwhether the automation boundary that we have defined is the appropriate one or not.<s> Sowe look at not only the different types of solutions which may be possible based on thetechnology options, but we may once again consider the business functions which needsto be put in the scope of the system.<p>
+
+We also consider what type of solutions to create, whether they would be batch or onlinetype of solution, including whether we should make the software or buy something whichis readily available in the market.<s> In fact these are different alternatives in order to realizethe goals which have been stated in the SRS document.<s> So this is a point at which againwe consider different alternatives and these alternatives may have different costs anddifferent efforts.<p>
+
+(Refer Slide Time: 26:22)<p>
+
+They may need different time to complete the project.<s> So it is important to consider thesetechnical alternatives once again.<s> Whereas, in the feasibility study we did considervarious alternatives which were primarily based on business alternatives, now weexplicitly consider additional technical alternatives.<s> We are doing it again because wehave a very good understanding of requirements now.<p>
+
+(Refer Slide Time: 27:02)<p>
+
+We have completed the requirements specification.<s> This is appropriate point to considerdifferent technical alternatives.<s> The purpose of coming up with different alternative is toprovide user different options,Which  may be starting from low cost options to medium cost,  high cost options.Naturally,  giving different cost effectiveness,  different benefit to the user,  in terms ofmeeting overall requirements.<s> For each alternative we prepare a system specification weprepare implementation schedule.<s> And if necessary we carry out the cost benefit analysis,because the costs are going to significantly rise from this point onwards.<s> Since weunderstand the scope better now, we will be able to do a better cost benefit analysis at thispoint.<p>

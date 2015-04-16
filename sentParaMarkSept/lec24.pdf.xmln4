@@ -1,0 +1,31 @@
+We will first describe the various data stores that we have analyzed.<s> Recall that for each datastore we had identified all the attributes  so they will be described here.<s> Then each functionwill be described.<s> The  functions are issuing,  returning and so on each of these will bedescribed in full details.<s> So here we are giving some details of the book issue function.<p>
+
+In  the book issue function we are saying that we will be giving  the members id andaccession number and then we will check the following conditions that the type of the book ispermitted for the member,  the member has not finished her quota of the books;  there iscurrently no claim on the book by any other member.<s> So if this is correct then the book canbe issued and we will record it and the due date will also be calculated.<s> The date due date willdepend on the category of the member and the book type.<p>
+
+(Refer Slide Time: 18:22)<p>
+
+Holidays will also be taken into account and the claim list will be adjusted when the book isissued.<s> So this way we describe all the other functions of the library and we will not go intothe details of these; we will leave it as an exercise for you.<p>
+
+Next we also specify the performance requirements.<s> Now, performance requirements can begiven in two ways by indicating what are the static or the load requirements and what are theresponse time requirements for the different types of activities that we perform.<p>
+
+So we indicate here that the system will have three to four terminals,  there will be fourconcurrent users,  may be a few library clerks and few terminals will be given to users formaking enquires directly by themselves.<s> There are different types of files that we havealready identified for the different data stores so we can then use their volumes.<p>
+
+For example, here we are indicating that we have about 2500 members, 2 lakh books and atany time generally 50000  books are issued.<s> Now all these figures are important from thesizing point of view.<s> What  will be my requirements for the disk storage;  what will be therequirements for my CPU and the main memory and so on based on which I can do the sizingformat system based on the performance requirements.<s> These are load requirements then wecan indicate performance requirements.<s> The performance requirements indicate here that wewant the system to process about five transactions in a  minute and that the response timegenerally should not be more than a second.<s> Whenever we enter some data into the systemand press the enter key to initiate that action we expect the machine to give its response inless than a second.<p>
+
+(Refer Slide Time: 20:52)<p>
+
+Now these requirements have been defined keeping in mind what the user expects from thesystem.<s> Naturally  they will have important implication  on the sizing and the design of thesystem that we will make subsequently.<s> The  important point to note here is that theseperformance requirements are now an application for us and the user will accept the systemprovided  we meet these  performance requirements.<s> So  these also must be noted as part ofSRS.<p>
+
+We  may note any design constraints in terms of any existing hardware or standards fordevelopment and so on.<s> In this system there are no specific constraints.<s> Then we may includeany other attributes which are from the availability point of view,  should the system beavailable  24  by  7;  naturally circulation system is not of that kind;  although availability isimportant it is not so extremely important that we must provide a standby machine or somesuch thing.<s> We are saying that availability will be addressed in the software; we will take anappropriate check points and we will provide facilities for recovering from failures andrestarting of activities.<p>
+
+(Refer Slide Time: 22:12)<p>
+
+Security will also be important.<s> Different types of users may access the system, there may becounter clerks, it may be the librarian or these maybe the members themselves who will beprovided terminals.<s> So we will provide appropriate access,  restrictions or passwords and soon and the menu options that will provide to these different users  will be appropriatelyrestricted.<s> So we note here the security concerns for the circulation system.<p>
+
+We may also indicate the maintainability requirements which indicate that we would developthe software keeping in mind the maintenance activities that may have to be donesubsequently.<s> So we will follow various well accepted norms and standards for developing amaintainable system.<s> We also note down now the interface requirements.<p>
+
+Now, interface requirement the most important interface is that for the users of the library andthis interface should be clearly specified.<s> We  had mentioned earlier that in a way thisinterface defines in a in  the user  some kind of a user-manual itself.<s> Looking at thispreliminary user manual the users will be able to get a good idea of the kind of software weare building for them.<s> So these are external interface for the system for its various users.<s> Sowe will have different interfaces to support for library users, separate interface for librarians,separate interface for the counter clerks who issue and receive books and separate interfacefor the users for enquiry purpose.<p>
+
+(Refer Slide Time: 24:03 min)<p>
+
+So this section is a mini-user manual by itself specifying the contents of various interactions.So  we will  describe this only for the issue function to give you  a  flavor of the kind ofspecifications we should make in this part of the SRS document.<s> So,  considering the issueactivity we logically describe  here the way the screen would  look like,  what will be thedifferent elements that the screen will contain.<s> So  issue screen will accept the idea of themember for whom the book is being issued,  then the system will respond by telling us thename of the user, his department and we will use this as verification.<p>

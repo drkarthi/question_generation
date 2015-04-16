@@ -1,0 +1,31 @@
+How do you refine?<s> What are the principles of refining?<s> What are the ways ofrefinement?<s> How are you going to apply this into your designs?<s> For example, a softwareprocess with revisitable design phase you can come back again and again in the processand you apply this iterative refinement.<s> You can also apply a refinement to inheritance.<s> Ifyou want to refine your subclass, your super classes to sub classes.<s> You can apply thisopen close principle for components.<s> Implementation is open for refinements but theinterface is closed.<p>
+
+(Refer Slide Time: 59:30)<p>
+
+(Refer Slide Time: 59:59)<p>
+
+A  contract is guaranteed that  you can change the implementation and  you can make itbetter.<s> You can refine your implementation,  which  means in the next version of acomponent you give a refined version of the component.<s> The implementation is better orit might also be specialized through inheritance.<s> So refinement can take place throughinheritance or open close principle by changing the implementation without affecting thecontract that you have exported or guaranteed for the outside user.<s> Another application ofrefinement is zooming.<s> You want to zoom and refine that means from macroscopic modelyou want to go to microscopic model.<s> A microscopic model is the refined model.<p>
+
+(Refer Slide Time: 1:00:33)<p>
+
+State diagrams for example in UML.<s> They can be refined or can be zoomed on to.<s> Thereis fourth way of refinement that is generic description.<s> We have generic classes you canrefine them for specific types.<s> This is different from inheritance.<s> It is template classes inC++.<p>
+
+(Refer Slide Time: 1:00:49)<p>
+
+Refinement is very important for a change process or even for expansion for evolutionand as well for understanding an organization.<s> The change processes are provided tocarry out refinements.<s> These are also depends on what are the abstractions that we use forthe refinement.<p>
+
+(Refer Slide Time: 1:01:25)<p>
+
+So the examples are inheritance mechanism,  encapsulation and separate compilation ofdifferent files, you can refine independent components separately or you can blow upyour models and refine them from macroscopic to microscopic point of view etc.<s> Finallywe are going to see the aspect of communication.<s> Different kinds of interconnections andyou have to note the different types of connectors and how to make use of themeffectively in your design.<p>
+
+(Refer Slide Time: 1:02:12)<p>
+
+Interconnections: They  are also  called different kinds of connectors;  the componentscollaborate through these connectors.<s> So we have to use the right kind of connectors.<s> Forinterclass connectors, you can use pointers, references etc.<s> For inter process connectors,you can use sockets,  proxies  etc.<s> For inter machine connectors you can use TCP IP,internet and so on.<s> For synchronization there are different kinds of connectors, example,pipes and filters and some more connectors have listed out here.<s> They are sharedmemories, black boards,  semaphores, message queues, monitors, signals and actions,filters and pipes.<p>
+
+(Refer Slide Time: 1:02:33)<p>
+
+(Refer Slide Time: 1:03:40)<p>
+
+So there are different ways of using these connectors amongst those the components thatyou have designed.<s> Finally we will look at this summary slide what we have seen intodays lecture.<s> We looked at what is design, and then we looked at some examples ofdesign.<s> We had seen one example of design of a workshop or a real life process.<s> Then welearned that the analysis is to be converted in to design.<s> We have seen different factors tobe considered during design.<s> We have seen the advantage of a top down process ofdesign and we have also seen that you can apply or you can go back and forth in a designprocess.<s> Then  we looked at the basic principles to be applied during design;  theabstraction encapsulation refinement and communication.<p>
+
+Thank you<p>

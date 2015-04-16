@@ -1,0 +1,16 @@
+===========================================================
+Software EngineeringProf.<s> Rushikesh K. JoshiComputer Science &amp; EngineeringIndian Institute of Technology, BombayLecture - 17Architectural Design<p>
+
+In this lecture we will talk about architectural design.<p>
+
+(Refer Slide Time: 01:02)<p>
+
+What is architecture?<s> Architecture gives us overall system design.<s> For example,  beforeyou actually design the internal subsystems of given  software,  before you go on to thedetailing,  you want to grasp the overall design of the software.<s> So the architecture  is avery important aspect of software design.<s> We can talk about subsystems, interconnectionsamong subsystems and collaborations among sub systems.<p>
+
+You must have seen architectural diagrams.<s> Architecture is a very common technique tounderstand a complex system and then to approach system building from architecturalpoint of view, that is top down.<s> Architecture as a concept is applied in many disciplines.For example, you see building architecture before the building is actually built.<s> And afterthe building is actually built, then the architecture gets refined over time and then you getall the diagrams of the actual construction.<s> Why do we need architecture?<s> We aresummarizing the need for architecture in the below slide.<p>
+
+(Refer Slide Time: 02:30)<p>
+
+Firstly, in order to understand a given system.<s> Systems are very complex and  they mayhave thousands of components, classes.<s> So it is very difficult to grasp such a system frombottom up view, say right from low level functions or data structures.<s> If you take forexample, an operating system source code, how will you go about understanding such asource code?<s> Will you start reading directly a specific module and then build yourunderstanding about how the entire system is organized or will it be easier to understandsystem if you had an architectural document with you?<s> How many modules are there inthe system?<s> How are they connected?<s> What is overall perspective on your chosensoftware?<p>
+
+So  an architectural document or architecture  of the system makes it possible tounderstand a complex system, you can organize your development.<s> So  understanding isvery important if after the software is built and if changes are to be required.<s> And beforethe software is actually built,  you  want to organize the development itself according toarchitectural partitioning.<s> For example, in architecture you have identified a few servers,client side,  components,  middleware, and then  you can partition your developmentaccordingly.<p>

@@ -1,0 +1,17 @@
+The inspection rate: Here are some recommended values.<s> 500 statements an hour during overview.<s> 125 source statements an hour during individual preparation.<p>
+
+(Refer Slide Time 42:33 min)<p>
+
+  90-125 statements during the actual inspection process.What this is meant to show is  that,  this is a  fairly expensive process.<s> A  program canconsist of 1000  lines of code.<s> Obviously you cannot inspect every single line of code,because it  is very expensive to sit there and inspect every line of code.<s> Just that, theformal methods cannot be applied to a large program in its entirety.<p>
+
+So you have to pick the critical portions of the program, the machine critical portions forexample, which can cause a lot of modules to fail if that one module fails, then go aheadwith inspection for just those critical modules.<s> It is an expensive process and thereforethe buy-in of management is very important.<p>
+
+Moving ahead to static analysis; static analyzers are basically program such as lint.<s> Thesoftware tools that can do source code checking.<s> It can check source text.<p>
+
+In the case of designs, for example it can check whether UML diagram is complete.<s> Orfor example the relationship values may not be correct, it is one to one  versus one tomany and so on.<p>
+
+(Refer Slide Time 43:38 min)<p>
+
+So they basically parse the program text, they build up an abstract syntax notation just asa compiler would do and then you apply certain rules that has been set up by the user todo some checking against.<s> We will take a look at some of these examples.<p>
+
+There are very effective as an aid to  inspections.<s> They do  not replace inspectionscompletely.<s> There are certain things that cannot be checked with static program verifiersor  program checkers.<s> For example,  stylistic guidelines  are  something that they cannotcheck.<s> People have to be involved in the process.<p>

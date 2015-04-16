@@ -1,0 +1,9 @@
+(Refer Slide Time: 45:31)<p>
+
+It is a mechanism for communication.<s> You imagine a distributed system scenario in which anobject on one machine wants to interact with an object on another machine, can we make thedistribution transparent?<p>
+
+(Refer Slide Time: 46:27)<p>
+
+Can the object that wants to make a call on the remote object be made unaware of this kind ofdistribution and networking?<s> If this local object can have an interface, a local interface to theremote object will simply invoke member function on the local interface.<s> It will not be evenaware that this local interface,  the implementation of local interface is contacting the remoteobject over the network.So the definition of distribution transparency: The client is unaware of distributed nature of theserver.<s> In the sense the server is on a different system and the client is on a different system ona different machine.<s> Location transparency: The client is unaware of the location.<s> Firstly that itis separately located in a distributed system and secondly it does not even need to know whereit is located.<s> A client invokes a method on object as if it is its local object.<s> And that local objectwhich represents the remote object in local environment is called proxy.<s> So proxy handlesprovide mechanism to implement this communication paradigm.<p>
+
+So here is a solution.<s> For example, you have an account object which is remote object and youwant to make a transaction on the account object.<s> The client program can be given an instanceof this Account Proxy which implements the interface provided by the account object, that is,deposit().<s> The implementation is given in the small box.<s> You are calling deposit on the remoteactual object which is remote account (remote Acc).<p>

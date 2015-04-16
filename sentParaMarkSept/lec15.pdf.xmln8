@@ -1,0 +1,15 @@
+(Refer Slide Time: 38:42)<p>
+
+(Refer Slide Time: 39:11)<p>
+
+This  says that  the graphic documents inside a graphical document or say picture in a picturecan also have shapes inside it.<s> A picture can be composed of lines, squares, rectangles and soon.<s> Or a picture can also contain picture.<s> You want to represent a design for this.<s> You coulddraw different object diagrams,  say for example in one object diagram,  you could have onepicture at the root level and then it could have some leaf shapes  directly and some two threepictures in it.<s> Now those pictures can also have some leaf shape and one of the pictures in themand finally you will have leaf shape at  the bottom of the tree.<s> So you could construct suchtrees.<p>
+
+But then what should be the design?<s> The design has to be closed, it must have finite number ofclasses.<s> You cannot show it as a running tree.<s> What is going to be your design for thisparticular requirement?<s> Here is a solution.<s> You represent this as composite.<s> You can see thatthere are two interesting links amongst classes, one is inheritance and another is aggregation.Or we will call it composite.<p>
+
+(Refer Slide Time: 40:33)<p>
+
+In UML there is slight difference between these two concepts.<s> But now we will use theminterchangeably.<s> More generally you can call it as part-whole relation.<s> So there is inheritanceand there is also part-whole relation.<s> You have graphical element as an abstract super class,which has functions like draw (), also another function called add () and then you have circle,line and graphical documents etc.<s> You have various functions on graphical elements and youhave different sub classes which implements  graphical element.<s> In this,  GraphicDoc is acomposite which is represented by a link from Graphic Element.<p>
+
+You have this part-whole relation and hence a graphical document can contain many graphicalelements and through inheritance those graphical elements can be either circles,  lines orGraphicDoc.<s> This is how you can represent the design of your tree structured graphicaldocument which contains leaf level classes and the intermediate graphical document which arecomposite.<s> A  client handles all of them as graphical elements.<s> If you delete a  graphicaldocument it should pass on this delete to all the other components.<s> For example, if you want todraw a given graphical  element,  if it happens to be a composite graphical element or agraphical doc, then the draw is implemented as for all gs in the link from GraphicDoc calleddraw.<s> If the parts are leaf, then these draws (draw under Circle or draw under Line) will becalled and if the parts are composite the draw under GraphicDoc will be called and they willbe further propagated into the hierarchy.<p>
+
+For example, this is one object diagram which you can construct after instantiating this givenhierarchy.You have this  my  Picture  at this root level,  it has this has  Picture which isbasically another picture and the has Picture has a Line and a Rectangle.<p>

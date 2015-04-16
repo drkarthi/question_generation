@@ -1,0 +1,425 @@
+ softw engin process method methodolog allow built softw system streamlined man focus build fair larg softw system sign amount design don sign requir body requir est spec writ typ process end follow del system kind
+ may also situ busy nee turnaround tim softw develop smal
+ word nee produc requir end spec quick respond certain busy nee turn necessit diff model follow produc softw agil develop
+try turn around requir quick may incrementalmod fact oft incr mod output end avery short period rest output follow behind tak looktoday process   methodolog us turn softwarearound fast
+ object part cours bas explainhow it incr process us del softw quick andwh aspect process know considerationsto follow process  explain principl particul programmingmethodolog cal extrem program go littl bit detail aboutextrem program on latest on newest pract insoftw develop explain rol cal prototyp softw develop process
+softw develop rapid softw develop requir anee turn someth around quick  wherea tradit softw wasconstruct way thing construct
+exampl exampl build dam build bridg across ar short cut method follow know bridg dam design  meas  tak design carefullyvalid mak sur going withstand weight spee vehiclesth mov  construct begun piecem construct structure eith structure us allit bin kind decid
+cas softw nee cas nat nam could rapid chang busy condit lead busy mak certain decid respond mayb new opportun round thecorn respond mayb new serv wish introducein say telecommun domain may competit com certain produc busy respond cas may makechang produc
+requir softw develop   delivery criticaland delivery hap quick requir com isobvy oft tru   comprom going madebetween tim tak del produc qual produc endof day  long softw avail rol  show theprogress  show progress   mad  rest com along asequ man okay may busy acceiv slight lowerstandard qual shortest tim cyc qual improv thing goalong may nonfunct requir  may perfect  may abl tocarry amount load exampl softw tim goe along canimprov perform improv rely improv availabilityof softw wel
+chang nat environ rapid changesth tak plac busy environ may poss alway ar   system requir phas cal complet  sens termbef mov system spec  mov functionalspec design develop test
+requir keep chang theref tradit waterfallmodel develop seen far easy follow becauseth presum requir phas complet mov onto design phas spec phas softw may possibleh requir com incr
+ detail new servicemay known  new serv going introduc essentialcharact serv detail charact may known andth may com project progress theref it delivery softw isth way handl chang requir lik
+charact funda ess nat theagil process develop  agil process bas ref del softwarequick
+on charact not requir phas cannot becomplet mov phas mean implicit phases concur nat requir spec phas design phas thedevelop phas test phas oft may concur on anoth alsoth detail spec typ writ
+ design documentationt minim mov quick ord get thesoftw
+ charact incomplet  nat therequir chang requir concur thediff phas system us del incr del verysmal incr  every incr complet enough    beintegr back main system project progress
+ anoth key feat del incr  keyword us get see sampl know touch  feel softw veryear lifecyc  giv feedback  giv suggest   theimprov ex softw  also tun requir  thatthey going giv way going mak easy construct restof softw on thing
+ third last charact us interfac  typ  developedvery ear  get us feedback develop us   interactiveparadigm
+ exampl could someth allow chang theposit button allow chang posit font textf ent kind input giv infact  chang  fly us expery us softw thesechang mad perm going forward
+agil process real focus cal rapid apply developmentenviron thing go along
+ it develop process
+ let us tak look process look lik
+drawn diagram start defin diff systemvary ex
+ architect  system vary lead decid  kind ofarchitect employ   exampl  pip filt architect beemploy  three tier  architect  employ  rul bas architect beemploy
+  architect decid mad requir thatex point tim  spec sery incr
+  incrementth going tak develop spec going contain andont incr spec go ahead build incr lik youdo norm softw develop process
+hap typ fin develop softw test soth step exact exceiv limit subsect ofth requir ex within incr test validationphas complet phas ex quit import hap oft integr phas may ex onlyont lifecyc typ softw develop process nonagil in
+ many ex entir thing way spec theincr  way test system loop spec  many incr
+thu integr phas don test entir system
+ test back incr test phas test cod writ particul incr  test feat   suppos  built incr integr rest softw ex test system  whol  system  whol test quest ask system complet new incr spec
+ system complet mov delivery system system complet go back tospec next incr within process
+agil softw develop group softw develop method requir solv evolv collab selforg crossfunct team
+promot adapt plan evolv develop ear delivery continu improv enco rapid flex respons chang
+manifesto agil softw develop also known agil manifesto first laid und conceiv agil develop introduc term 2001
+ hist 
+
+
+ predecess 
+incremental softw develop method trac back 1957
+1974 e edmond wrot pap introduc adapt softw develop process
+concur independ method develop deploy new york telephon company system develop cent direct dan giel
+ear 1970s tom gilb start publ conceiv evolv project man evo evolv competit engin
+mid lat 1970s giel lect extend throughout us methodolog pract benefit
+socal lightweight agil softw develop method evolv mid1990s react heavyweight waterfal method crit cal heavy reg regy microm overincr
+propon lightweight agil method contend return develop pract pres ear hist softw
+ear impl agil method includ un process 1994 scrum 1995 cryst clear extrem program ak xp 1996 adapt softw develop featuredr develop 1997 dynam system develop method dsdm 1995
+collect refer agil develop agil manifesto publ 2001
+ agil manifesto 
+in febru 2001 17 softw develop see met snowbird resort utah discuss lightweight develop method
+publ manifesto agil softw development
+
+we uncov bet way develop softw help oth
+work com value
+individuals interact process tools
+working softw comprehend documentation
+customer collab contract negotiation
+responding chang follow plan
+that valu item right valu item left
+2001 auth
+decl may fre cop form entir not
+mean manifesto item left within agil softw develop context are
+individuals interact agil develop selforg mot import interact lik coloc pair program
+work softw work softw us welcom pres docu cli meet
+custom collab requir cannot ful collect begin softw develop cyc theref continu custom stakehold involv import
+respond chang agil develop focus quick respons chang continu develop
+auth form agil al nonprofit org promot softw develop accord manifesto valu principl
+introduc manifesto behalf agil al jim highsmi said
+
+the agil mov antimethodolog fact many us want rest cred word methodolog
+want rest bal
+embrac model ord fil diagram dusty corp reposit
+embrac docu hundr pag nevermaintain rarelyus tom
+plan recogn limit plan turb environ
+would brand propon xp scrum agil methodolog hack ign methodolog origin definit term hack
+ agil principl 
+the agil manifesto bas 12 principles
+customer satisfact rapid delivery us software
+welcom chang requir ev lat development
+working softw del frequ week rath months
+close dai coop busy peopl developers
+project built around mot individ trusted
+facetoface convers best form commun colocation
+working softw princip meas progress
+sustainable develop abl maintain const pace
+continuous at techn excel good design
+simplicitythe art maxim amount work don essential
+selforganizing teams
+regular adapt chang circumstance
+
+
+ evolv 
+later ken schwaber oth found scrum al cre cert scrum mast program der
+schwaber left scrum al fal 2009 found scrumorg
+2005 group head alistair cockburn jim highsmi wrot addend project man principl decl interdepend guid softw project man accord agil develop method
+2009 mov spearhead robert c martin wrot extend softw develop principl softw craftsm manifesto guid agil softw develop accord profess conduc mastery
+2011 origin agil al cre guid agil pract evolv opensourc compend work definit agil develop term pract el along interpret expery guidelin worldwid agil develop commun practit
+prince2 project man methodolog us many brit govern project enh man project us agil techn
+ overview 
+
+there many spec agil develop method
+promot develop teamwork collab process adapt throughout lifecyc project
+ it incr evolv 
+most agil develop method break task smal incr minim plan direct involv longterm plan
+it short tim fram timebox typ last on four week
+it involv crossfunct team work funct plan requir analys design cod unit test acceiv test
+end it work produc demonst stakehold
+minim overal risk allow project adapt chang quick
+it might ad enough funct war market releas goal avail releas minim bug end it
+multipl it might requir releas produc new feat
+ efficy facetofac commun 
+no mat develop disciplin requir agil team contain custom repres eg produc own scrum
+person appoint stakehold act behalf mak person commit avail develop answ midit quest
+end it stakehold custom repres review progress reevalu pri view optim return invest roi ens align custom nee company goal
+agil softw develop inform rady norm larg phys display loc promin off passersby see
+pres uptod sum stat softw project produc
+nam coin alistair cockburn describ 2002 book agil softw develop
+build light ind may us inform team cur stat project
+ short feedback loop adapt cyc 
+a common charact agil develop dai stat meet standup eg
+dai scrum meet
+brief sess team memb report prevy day intend today roadblock
+ qual foc 
+specific tool techn continu integr autom unit test pair program testdr develop design pattern domaindr design cod refact techn oft us improv qual enh project agil
+ philosoph 
+compared tradit softw engin agil develop main target complex system project dynam undetermin nonlinear charact acc estim stabl plan predict oft hard get ear stagesand big upfront design arrang would prob caus lot wast ie econom sound
+bas argu precy industry expery learn year success fail help shap agil develop fav adapt it evolv develop
+ adapt vs predict 
+development method ex continu adapt predict
+agil method lie adapt sid continu
+on key adapt develop method rol wav approach schedule plan ident mileston leav flex path reach also allow mileston chang
+adapt method foc adapt quick chang real
+nee project chang adapt team chang wel
+adapt team difficul describ exact hap fut
+away dat vagu adapt method hap dat
+adapt team cannot report exact task next week feat plan next mon
+ask releas six month adapt team might abl report miss stat releas stat expect valu vs cost
+predict method contrast foc analys plan fut detail cat known risk
+extrem predict team report exact feat task plan entir leng develop process
+predict method rely effect ear phas analys goe wrong project may difficul chang direct
+predict team oft institut chang control board ens consid valu chang
+risk analys us choos adapt agil valuedr predict plandr method
+barry boehm richard turn suggest sid continu hom ground follows
+
+
+ it vs waterfal 
+one diff agil waterfal test softw conduc diff stag softw develop lifecyc
+waterfal model alway sep test phas near complet impl phas
+howev agil develop espec extrem program test us don concur cod least test job start ear day it
+test phas don every smal iterationwhich develop smal piec softwareus frequ us new piec softw valid valu
+us know real valu upd piec softw mak bet decid softw fut
+valu retrospect softw replan sess iterationscr maxim on mon it lengthhelp team continu adapt plan maxim valu del
+it pract also introduc produc mindset rath waterfal project mindset
+softw seen liv org act chang due environ chang
+long softw us espec competit it agil softw develop driv chang
+short it styl agil softw develop also strong connect lean startup conceiv
+ cod vs docu 
+in let ie comput stev rakitin express cyn agil develop cal artic support agil softw develop yet anoth attempt undermin disciplin softw engin transl work softw comprehend docu want spend tim cod
+rememb real program dont writ docu
+disput propon agil softw develop stat develop writ docu that best way achiev relev goal oft bet way achiev goal writ stat docu
+scot ambl stat docu bar good enough jbge much comprehend docu would us caus wast develop rar trust detail docu us synt cod littl docu may also caus problem maint commun learn knowledg shar
+alistair cockburn wrot cryst clear method
+
+crystal consid develop sery coop gam intend docu enough help next win next gam
+work produc cryst includ us cas risk list it plan cor domain model design not inform choiceshowev templ docu describ necess vagu object clear enough docu next gam
+alway tend charact team would want know join team tomorrow
+ agil method 
+wellknown agil softw develop method and process framework include
+adaptiv softw develop asd
+agile modeling
+agile un process aup
+crystal clear method cryst clear
+disciplined agil delivery
+dynamic system develop method dsdm
+extreme program xp
+featuredriven develop fdd
+lean softw development
+kanban development
+scrum
+scrum ban
+
+the agil method focus diff aspect softw develop lif cyc
+foc pract eg
+xp pragm program agil model oth foc man softw project eg
+scrum
+yet approach provid ful cov develop lif cyc eg
+dsdm ibm rup suit requir spec phas fdd exampl
+thu clear diff vary agil method regard
+ agil pract 
+agile develop support bundl concret pract suggest agil method cov area lik requir design model cod test project man process qual etc
+not agil pract include
+acceptanc testdr develop atdd
+agile modeling
+backlogs produc sprint
+behaviordriven develop bdd
+crossfunctional team
+continuous integr ci
+domaindriven design ddd
+information rady scrum board task board burndown chart
+iterative incr develop iid
+pair programming
+plann poker
+refactoring
+scrum meet sprint plan dai scrum sprint review retrospective
+testdriven develop tdd
+agile testing
+timeboxing
+use case
+user story
+storydriven modeling
+retrospective
+velocity tracking
+the agil al provid comprehend onlin collect map guid apply agil pract
+ method tail 
+in lit diff term ref not method adapt includ method tail method frag adapt situ method engin
+method tail defin as
+
+a process cap hum ag determin system develop approach spec project situ respond chang dynam interplay context int method frag
+pot almost agil method suit method tail
+ev dsdm method us purpos success tail cmm context
+situationappropry consid distinct charact agil method tradit softw develop method lat rel much rigid prescrib
+pract imply agil method allow project team adapt work pract accord nee individ project
+pract concret act produc part method framework
+extrem level philosoph behind method consist numb principl could adapt aydin 2004
+extrem program xp mak nee method adapt explicit
+on funda idea xp on process fit every project rath pract tail nee individ project
+part adopt xp pract suggest beck report sev occas
+mehd mirakhorl propos tail pract provid sufficy roadmap guidelin adapt pract
+rdp pract design custom xp
+pract first propos long research pap apso workshop ics 2008 conf cur propos appl method custom xp
+although spec solv xp pract cap extend methodolog
+first glant pract seem categ stat method adapt expery rdp pract say tre lik dynam method adapt
+distinct stat method adapt dynam method adapt subtl
+ comparison method 
+
+
+ rad 
+agile method much common rapid apply develop techn 198090s esp jam martin oth
+addit technologyfocus method customeranddesignt method visualizationdr rapid prototyp develop bri willison work eng custom end us facilit agil softw develop
+ cmmi 
+in 2008 softw engin institut sei publ techn report cmmi agil embrac mak clear cap mat model integr agil coex
+modern cmmicompatible develop process also it
+cmmi vert 13 includ tip impl agil develop cmmi process improv togeth
+ largesc distribut agil develop 
+largescale agil softw develop remain act research are
+agil develop wid seen suit certain typ environ includ smal team expert challeng limit encount adopt agil method larg org welldocu understood
+respons rang strategies pattern evolv overcom challeng largesc develop effort 20 develop distribut noncolloc develop team  amongst challeng sev recogn framework seek mitig avoid challeng including
+scaled agil framework saf dean leffingwel int alia
+disciplined agil delivery dad scot ambl int alia
+largescale scrum less craig larm bas vodde
+scrum scal jeff sutherland int alia
+enterprise scrum mik beedle
+evidencebased chang us known agil path ken schwaber
+
+
+ expery adopt 
+
+
+ meas agil 
+while agil seen mean end numb approach propos quant agil
+agil index meas aim scor project numb agil fact achiev tot
+simil nam agil meas index scor develop fiv dimend softw project dur risk novel effort interact
+techn bas meas goal
+anoth study us fuzzy mathem suggest project veloc us met agil
+agil selfassess determin wheth team us agil pract nok test karlskron test 42 point test
+approach propos meas agil pract apply met stil deb
+agil softw develop roi dat avail csiac roi dashboard
+ survey 
+one ear study report gain qual produc busy satisfact us agil method survey conduc shin technolog novemb 2002 janu 2003
+simil survey stat agil conduc every year start 2006 thousand particip around softw develop commun
+stat agil survey track trend benefit agil trend lesson learn prefer pract agil methodolog
+2013 result releas janu 2014 survey conclud 73 respond say agil softw help complet softw project fast 92 say agil improv abl man chang custom pri 87 say agil improv develop team produc
+yet anoth survey conduc 2006 scot ambl pract lead agil develop ibm rat method group report simil benefit
+oth claim agil develop method stil young requir extend academ proof success
+ common agil pitfal 
+organizations team impl agil develop oft fac difficul transit tradit method waterfal develop team agil process forc
+oft term agil antipattern common agil smel
+common examples
+
+
+ lack overal project design 
+this lead lack scal design flawslik build hous blueprint hop remain stand
+ ad story sprint progress 
+adding story sprint progress detry flow est agil
+il goldstein sprint issu  sprints turn crawl isnt abl chang cours fly scrum
+wel quit
+scrum certain provid provid chang produc backlog pri midproject howev nee occ sprints
+issu ar requir addit sprint il recommend abnorm sprint termin
+mean us story cannot expand
+team must deal new inform may produc addit task us story
+new inform prev us story productionready sprint carry next sprint
+howev next sprint plan us story priorit remain us story
+inform requir new task may alt us story pri
+ lack spons support 
+agile oft impl grassroot effort org softw develop team try optim develop process
+spons support team may fac difficul resist busy partn develop team man
+carry without effect spons rais prob project failure
+additionally project spons respons ens team appropry fund resourc
+ insufficy train 
+a survey perform vert on found respond cit insufficy train sign caus fail agil project team fal trap assum reduc process agil develop comp methodolog waterfal mean act rul agil develop
+agil develop set prescrib methodolog trainingpract requir
+ produc own rol prop fil 
+the produc own respons repres busy develop act
+el scrum produc own  us demand rol scrum team
+common mistak produc own rol fil someon develop team
+accord johann rothm mistak busy unaccount agil ecosystem break
+develop team fil rol result team mak decid priorit without real feedback busy
+addit team eith tri solv busy issu intern delay reach outsid cor group input
+caus fingerpoint divert collab process direct
+ team focus 
+the agil process requir team foc project meet project commit
+sprint resourc capac expect takeup task pot outsid subject are
+team memb multipl project difficult mak spar capac avail help complet sprint
+inform develop work multipl scrum team id don prop plan judicy evalu meet attend
+ excess preparationplan 
+teams may fal trap spend much tim prep plan
+common trap team less famili agil process team feel oblig complet understand us story detail design
+team lev abl sprints act method discovery mov forward inform know
+inform gain apply next sprint
+ problemsolv dai scrum 
+the dai scrum focus tim meet team memb dissemin inform
+problemsolv occ oft involv certain team memb pot best us entir team tim
+scrum team start div problemsolv tabl subteam discuss immedy dai scrum complet
+ assign task 
+one intend benefit agil develop empow team mak cho closest problem
+addit mak cho clos impl possiblecomp waterfal approachto us tim inform decid
+team memb assign task oth ear process benefit loc tim decid mak lost
+anoth tend assign box team memb certain rol exampl team memb must alway databas work hind crosstrain
+team memb choos tak task stretch abl provid crosstrain opportun
+ scrummaster contribut 
+another common pitfal scrummaster act contribut
+prohibit agil methodolog scrummaster nee ens capac act rol scrummaster first work task project
+scrummasters rol facilit scrum process
+facilit meet dai scrum sprint plan sprint review sprint retrospect part
+techn contribut rol work team memb fig get work don
+scrummaster also multitask may result many context switch produc
+addit scrummaster remov roadblock team benefit gain individ task mov forward may outweigh roadblock defer due lack capac
+ lack test autom 
+due it nat agil develop multipl round test project oft nee
+autom test framework tak car system integr test ad lot firepow team
+act saf net regress caus new develop import fre lot precy develop test tim  allow foc thing best
+test autom also support continu refact requir it softw develop
+allow develop quick run test confirm refact mod funct apply may reduc workload increas confid cleanup effort introduc new defect
+ allow techn debt build 
+focusing del new funct may result increas techn debt
+team must allow tim defect remedy refact
+techn debt hind plan abl increas amount unsched work produc defect distract team project progress
+system evolv import refact entrop system nat increas
+tim lack const maint caus increas defect develop cost
+ attempt tak much sprint 
+a common misconceiv agil develop allow continu chang howev sprint backlog agr work complet sprint
+addit much workinprogresswip result inefficy due avoid penal wast tim effort resourc
+poss issu team press tak addit work
+import point reit team select much work com sprint
+produc own get say four sprints left nee onefour everyth nee
+hop team much team determin much sprint
+ fix tim resourc scop qual 
+agile develop fix tim sprint dur resourc scop qual remain vary
+custom produc own oft push fix scop sprint
+howev team reluct commit lock tim resourc scop common known project man triangl
+effort ad scop fix tim resourc agil develop may result decreas qual
+ crit 
+agile methodolog inefficy larg org certain typ project
+agil method seem best develop nonsequ project
+many org believ agil methodolog extrem adopt hybrid approach mix el agil plandr approach
+term agil also crit man fad simply describ ex good pract new jargon promot on siz fit mindset toward develop strategies wrong emphas method result
+alistair cockburn org celebr 10th annivers agil manifesto snowbird utah febru 12 2011 gath 30 peopl involv origin meet sint
+list 20 eleph room undiscuss agil topicsissu collect includ aspect al fail limit agil pract context poss caus commerc interest decontext obvy way mak progress bas fail limit object evid cognit bias reason fal polit cult
+philip krucht wrot end
+
+the agil mov way bit lik teen selfconscy check const appear mir acceiv crit interest peer reject en bloc wisdom past past adopt fad new jargon tim cocky arrog
+doubt mat becom op outsid world reflect also theref effect
+ apply outsid softw develop 
+
+agile method extend us develop softw produc us certain charact softw object technolog
+howev techn apply develop nonsoftw produc comput mot vehic med dev food cloth mus see flex produc develop
+agil develop paradigm us area lif rais childr
+success child develop might found bas man principl commun adapt aw
+bruc feil shown bas agil develop paradigm apply household man rais childr
+ted talk agil program  famy paradigm brought sign chang household environ kid dish tak trash decreas childr emot outbreak inadvert increas emot stabl
+way agil develop bunch softw develop rul someth simpl broad lik problem solv guid
+ ref 
+
+
+ read 
+abrahamsson p salo o ronkain j  warst j
+2002
+agil softw develop method review analys
+vtt publ 478
+coh d lindval m  cost p 2004
+introduc agil method
+adv comput pp
+166
+new york elsevy sci
+dingsyr torgeir dyb tor moe nil bred ed
+ agil softw develop cur research fut direct springer berlin heidelberg 2010
+fowl martin
+design dead
+appear extrem program explain g succ m marches ed addisonwesley boston
+2001
+larm craig basil vict r it incr develop brief hist ie comput jun 2003
+riehle dirk
+comparison valu system adapt softw develop extrem program methodolog may learn
+appear extrem program explain g succ m marches ed addisonwesley boston
+2001
+m steph d rosenberg
+extrem program refact cas xp
+apress lp berkeley californ
+2003
+isbn 1590590961
+shore j  ward 2008
+art agil develop
+oreil med inc
+willison bri 2008
+it mileston engin model
+new york ny
+willison bri 2008
+vis driv rapid prototyp
+parson institut inform map
+ extern link 
+agile dmoz
+two way build pyramid john mayosmi vp technolog rga octob 22 2001
+the new methodolog martin fowl describ background agil methods
+ten auth agil manifesto celebr ten anniversary
+agile manifesto
+agile rapid websit develop

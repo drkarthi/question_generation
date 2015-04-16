@@ -1,0 +1,9 @@
+What are Non-aggregation relations?<s> Topological inclusion: For example, customer in the store.If you have such a requirement then you cannot design for a part-whole relation.And another example for topological inclusion is, meeting is in the noon.<s> Classification inclusion: Ramayana is a book or UML is a modeling notation.This is not part-whole, so this is classification.<s> Attribution: Weight of the box is 50 kg.<s> Attachment: Earrings are attached to ears, so this is mainly attachment orassociation.<s> Ownership: Bicycle is owned by Subhash.<s> Ownership is not part-whole.<s> Bicycleis not part of Subhash.<p>
+
+(Refer Slide Time: 33:45)<p>
+
+These are different relations which sometimes might get confused for part-whole relation.When one decomposes a given class into part-whole, then we have to exclude some nonpart-whole relations.<s> Then there is an important aspect in part-whole relation calledtransitivity.<s> A relates B and B relates to C. Does A relate to C?<s> For example, car-engine-piston;  engine is part of car  and  piston is part of engine.<s> So is piston also part of car?Then you can say Bob is in math class and Bob arm is part of Bob.<s> So is Bobs arm partof math class?<p>
+
+(Refer Slide Time: 34:55)<p>
+
+If you apply this criteria that if you find out these different kinds of relation, say math andBob there is one kind of part-whole relation.<s> Bob and Bobs arm have the different kindof part-whole relation.<s> If that is the case, then transitivity will not apply.<s> When you aredesigning your classes,  the same is also applicable.<s> Say for example if you havecompositional objects  in  your document hierarchy, then the leaf documents or thecomposite documents are also documents and composites are whole for many internaldocuments.<s> Then the operations that you invoke on the high level composites also can bepropagated to the lower level and the transitivity applies.<p>

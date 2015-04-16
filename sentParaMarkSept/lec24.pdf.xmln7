@@ -1,0 +1,9 @@
+Now this data will be very useful in order to estimate the performance requirements and whatkind of system we may need to support this workload.<s> So this is basically a workloadspecification; the issue file is also updated or it may have some new records being added sohere we see that in issue file new records are added when we are undertaking the issue taskand about five hundred books are issued generally in a day.<p>
+
+Similarly, deletes may happen say on an average maybe something like four hundred deleteshappen.<s> Of course there may be different frequency and different number of these operationson a given day but these are average figures.<p>
+
+We note down on which attribute the data is accessed from the issue file.<s> So we note here thataccession number is the most important field on which the data is accessed by all the othertypes of tasks whether is the issue task,  return task or enquiry task  and it may also beaccessed on the member id; a person may want to know how many books have been issued tohim and so on.<p>
+
+(Refer Slide Time: 31:14 min)<p>
+
+Then  finally we note that the data in the issue file would be kept online till the book isreturned or till the fine if any is paid.<s> After the fine is paid or the book has been returned thereturn the issue records are kept offline for one year afterwards they will be summarized andremoved from the system.<s> So we are in fact noting down all different types of requirementsof this application and these are recorded as per the format that IEEE has so carefully thoughtout.<s> So there has been.<s> a place has been created for a type of specification in this formatand we should ensure that all the requisite  information  for this application is captured anddefine in the SRS document.<p>

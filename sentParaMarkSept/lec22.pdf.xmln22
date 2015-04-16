@@ -1,0 +1,11 @@
+(Refer Slide Time 46:43 min)<p>
+
+There  can  also be more complex static analyzers.<s> There can be complex tools that dothings like path analysis.<s> Things like, what is the complexity of the program?<s> What is thepath of the longest number of hops that the program might end up taking?So, it can look at entire program as it supposed to do individual module and simple rules.It is very useful, potentially depending on how efficiently it can do this.<p>
+
+Information  flow  analysis identifies the dependencies of output variable.<s> For example,output variable is coming back from a function that you have called, but you have reallynever used that return value at all.<s> That is an example here as well.<p>
+
+(Refer Slide Time 47:39 min)<p>
+
+Here is an example.<s> We  are not going to go into a great detail  about tool called LINT.You all would have heard a tool called LINT.<s> It does static analysis on C programs and itcan point out some simple things like a variable is used before being initialized and it canpoint out that a variable has been declared but never used and so on.<s> But this is somethingthat you can try out for yourself.<s> Lint is meant for C, but the lint is available for otherlanguages as well.<s> It is very programming language dependent.<s> Write a small C program,and then run lint on it and see the kinds of error messages that it ends up giving you.<p>
+
+The next step that we will go into as far as the verification/validation process isconcerned, is formal methods.<s> This is something that we have seen before as part of thiscourse as how do we do formal methods, user abstract data types and so on.This is the ultimate static verification technique because if you are formally specifyingthe software and then the code generating it because it is executable specifications.<p>

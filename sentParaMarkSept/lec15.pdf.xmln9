@@ -1,0 +1,13 @@
+(Refer Slide Time: 43:05)<p>
+
+The my Picture is composed of has Picture, that is one more picture inside it, a Square anda  Text.<s> These  three can be generated out of design that we have just seen.<s> We have got apattern or composite which allows us to represent such tree structure object diagrams throughclass designs or through designs expressed in terms of classes.<s> Here is our composite pattern.<p>
+
+(Refer Slide Time: 43:38)<p>
+
+You have a component and then you have composite.<s> You have a leaf  and  you could havemany such leaves.<s> Composite is also a component, but a composite has its parts which are alsocomponents.<s> Now through this part-whole relation, the composites can contain a leaf as well asthe composite.<s> This is how you are able to represent this tree structure through a design interms of classes and relationships.<s> Hence the two relations are important, that is  inheritanceand part-whole.<s> Let us  look at another structural pattern which is called faade.<s> It provides aunified interface for sub system.<p>
+
+(Refer Slide Time: 44:55)<p>
+
+Look at the above picture.<s> The white box is a sub system which has many classes and theseclasses are interconnected and collaborate.<s> These outer green boxes are outside classes, whichare outside this sub system described by the white box.<s> All of them are interacting with this subsubsystem through one class.<s> This class is an interface to the entire sub system and this class iscalled faade.<s> Now, compare this solution with the below solution.<s> We have rejected it becausethe external classes are interacting with the sub system directly through different classes in thesub system.<p>
+
+For example,  the middle  component  which is outside the subsystem is interacting with twoclasses inside the subsystem and so on.<s> If there is any change here, it is very hard to reflect thechange in entire system  as  there  are  too many dependencies.<s> The separation of concerns isviolated.<s> The sub systems must be nicely encapsulated and behind sub system interface whichis called faade.<s> This is one structuring pattern and  you should structure your sub system inthis way.<s> Let us look at another structural pattern called proxy pattern.<p>

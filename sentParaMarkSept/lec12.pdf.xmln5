@@ -1,0 +1,15 @@
+(Refer Slide Time 22:55)<p>
+
+Important point in refinement is that there must be consistency among levels in terms ofinputs and outputs.<s> On level 1  should be same as the inputs and output at level two.<s> Aphysical DFD indicates not only what needs to be done but it also shows how things arebeing done.<s> It shows some implementation details.<p>
+
+(Refer Slide Time 25:12)<p>
+
+These details will naturally depend on the environment of  the application.<s> For exampleyou might show the names and locations of places where things are getting done or howthe data is actually stored.For example the data may be stored in a library in terms of card indexes which arestacked in drawers.<s> This is a physical way, but that will be shown in a physical data flowdiagram.<s> In physical data flow diagram, along with how things are done at present, youmay also indicate the way the tasks are  divided in terms of being assigned to differentpeople.<s> For example two different persons may be dealing with undergraduate and postgraduate students.<s> This is a present way of doing things  and  that  is why this may beshown in a physical data flow diagram.<p>
+
+When you analyze the physical data flow diagram in order to develop your application,you will notice that these are implementation details which are the details about theexisting scenarios  and you do not want to carry them further and bias your design andimplementation  subsequently.<s> You would like to convert such a physical data flowdiagram into a logical data flow diagram where such implementation details are filteredout.<s> As we said earlier, physical data flow diagrams are useful for describing the existingsystem.<s> It can be readily validated with the users.<p>
+
+This needs to be converted into a logical data flow diagram after we have validated.<s> Thepurpose of converting the logical data flow diagram is to remove this implementationbiases and to consider different ways of implementing the things that are required for theapplication.<s> One example of data flow diagram is to clearly show the boundaries ofautomation.<s> When you have a large data flow diagram like this you can clearly mark thescope of the system that you propose to develop.<p>
+
+(Refer Slide Time 25:30)<p>
+
+The users clearly get the idea of what exactly they can expect from the software system,which functions and processes would be automated and how they  would  interface  withthe rest of the  requirements or the rest of the environment of the users  application.<s> Soboundaries can be conveniently marked on a data  flow diagram.<s> Let us now take oneexample where we are addressing the payroll application.<s> (Refer Slide Time 26:06)<p>

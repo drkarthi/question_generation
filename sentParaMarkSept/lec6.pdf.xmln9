@@ -1,0 +1,7 @@
+(Refer Slide Time: 36:52)<p>
+
+This is a contradiction.<s> On one step we have NOT of S OR R[()SR ].<s> And few stepslater, we have arrived at S OR R[SR]which is a contradiction.<s> Hence the assumptionthat we made in the beginning of this entire theorem must have been incorrect.<s> Theassumption that we made  was NOT of L implies NOT Q is incorrect because of thecontradiction.<s> ()LQ   Assumption is wrong As a result of which L implies NOTQ.LQ <p>
+
+(Refer Slide Time: 38:26)<p>
+
+What this example which we have  kind of gone through in a fairly detailed manner is,trying to show the fact that a formal specification such as what we just wrote out for avery simple library system with two rules can be used to prove certain properties of thesystem itself.<s> In  this case the rules were pretty simple that book can only be in one ofthree different states.<s> It can either be on stacks or it can be on reserve or it can be loanedout.<s> And the second thing that we saw is about the book can be requested only if it is onthe stack or on if it is on  reserve.<s> By that definition, we naturally came to a theoremwhich said that if it is loaned out it cannot be requested, which is L implies NOT Q.<p>

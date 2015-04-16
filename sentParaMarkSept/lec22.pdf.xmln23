@@ -1,0 +1,13 @@
+(Refer Slide Time 48:35 min)<p>
+
+Remember the term executable specifications.Then, you can always verify that the code that is being generated is meeting thespecifications in some  way.<s> The mathematical model can be built of the code and  themathematical model of the specification as well and see whether that  these two thingsmatch.<p>
+
+The  argument  for formal methods is  something that we have seen earlier already.<s> Itproduces a specification, the thing that it can really catch errors very early on.<s> In fact, itavoids the use of errors completely.<p>
+
+(Refer Slide Time 49:10 min)<p>
+
+Because specification can be run through verifiers that basically checks the completenessof specification, the checks for consistency and so on.<p>
+
+Even before implementation is done,  you can do some analysis on this program.<s> Soobviously it is very useful but also very expensive.<s> Even the tools that exist are not veryprone to usage by regular programmers.<s> It requires specialized knowledge and training inthese tools and languages.<s> It is very expensive and it might be possible to reach a level ofconfidence in verification and validation without the use of formal methods as well, in amuch cheaper way through inspections and static analysis techniques and so on.<s> So, onehas to be very careful about how you end up using this.<p>
+
+There can be formal methods which is an extreme end of the scale type of process.<s> Therecan be static analysis which is kind of a middle of the road process which is automated.So you do not have to depend on the vagaries of human nature.Then, there can be inspection processes which do depend on the expertise of the humans.The added advantage is that, you can get the experience of these people who have beenthrough  this  many times before.<s> And therefore they may able to catch things that aprogram may not be able to catch.So that is what the scale looks like.<s> At one end, the formal method is very accurate andcan really save cost because it can catch  defects very early on but very expensive, theother end of the scale is the inspections which are done by humans and which can capturetypes of errors and in between is the static analysis part of it.<p>

@@ -1,0 +1,11 @@
+(Refer Slide Time: 39:06)<p>
+
+Now what is the problem with this statement as you would say it?<s> The first thing is that,there are two requirements that are being stated in this one specification.<s> The firstrequirement is that conceptually they want the library system to now have the notion ofsome kind of financial accounting package that is attached to it.<s> So its very conceptualnotion at this point,  very high level,  its not detailed or specified or  specific enough towhat exactly that accounting package  is going to do.<s> But at the  same time the nextsentence which talks about notion of configurability by the systems managers and usersas a discounted rate is very specific.<p>
+
+These two requirements which are being merged into one single specification have verywidely differing rates  of specificity about  them.<s> One is quite general,  quite conceptualand the other one is quite specific and very precise.<s> So the mixing up  of these kinds ofspecification which results in what is called requirements confusion is certainlysomething to be avoided.<s> It also looks at both functional and non functional requirementsgetting mixed up together in this particular case.<s> So there can be several ambiguities thatresults from a specification such as this.<s> Here is another example which we would not gointo a great level of detail which is also mixing various kinds of requirements.<s> So the firstexample of LIBSYS system that we discussed earlier already mixes the notion of aconceptual requirement at the notion of more detailed requirement.<p>
+
+(Refer Slide Time: 40:40)<p>
+
+(Refer Slide Time: 40:44)<p>
+
+And it also includes some unnecessary detail at this level.<s> Now the fact that there needsto be a financial accounting system and the fact that system manager must be able toconfigure that particular system in a particular way is something that can be separated outclearly.<s> And the next example about the grid also mixes various kinds of  requirementwhich are conceptual,  non  functional, UI, backend  requirements and  so on,  which iscertainly to be avoided.<s> One of the things that will help in this particular case is to do astructured presentation of the requirement.<p>

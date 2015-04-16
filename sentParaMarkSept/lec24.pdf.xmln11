@@ -1,0 +1,27 @@
+(Refer Slide Time: 44:21 min)<p>
+
+(Refer Slide Time: 44:49 min)<p>
+
+Similarly, we apply design considerations on the issue table.<s> We identify that this table has tobe indexed on accession number and a secondary index may also be created on the membersid because this file has to be accessed frequently either on the accession number or on themembers id.<p>
+
+(Refer Slide Time: 45:19 min)<p>
+
+Then category and book type tables we note that they are very small and they can be kept inthe memory itself.<s> You can examine this question; can you combine issue and claims tableswe lead be more efficient?<s> So these efficiency considerations come in the physical databasedesign.<s> After this you do the software architecture design.<p>
+
+(Refer Slide Time: 45:33 min)<p>
+
+Remember that in the software architecture we try to identify the modules and see how theyinteract with each other by creating the software architecture diagram and you may obtainthis from the dataflow diagram.<s> We will show you some of the architectural diagrams for ourlibrary application.<s> What  you need to do is to study them in more details  and also analyzethem from that cohesion,  coupling and complexity point of view.<s> A  module should not bevery complex it should be cohesive and coupling should be minimized.<p>
+
+So we will show you some examples of software architecture for our application here.<p>
+
+(Refer Slide Time: 46:35 min)<p>
+
+So here is the first level architecture which consists of a control module then it uses the loginmodule and then there is a counter clerk type of a module which will basically select one ofthe modules based on the type of transaction we are processing.<s> So  it may be a memberenquiry module, a fine payment module or it may be a request from the librarian or it may bea counter clerk activity where we issue or receive books.<s> So, at this point we have identifiedmodules for different types of users.<s> Then  these will be further decomposed  and designedinto architecture for these subsystems.<p>
+
+(Refer Slide Time: 47:09 min)<p>
+
+So here is the member enquiry module which is further now decomposed and we find thatthis module can be written in terms of calling these lower level modules.<s> Depending on thetype of enquiry we may have a separate module for a book enquiry,  issue enquiry,  claimenquiry and so on.<p>
+
+(Refer Slide Time: 47:35)<p>
+
+This is the counter subsystem module whose architecture now consists of different moduleswhich load the various tables, which perform the issue transaction, return transaction and soon.<s> So, each of them will be a module which will implement the functions required for thesedifferent transactions.We had seen the detailed dataflow diagram for issue.<s> So let us see the module architecture forthe issue function.<s> the issue makes use of these four modules at the next level getting thedata,  validating the data;  validation consists of checking the category of the book,  membertype,  then we check whether he has borrowed more books than.<s> Then has he alreadycompleted his quota and we check claims.<p>

@@ -1,0 +1,13 @@
+There are three kinds of diagrams that help us behavior.<s> One is an operational diagram,the last one that we saw in the case of microwave example.<s> And  one of them is a dataflow diagram and one of them is a process model.<s> And state transition diagrams and soon.<s> These actually help us illustrate the behavior of a particular device or a softwaremodule that is going to build.<p>
+
+Having seen the behavioral models and the contextual models we will now move on tothe structural models that we talked about.<s> Remember there were three types of modelsstructural,  behavioral and contextual  or  external representations.<s> Structural  modelessentially deal with how the system ends up from getting constructed.If you take a look at structural data models, these do not illustrate the flow of data,  butthese illustrate what the structure of the data is to be like.<p>
+
+(Refer Slide Time: 35:09)<p>
+
+Semantic data models are often called ER diagrams and these illustrate what the differententities in the system are and what is the relationship between these entities.<s> These arevery widely used in database design, in fact today the basis of system design often turnsout to be ER modeling and the ER models are used to generate the data base schemabefore the system code itself ends up getting written.<p>
+
+There is no formal specific notation for ER modeling unfortunately.<s> But UML and objectmodeling and its associations can often be used to create ER models.<s> Let us take a look atthe example of an ER model and see what it consists of.<s> This is an example of a librarysystem that we had seen during  one of the lectures.<s> The library system is the systemwhich basically allows you to search for different articles based on the author, it allowsyou to search based on the titles, the keywords, the subjects and so on.<p>
+
+(Refer Slide Time: 35:39)<p>
+
+You can search for an article, you can often purchase the article and the purchasing of thearticle would mean that the author also has  to be credited with a certain amount ofroyalties and so on.<s> If we take a look at the data needs for such a system, the first thing isyou have to represent what an article is going to look like.<s> The article is going to have atitle to it.<s> It is going to have a set of authors associated with it.<s> It could actually have apointer to where the file is and often associated with each article in the case of our systemis going to be a fee that would have to be paid if you end up purchasing the article.<s> Alsothere could be a notion of a buyer who is the one who is going to end up buying thearticle.<s> So the buyer could have a name and address and so on.<p>

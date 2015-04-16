@@ -1,0 +1,25 @@
+(Refer Slide Time: 54:25)<p>
+
+You have a model which you can see on left bottom corner.<s> These are your differententities or your data.<s> And you have a view of this and you have a controller which makeschanges to the model.<s> So the changes to the model must be reflected through differentviews.<s> You can apply different collaborations pattern between the view and this model.For example the view might periodically check if the model has changed or on everychange the view may be notified.<s> So there could be push/pull models applied forinteractions or for consistency among model and the view.This is MVC architecture.<p>
+
+Then you have microkernel,  where you  develop higher functions on top of view.<s> Firstdevelop very low level routine, say for example you have microkernel operating systemswhere  you have some routines  and  on the top of which you can develop corefunctionality and then you can have additional functions.<p>
+
+(Refer Slide Time: 55:10)<p>
+
+The  calling application might use core functions and additional functions  or  both.<s> Butyou have a small kernel on top of which you can develop higher level or more detailedfacilities or you can extend your  functionalities through additional functions.<s> This ismicrokernel type architecture.<s> Then another important approach to architecture isframeworks.<s> So frameworks are almost partially completed applications.<s> Frameworkarchitecture is very important concept in large scale software development or large scalesoftware reuse.<p>
+
+(Refer Slide Time: 55:46)<p>
+
+A framework is instantiated as a product.<s> So for a product family, the framework is veryimportant.<s> Say if you are specializing in library information systems or academic systemsor banking systems, you may already have some concrete classes, partially implementedclasses  for that domain.<s> Now for a given application,  for a given customer you mayspecialize  this framework into a specific product.<s> You  have frozen spots and hot spotswhich are projected in this diagram.<s> On the top level, you can see concrete classes in thisframework and then hotspots are abstract classes or abstractions.<p>
+
+(Refer Slide Time: 56:35)<p>
+
+Concrete classes in the framework make  calls  to hot spots and the hot spots are notimplemented in the framework,  they are to be specialized.<s> The specializations can beseen at the bottom.<s> So the specializations plug implementation to hot spots and  theconcrete classes uses  the hot spot.<s> The framework implements concrete classes and thehot spots are to be implemented,  when you actually specialize this framework to get aproduct.<p>
+
+So the specializations implement hot spots and concrete classes use these hot spots orabstractions.<s> Say for example if you take graphical editor in which you may have shapeas an abstract class and the actual shapes may be specialized  and the framework,  theediting facility such as copying of shapes or moving of shapes,  rotating of these shapescan be implemented already in concrete classes.<s> So a specific framework, say drawing aUML diagram or drawing DFDs or drawing flowcharts can be specialized in this productfamily through these specializations, where as the application is already partiallyimplemented through concrete  classes and hot spots.<s> This is an important architecturalconcept frameworks which gives you large scale reuse or large scale benefits from reusein product line architecture.<p>
+
+Now on the last slide we have listed  out references and there are many more relatedresearch papers and books and you go through some of these and get more detailedperspective on architecture and you could put in practice.<p>
+
+(Refer Slide Time: 58:16)<p>
+
+So architecture is very important from overall point of view of the system,  so that thesystem becomes understandable and then you can base your development on yourarchitectural decomposition.<s> 

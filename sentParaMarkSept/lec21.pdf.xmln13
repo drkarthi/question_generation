@@ -1,0 +1,15 @@
+That means you can take this independent paths  and  you can exploit  (explore?<s> )  theseindependent paths.<s> Once you develop this function code, you can compile it to  objectcode, make it ready and once you develop the user code, compile it to object code, makeit ready and then you can link when  both are available and you can deploy your softwareor a. out for example in your simple Unix environment.<p>
+
+Then you make into  practice to use make files.<s> You can  use  make  utility to organizeyour program, compilation and building processes.<s> If you use sophisticated tools, this canbe specified in the integrated development environment.<s> The make files or the build filescan be specified through the environment itself, so that it organizes the build on its ownand you do not need to key them in one by one.<p>
+
+(Refer Slide Time 45:57 min)<p>
+
+However for your small assignments, do  try to write to your own make  files,  sodependencies can be captured.<s> For example, the dependencies in this process figure:<p>
+
+(Refer Slide Time: 46:27 min)<p>
+
+In order to produce a. out, you need this and if you have already compiled this, then ifthis user class changes or if the user file changes, you do not need to recompile this.<s> So ifyou want to capture these  dependencies  somewhere and when  you simply execute themake file, when you want to build the software, you are building only those units whichneed to be build because the changes have been done to the files which are being used bythe module that you are building.<p>
+
+(Refer Slide Time 47:09 min)<p>
+
+I have an example make  file  here.<s> You can say these when you want  to makesomething, when you want to make software.<s> This whole represents the entire softwareand  this is your symbol which you are using.<s> These are your actual units;  for exampleyou have the in_prog, phandler, these are some executable files you want to generate.When you want to build the whole software, you need to build these and in order to buildin program you need to build thisdot os.How can they be built?<s> They can be built byrunning this command: g plus plus or whatever.<p>

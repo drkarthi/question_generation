@@ -1,0 +1,27 @@
+Iteration is the act of repeating a process with the aim of approaching a desired goal, target or result.<s>Each repetition of the process is also called an "iteration", and the results of one iteration are used as the starting point for the next iteration.<s>The pentagon on the right also is a good example of how iteration relates to recursion.<s>Although iteration is used, for example, to parse a linked list, recursion is required when we step up to binary trees.<s>The pentagon demonstrates both.<s>== Mathematics ==
+Iteration in mathematics may refer to the process of iterating a function i.e.<s>applying a function repeatedly, using the output from one iteration as the input to the next.<s>Iteration of apparently simple functions can produce complex behaviours and difficult problems - for examples, see the Collatz conjecture and juggler sequences.<s>Another use of iteration in mathematics is in iterative methods which are used to produce approximate numerical solutions to certain mathematical problems.<s>Newton's method is an example of an iterative method.<s>Manual calculation of a number's square root is a common use and a well-known example.<s>== Computing ==
+
+Iteration in computing is the repetition of a block of statements within a computer program.<s>It can be used both as a general term, synonymous with repetition, and to describe a specific form of repetition with a mutable state.<s>When used in the first sense, recursion is an example of iteration, but typically using a recursive notation, which is typically not the case for iteration.<s>However, when used in the second (more restricted) sense, iteration describes the style of programming used in imperative programming languages.<s>This contrasts with recursion, which has a more declarative approach.<s>Here is an example of iteration relying on destructive assignment, in imperative pseudocode:
+
+a = 0
+for i from 1 to 3        // loop three times
+{
+  a = a + i              // add the current value of i to a
+}
+print a                  // the number 6 is printed (0 + 1; 1 + 2; 3 + 3)
+
+In this program fragment, the value of the variable i changes over time, taking the values 1, 2 and 3.<s>This changing valueor mutable stateis characteristic of iteration.<s>Iteration can be approximated using recursive techniques in functional programming languages.<s>The following example is in Scheme.<s>Note that the following is recursive (a special case of iteration) because the definition of "how to iterate", the iter function, calls itself in order to solve the problem instance.<s>Specifically it uses tail recursion so it does not use large amounts of stack space.<s>An iterator is an object that provides iteration as a generic service, allowing iteration to be done in the same way for a range of different data structures.<s>Conversely, an iteratee is an abstraction which accepts or rejects data during an iteration process (controlled externally by an enumerator - so unlike with code that uses iterators, the iteratee code is not "in charge" of the iteration process).<s>Iteration is also performed using a worksheet, or by using solver or goal seek functions available in Excel.<s>Many implicit equations like the Colebrook equation can be solved in the convenience of a worksheet by designing suitable calculation algorithms.<s>Many of the engineering problems like solving Colebrook equations reaches 8-digit accuracy in as small as 12 iterations and a maximum of 100 iterations is sufficient to reach a 15-digit accurate result.<s>== Project management ==
+
+Iterations in a project context may refer to the technique of developing and delivering incremental components of business functionality, product development or process design.<s>This is most often associated with agile software development, but could potentially be any material.<s>A single iteration results in one or more bite-sized but complete packages of project work that can perform some tangible business function.<s>Multiple iterations recurse to create a fully integrated product.<s>This is often contrasted with the waterfall model approach.<s>== Education ==
+
+In some schools of pedagogy, iterations are used to describe the process of teaching or guiding students to repeat experiments, assessments, or projects, until more accurate results are found, or the student has mastered the technical skill.<s>This idea is found in the old adage, "Practice makes perfect."<s>In particular, "iterative" is defined as the "process of learning and development that involves cyclical inquiry, enabling multiple opportunities for people to revisit ideas and critically reflect on their implication."<s>== See also ==
+Recursion
+Fractal
+Iterated function
+
+
+== References ==
+
+
+== External links ==
+ The dictionary definition of iteration at Wiktionary<p>

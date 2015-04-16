@@ -1,0 +1,29 @@
+(Refer Slide Time: 48:28 min)<p>
+
+So, validate could do all these checks.<s> Before going further and preparing for the issue of thebook we will calculate the due date so we have a module for doing that and this module mayactually have to be decomposed further in order to take into account holidays and finally wehave the module which says update files.<s> So here you see the software architecture in termsof different modules and how they could call each other.<p>
+
+(Refer Slide Time: 49:23 min)<p>
+
+After preparing the software architecture and the database design we can also prepare theimplementation schedule where we identify the tasks,  we estimate the effort and we alsoindicate the plan of how and who will perform these activities.<p>
+
+We  prepare a schedule using a bar chart or a activity network diagram, we also indicateresource allocation on these so that we can clearly see the sequence of activities and how theywill be completed.<s> We also identify the activities which can be done in parallel.<s> Once this isrepair we can do a management review to ensure that the project will be completed in time.<s> Ifwe find that the time is not acceptable then we can actually add additional resources so thatthe implementation can be speeded up.<s> So  this is possible because we prepare animplementation schedule and analyzing.<p>
+
+(Refer Slide Time: 49:58 min)<p>
+
+(Refer Slide Time: 50:59 min)<p>
+
+So  here is the list of various activities;  you can go through these in details.<s> But as you see,here we have listed the various activities that need to be performed starting from file designdevelopment of data entry program, then coding modules for management reports, now thesereports will be first designed, these programs will be designed and then they will be coded.So, for each of them we have two types of activities: the further detailed design activity andthen the coding and development activity.<s> So  all these have been listed and we have giventime duration for detailed design as well as for implementation.<s> So this is  a detailedimplementation schedule that we have prepared.<p>
+
+(Refer Slide Time: 51:20 min)<p>
+
+Here are the other remaining activities.<s> So we will quickly go through this.<s> You should lookat this  material in more detail and understand it thoroughly in terms of its importance  fortimely completion of the  project.<s> So we will assume that we have one analyst and twoprogrammers given that we can plan our implementation activities and assign the differentactivities to these people so that the work can be done in as much parallel as possible.<s> We canestimate then the time to completion.<p>
+
+(Refer Slide Time: 51:41 min)<p>
+
+We then see how to prepare our design documentation.<s> in the design documentation, as yourecall,  we will define the software architecture,  we will define the database design,  we willidentify the different modules in terms of what functions they perform, what parameters theytake, what output they produce so these could be a detailed design document that is preparedat the end of this and it is then reviewed technically.<s> So this is an important milestone; afterthis we carry out the detailed design.<p>
+
+Detailed  design we will prepare programmer specification and these detailed designdocument then will be given to the programmers to code the application.<s> So design documentis already ready from the previous phase.<s> Now  we specify each of the components  in moredetails so inputs, outputs and processing were described.<s> We now take each of the moduleswhich is identified in the detailed design and develop programming specifications for eachmodule in terms of data structure,  internal logic and interface.<s> Given this then theprogrammer will be able to implement.<p>
+
+(Refer Slide Time: 53:10 min)<p>
+
+The logic of the program can be given using a suitable pseudo programming language, somenotation or a flow chart so that this can be handed over to the programmer.<s> We will also do adetailed design walk through to ensure that the specifications are complete and consistent.<p>

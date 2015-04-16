@@ -1,0 +1,7 @@
+We will also take a look at what is called the clean room software development processand this is a process whose philosophy is rooted in trying to ensure that the software canbe gotten right  in the first go,  as suppose to having iterations  where the software isreleased, bugs are found, it comes back, and the bugs are fixed and so on.<p>
+
+(Refer Slide Time 01:47 min)<p>
+
+What are the techniques that we can use to get software right in the first go, so that it doesnot have to be  [c..not clear]  and that  is what we are  going  to conclude  with  in  todayslecture.The first question is what is really the difference between verification and validation andwhy do we want to take these two terms separately?Verification essentially deals with the question Are we building the product right.<s> (Refer Slide Time 02:14 min)<p>
+
+In the sense that, there is certain requirement specification that is being laid  out, arequirement document that is being laid  out,  the documentation is being converted to aspecification for the system and  as  long  as  that  conversion  is  accurate you want to goback at the end of the cycle and check whether you met the specification of the software.And obviously if you are using automated techniques to generate the code from thespecification then it will obviously match, but in the case where humans are involved inthe process, we have to go back and make sure that we actually met the specification thatwe started out in the first place.<p>

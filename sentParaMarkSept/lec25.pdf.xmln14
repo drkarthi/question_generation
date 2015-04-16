@@ -1,0 +1,11 @@
+(Refer Slide Time: 31:23 min)<p>
+
+So we can have something, a process a changed process that is very similar to the spiralmodel of the  development that you have seen except that it has been applied in amaintenance mode in this particular case.<p>
+
+One  of the important things to go back and look at is the notion of  maintenance cost.What is it that ends up costing when you when you  go to maintain a piece of softwareover a period of time and one thing that we notice very quickly is that maintenance costare almost two to hundred times more than the development cost of the software itself.<p>
+
+(Refer Slide Time: 32:00 min)<p>
+
+Again,  based  on more empirical study, there is not any  formula for this but havingstudying  lots of applications over  the past couple  decades  people have realized thatsoftware maintenance cost accounts for quite a large part of the total life cycle cost of thesoftware.<s> It can be affected by lots of factors including social factors such as maintenanceas usually considered,  a low quality task to do so they do  not  get very bright people tocome and do this and so on and so forth.<s> It is affected by both technical and non-technicalfactors in other words and the cost keep tending to increase.<p>
+
+Remember the laws of complexity, Lehmans laws of complexity; the complexity of thesoftware increases, the familiarity of  the software goes down and the cost tends  toincrease as a result of both these factors.<s> So ageing software have very very high supportcost and that is when it is time to replace the software.<s> So there is some line you end updrawing within your organization to say that on a per year basis this is the maintenanceprocess causes this I am going to replace the system with a brand new system which weare architecting in this pointy in time.<p>

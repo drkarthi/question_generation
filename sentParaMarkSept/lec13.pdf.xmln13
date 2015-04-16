@@ -1,0 +1,37 @@
+There are different classical definitions of these that we have just gone over and youshould take care to ensure that your design follow some of the principles.<s> The third levelof abstraction that we would like to go over is called information  hiding.<s> Here as adefinition by Wirfs Brock for information hiding.<s> He is one of the people who did somepioneering work in area of object orientation.<p>
+
+(Refer Slide Time: 45:55)<p>
+
+I am just going to quote this first before we talk about it.<s> ..Like us objects have a privateside.<s> The private side of an object is how it does these things and it can do them in anyway required.<s> How it performs the operations and computes the information is not ofconcern to other parts of the system..<s> The last sentence in this particular quote is the keyand this goes back to the notion of separating the essence from the detail.<s> Separating thewhat and the how it performs.<s> The what is the one that is the public interface of thesystem.<s> The how is the information that is private.<s> You have to somehow provide a toolfor keeping this information private.<p>
+
+For example, consider the implementation of a stack as a list.<s> List representation ofstack is to be kept private.<s> It does not need to be exposed and there needs to be some toolwithin the language that you are working with,  within the design notation that you areworking with  to  ensure that this is private data,  private representation as  suppose to apublic interface that other people can see.<s> In a way this is an access control mechanismand  that is  what this slide is going to show.<s> The interface  is  something that one mustprovide the intended user information about how to use the module correctly and nothingmore.<s> Implementation refers to as the information that is needed to complete the moduleto the implementer and nothing more is provided.<s> So those two parts are kept separately.Another way of looking at it is that we keep the protocol separate from the behavior.<s> Theprotocol is the envelope of the behavior and behavior typically it says what is the way theobject acts and reacts.<p>
+
+(Refer Slide Time: 47:14)<p>
+
+Objects typically do changes of state.<s> They send messages to other objects and so on.Envelopes of the behavior are simply the operational signatures that form part of the classdefinition.<p>
+
+(Refer Slide Time: 47:46)<p>
+
+The obvious advantages of information hiding are that reused  abstractions  whichbecomes more reliable.<s> As a result of which you want to keep the two things separate andtherefore implementation can be changed without breaking client code.<p>
+
+(Refer Slide Time: 47:53)<p>
+
+The last abstraction that we will consider today is that of inheritance.<s> Here is onemotivating  example.<s> Suppose you want to computerize personnel  records.<s> We start  byconsidering two types of employees.<s> Engineers and salesperson, both of them have name,birthday and salary as attributes.<s> Remember these as essential properties and asalesperson has one additional attribute called commission.<s> How do you model something like this?<s> One way of modeling this is to have a class employee and the employeehas the name, birth date and salary attributes attached to it.<p>
+
+(Refer Slide Time: 48:35)<p>
+
+Then there is an engineer class.<s> Engineer is the new module that extends the employee.So it reuses everything the employee has and simply adds a thing called specialty of theengineer.<s> Similarly a class salesperson with merely extends what the employee has andextends it by adding commission which is the additional attribute.<s> This is the way  offactorization and specialization.<s> You are trying to reuse  most of what  is there or all ofwhat is there and trying to add to it the features that make something more specialized ormore  specific.<s> Another way of doing that also could be by inclusion.<s> It is  a very poorsubstitute for inheritance and by the way this notation that you just saw is an objectnotation for inheritance.<p>
+
+Basically allows you to find what are called base classes and then extend them by usingthe inheritance mechanism.<s> The  extends  keyword being employed in this particularcase.<s> You can also do the inclusion.<s> But it is not a very good substitute for inheritance,primarily because of the below  reason.<s> The  benefits  here  of inheritance are that in thecase the derived object also behaves as if it were an instance of base class or base object.<p>
+
+(Refer Slide Time: 49:45)<p>
+
+(Refer Slide Time 49:52)<p>
+
+A sales person is also an employee, an engineer is also an employee and so any object oftype engineer behaves as if it were an object of type employee as well.<s> If you want it tocall some operation say raise salary and raise salary was defined on the  employee thenyou can call that even on engineer or a salesperson without having to worry about.<s> But inthe case of inclusion, you would have to expose the structure of the class which would bea bad thing to do.<s> You would be breaking encapsulation at this point in time and thereforewhat you need to seek for is achieving sub typing in inheritance.<p>
+
+(Refer Slide Time 50:39)<p>
+
+The various uses for inheritance here are, the first one is sub classing and second one issub typing and third one is specialization.<s> What this is really giving you is a tool forcreating hierarchical abstraction.<s> The first level in hierarchy in the example we saw wasthat of employee.<s> We want to extend the hierarchy.<s> The second level was that of asalesperson or an engineer, both of them were at the same level.<s> You could obviouslyspecialize that further  by saying that these for electrical engineers versus  mechanicalengineers and may be there could be further specialization of salespeople as well.<p>
+
+Inheritance is also an abstraction and the abstraction that inheritance provides is a way ofcreating a hierarchical abstraction,  because that helps us model the things  that we seearound us much better.<s> What we have looked at  today is the features that affect thatquality of software.<s> We have looked at the both the external features as well as theinternal, the structural integrity of the software types of features.<s> Then we have seen howwe can  we effect these features in a better way.<s> We saw the abstraction and the reusewere the keys to achieving structural integrity within software.<s> We took look at thevarious levels of abstraction such as encapsulation, inheritance, modularity, informationhiding and so on.<s> That helps us achieve a certain design style that can contribute to muchbetter quality software.<p>

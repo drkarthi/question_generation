@@ -1,0 +1,23 @@
+So interpretation of measures is  also  a  very important area.<s> In a given set of measures,how  to  interpret about the quality of software or the corrective steps that is  required inorder to improve on the quality.<s> So it  is  an important area and  also area of research.Many interesting metrics are available and one can go through them and keys to apply theright metrics in the right context and also interpret these  metrics,  so that you can feedback into the quality software.<s> Now after having looked at measurement and some of themetrics and their importance  in software engineering,  we will now move on to someguidelines for coding and development.<p>
+
+(Refer Slide Time: 37:56 min)<p>
+
+We will move on to  the  quality rated  guidelines  so that if you practice these,  they willlead to improvement and quality of  your  software.<s> We  might  have seen these  in ourearlier lectures, but I am putting it down again to emphasize some of these aspects whichcan be practiced even in the small program or when you program in your data structureassignments or in your any class assignments,  when you code in groups,  or  when youcode against the course projects, you can try to use some of the techniques and they comein a long way so that it affects the quality of your software and they are scalable and theycan be used in the large as well.<p>
+
+For example use assertions in your code from time to time.<s> This  is  called defensiveprogramming style and can be applied for modules, functions, procedures, classes and indifferent kinds of modules.<s> Why defensive,  because these can act  as  defense againsterrors which you can make.<p>
+
+If you use  assertions in your code,  then the  assertions can capture  various errors.<s> Theassertions  can be of different kinds they  could be preconditions,  they  could be  used aspost conditions and invariants.<p>
+
+(Refer Slide Time 38:53 min)<p>
+
+If you are using assertions very heavily and there could be practices that recommend veryheavy use of assertions depends on the context in which you are working or in the projectwhich you are working,  they could be removed once the code is well tested  or some ofthem could be removed once the code is well tested.<s> For online defense typical techniqueused is  that of  exceptions.<s> So  the  software should be able to catch an error or anexceptional condition and handle it.<s> That gives you handle to gracefully terminate yoursoftware or to gracefully handle conditions.<p>
+
+We can use assertions when we are developing the code, and then possibly remove themwhen the code is well tested and when we want to deploy it.<s> But you can use exceptionsfor online defense.<s> For example,  if you know that your software is not handling certainsituations and if they arise you can create exceptions throw them and catch them.<s> So it isvery important and if you know that you cannot handle a situation, you have to terminatesoftware gracefully or there has to be a path to handle these  kinds of failures.<s> It shouldnot be an abrupt  termination, which  means  the software does not know that there is afault and they can cause very severe failures.<p>
+
+So exceptions are very important and which should be used.<s> Programming languages doprovide supports for handling exceptions or assertions.<s> For example, we have the C assertmacro,  javas assert  expressions,  throw-catch mechanism classes for exceptions andthrow-catch mechanism of the exception handling for example you have it in java and soon.<p>
+
+So you can use assertions and exceptions in your code frequently.<s> Try to use them in yoursmaller assignments so that you can improve on your developmental practices.<s> Now, wewill look at what are these preconditions,  what can we do with preconditions.<s> We cancheck your input parameters for example, whether a number provided is within the range.<p>
+
+(Refer Slide Time 41:46 min)<p>
+
+We can check local acceptability for the message or function.<s> For example, whether thefunction  add item () message can be served?<s> Is there capacity in the buffer so that  anitem can be added?<s> You can check these at the input itself as soon as function is invoked.These are preconditions.<s> And then you can write your actual business logic  so that, thebusiness logic does not have to worry about these preconditions.<s> They will be guaranteedwhen you come to business logic.<s> So you can separate this part in the precondition code.And  in  post conditions you can check outgoing results whether value being returned iswithin a range that is guaranteed.<p>

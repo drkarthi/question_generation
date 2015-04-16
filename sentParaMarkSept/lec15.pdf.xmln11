@@ -1,0 +1,13 @@
+(Refer Slide Time: 48:18)<p>
+
+This is a Real  Account  which also implements the  account interface.<s> That is deposit andAccount Proxy has a link to the remote account.<s> This could be over the network.<s> So the clientdoes not distinguish or client is unable to distinguish between the real and the proxy becauseboth of them look  the same.<s> Both of them follow the super class which is common.<s> RealAccount implements it actually.<s> The actual deposits will be implemented here balance will bemaintained in the real account A proxy simply sends the call to remote object and results arereturned to the client.<s> So this is an interesting solution for a distributed scenario,  in  adistributed object system which is called proxy.<s> Proxy pattern is represented in this slide.<p>
+
+(Refer Slide Time: 49:37)<p>
+
+You have a subject and you have a Real Subject and a Proxy.<s> The Real Subject actuallyimplements the subject and the Proxy simply roots the call to a Real Subject.<s> Let us look atanother structural pattern called decorator.<s> Look at this object diagram; a client is making a calland the call is going through different objects and finally reaching its server.<p>
+
+(Refer Slide Time: 49:55)<p>
+
+The text View has a scroll Decorator and a border Decorator.<s> So you have different kinds ofborders and view.<s> Now you want to change the border,  you want to add different kinds ofdecorators on the text view.<s> You should be able to add these decorators.<p>
+
+On a given object you are supporting a member function.<s> When you invoke a member functionon that object, you want to invoke some thing else or something extra in addition to what theobject provides.<s> For example you have a shape and you want to draw border from the shape orchange those  borders.<s> In  this case  you have a text view and additional functionality that youwant to support is trying different borders or scroll bars and so on.<s> Can this be done without theclient knowing about what you are going to add in between and how many such decorators areyou going to add?<s> We are calling it decorator because it is that the pattern suits very well foruser interfaces.<s> But same requirement can also occur in a different application where you wantto add something new on top of what is existing and you want a client not be aware of thisinternal addition.<p>

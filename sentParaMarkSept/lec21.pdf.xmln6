@@ -1,0 +1,15 @@
+Then you have the absolute scale:  Counting entities in the entity set,  where youconsiderably count the entities.<s> All arithmetic operations are meaningful.<s> And there isonly one way to measure that is by counting.<s> So length of program when measured  asstatement count,  LOC is not the absolute scale as you can measure it in different ways.For example you can have number of lines or number of words etc.<s> But LOC asstatement count is absolute scale measure of number of lines of code.<p>
+
+(Refer Slide Time 23:57 min)<p>
+
+So,  if you are saying that I am simply measuring  the  number of lines  of code then theLOC is absolute count.<s> Number of failures,  number of project engineers -  these areabsolute scale measure.<s> Now, let us look at some of the metrics which we can use in thesoftware life cycle.<s> For example, you have length gives you physical size of the product.It is not enough to understand the real complexity in order to estimate efforts, cost etc.<s> Sothe length or number of lines of code is not enough to gauge the real complexity, but it isa useful measure.<s> Then the functionality; Size can be also found out  in terms offunctionality,  how  much functionality is present in the software,  how loaded is thesoftware in terms of functions or the functionality that it provides.<p>
+
+(Refer Slide Time 25:29 min)<p>
+
+These are also some size metrics.<s> And then the complexity metrics mainly provides themeasures of the problem complexity,  algorithmic solution complexity,  structuralcomplexity,  or cognitive complexity that is an understandability of your software, howeasily you can understand your software.<s> These are various aspects of complexity.<s> Theseare basically various size metrics.<s> You are trying to measure your software size in termsof these aspects: The length of the software, or the functionality of the software, the sizein terms of the functionality provided or the complexity of your problem domain and thesolution.<s> Let us look at length.<s> It is a simple set of metrics.<p>
+
+(Refer Slide Time: 26:06 min)<p>
+
+You have lines of code(LOC), but when you say that you have 1000 lines of code,  youhave to also specify what have you done with comments, blank lines, data declarations orif you had  say more statements  on  one line of your print out how did you count  them.When you measure LOC you have to explain these  so that they can be compared.<s> Youhave to have standard about measurement,  so that in a company when you report thesefigures everybody will know what you mean.<s> And then follow this same  practice againand again so that different entities measured at different times can be compared.<p>
+
+So when you report lines of code, you have to also explain how comments, blank line,declarations and many statements on one printable line are accounted.<s> You have anothermeasure called ELOC or NLOC which mainly counts Non-commented effective lines ofcode.<s> You can say LOC is 28 means, 20 are the non-commented effective lines of code.Or CLOC which gives you number of commented lines in the programs.<s> These arevarious length related measures.<p>

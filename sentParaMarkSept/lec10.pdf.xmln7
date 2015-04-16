@@ -1,0 +1,11 @@
+(Refer Slide Time: 32:43)<p>
+
+I  have now two relationships.<s> I  say the shipment consists of parts and shipments areobtained from different suppliers.<s> Shipment is now having relationships connecting to thepart and connecting to the supplier.<s> What should be the cardinalities here?<s> Obviously ashipment  can  consists  of multiple parts and each part can have a quantity associated.Similarly a shipment comes from a supplier but we are assuming that it always comesfrom a single supplier.<s> If I go from shipment to supplier the cardinality should tell me 1.But  if  I  go from supplier to shipment is mentioned as 1, which in fact is not correct.Supplier can have multiple shipments.<s> So  ideally  I  should make it as a relationship oftype many on the side of shipment.<s> Supplier to shipment is of one-to-many type,  butfrom shipment to supplier it is many-to-one.<s> So we have corrected this situation and nowour model is quite precise and it allows us to handle multiple shipments irrespective ofwhat they contain and who they come from.<s> Let us now look at ternary relationships insome more details, although in previous examples we have already encountered them.<p>
+
+(Refer Slide Time: 34:24)<p>
+
+We need to ensure that we model the real world correctly and when trying to do thatsome relationships may appear to be binary, a few may appear to be ternary or even morecomplex.<s> They may be four way or five way and so on.<s> Ternary or higher orderrelationships are harder to understand.<s> You must verify that the given situation demands aternary relationship.<p>
+
+(Refer Slide Time: 35:50)<p>
+
+We had taken the example of STUDY earlier and we had justified the STUDYrelationship should be a ternary relationship involving teacher, student and coursebecause courses are taught in divisions concurrently.Here the ternary relationship is justified.<s> Ternary relationship is not same as two binaryrelationships.<s> In fact this is an important point and therefore it has an  implication onmodeling.<s> Here is an  example which shows the ternary relationship between part,supplier and project.<s> Let us assume that this reflects my real world correctly.<s> That meansparts are supplied to projects from different suppliers.<s> So we have shown it as a ternaryrelationship.<p>

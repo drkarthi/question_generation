@@ -1,0 +1,11 @@
+(Refer Slide Time: 28:55 min)<p>
+
+So its an online system.<s> Issue return and claims are all basic tasks.<s> You cannot automatea few of them, either all needs to be done or it probably can be left as a manual system.So  partial automation is meaningless in this case.<s> So  we cannot consider alternativesbased on the scope of automation.<s> And another important characteristics are that signedrecords have to be kept.<s> We might think of some high cost alternative where you mightgo beyond the circulation function and you might include other functions of the library.But circulation itself is a fairly self-contained kind of a task and either we automate all ofit or leave it completely as manual.<s> So at this point now we can think of some solution tothe problem.<s> We can work out some alternatives which are probably alternative in termsof technology.<s> We said earlier that we do not have alternatives here in terms of the scopeof the function.<p>
+
+(Refer Slide Time: 29:55 min)<p>
+
+So  we might think of some technical alternatives which are listed here.<s> We  may havedifferent environments for the server or we may have data entry which is done throughbar coding.<s> We might use a DBMS or conventional file systems and we might have a fewalternatives about how we verify signatures and how we keep this data about thesignatures.<s> So  based on this  we can work out a few alternatives which might havedifferent cost and different benefits.<s> So  we can now also prepare a logical data flowdiagram for each of the alternatives.<p>
+
+(Refer Slide Time: 30:39 min)<p>
+
+Now  lets consider a two alternatives in this case.<s> The first alternative is a LAN basedsolution where we will go for one file server and few workstations and at the counter, wewill assume that the data entry is done by the counter clerks directly.<s> Now this data entryis really not significant.<s> Most of the time they have to enter the identification of the useror the books accession  number when the issue  or  return is taking place.<s> So  we couldconsider an option where the data entry at the counter will be manual.<s> In this case whatkind of costs are involved.<p>
